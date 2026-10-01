@@ -1,0 +1,13 @@
+*.so
+*.so.*
+*.bin
+*.elf
+*.exe
+*.dll
+*.tar.gz
+*.zip
+*.rar
+core
+core.*
+live_ctf/*
+!live_ctf/.gitkeep
