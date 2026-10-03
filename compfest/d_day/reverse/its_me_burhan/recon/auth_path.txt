@@ -1,0 +1,174 @@
+===== Main =====
+2514-        71: aload_0
+2515-        72: invokevirtual #313                // Method aj.a:(Ljava/lang/String;Lentities/Wanderer;)V
+2516-        75: aload_3
+2517-        76: iconst_0
+2518-        77: anewarray     #248                // class java/lang/String
+2519-        80: invokestatic  #420                // InterfaceMethod java/nio/file/Path.of:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+2520-        83: invokestatic  #371                // Method l.c:()Ll;
+2521-        86: aload_0
+2522:        87: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+2523-        90: invokevirtual #373                // Method l.g:(Ljava/lang/String;)Ljava/lang/String;
+2524-        93: invokestatic  #356                // Method java/lang/System.lineSeparator:()Ljava/lang/String;
+2525-        96: invokedynamic #440,  0            // InvokeDynamic #19:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+2526-       101: iconst_2
+2527-       102: anewarray     #255                // class java/nio/file/OpenOption
+2528-       105: dup
+2529-       106: iconst_0
+2530-       107: getstatic     #279                // Field java/nio/file/StandardOpenOption.CREATE:Ljava/nio/file/StandardOpenOption;
+2531-       110: aastore
+2532-       111: dup
+2533-       112: iconst_1
+2534-       113: getstatic     #278                // Field java/nio/file/StandardOpenOption.APPEND:Ljava/nio/file/StandardOpenOption;
+2535-       116: aastore
+2536-       117: invokestatic  #360                // Method java/nio/file/Files.writeString:(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;
+2537-       120: pop
+--
+2548-       142: aload_0
+2549-       143: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+2550-       146: aload_3
+2551-       147: invokedynamic #441,  0            // InvokeDynamic #20:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+2552-       152: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2553-       155: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2554-       158: invokestatic  #371                // Method l.c:()Ll;
+2555-       161: aload_0
+2556:       162: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+2557-       165: invokevirtual #373                // Method l.g:(Ljava/lang/String;)Ljava/lang/String;
+2558-       168: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2559-       171: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2560-       174: aload_3
+2561-       175: invokedynamic #442,  0            // InvokeDynamic #21:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+2562-       180: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2563-       183: getstatic     #269                // Field c:I
+2564-       186: iconst_1
+2565-       187: iadd
+2566-       188: iconst_2
+2567-       189: irem
+2568-       190: ifne          238
+2569-       193: goto          69
+2570-       196: astore_1
+2571-       197: invokestatic  #417                // Method x.a:()Lx;
+--
+2930-       714: goto          744
+2931-       717: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2932-       720: ldc           #220                // String 녠녖녕녔녎넿넍넝넃넍녀넱넃넉넃널넗넎넕넘널녟넻너넛넟넔녑녋녊녉
+2933-       722: invokestatic  #287                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+2934-       725: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2935-       728: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2936-       731: invokestatic  #371                // Method l.c:()Ll;
+2937-       734: aload_0
+2938:       735: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+2939-       738: invokevirtual #372                // Method l.f:(Ljava/lang/String;)Ljava/lang/String;
+2940-       741: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2941-       744: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2942-       747: invokevirtual #327                // Method java/io/PrintStream.println:()V
+2943-       750: getstatic     #269                // Field c:I
+2944-       753: iconst_1
+2945-       754: iadd
+2946-       755: iconst_2
+2947-       756: irem
+2948-       757: ifne          807
+2949-       760: goto          452
+2950-       763: invokestatic  #417                // Method x.a:()Lx;
+2951-       766: getstatic     #273                // Field am.AUTH:Lam;
+2952-       769: aload_0
+2953-       770: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+===== a =====
+===== b =====
+===== entities.Wanderer =====
+===== c =====
+===== entities.roles.Assassin =====
+===== entities.roles.Fighter =====
+===== entities.roles.Mage =====
+===== entities.roles.Support =====
+===== entities.roles.Tank =====
+===== exception.BurhanQuestException =====
+===== exception.DataFileException =====
+===== exception.DuplicateWandererException =====
+===== exception.InsufficientLevelException =====
+===== exception.InvalidFileTypeException =====
+===== exception.InvalidFormatException =====
+===== d =====
+===== e =====
+===== f =====
+===== g =====
+===== h =====
+===== i =====
+===== j =====
+===== k =====
+===== m =====
+===== n =====
+===== l =====
+===== o =====
+15-    Code:
+16-         0: aload_0
+17-         1: invokevirtual #40                 // Method getUsername:()Ljava/lang/String;
+18-         4: aload_1
+19-         5: invokevirtual #32                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+20-         8: ifeq          62
+21-        11: invokestatic  #38                 // Method l.c:()Ll;
+22-        14: aload_2
+23:        15: invokevirtual #37                 // Method l.a:(Ljava/lang/String;)Z
+24-        18: ifeq          62
+25-        21: getstatic     #29                 // Field b:[J
+26-        24: ldc           #1                  // int 0
+27-        26: laload
+28-        27: l2i
+29-        28: ldc           #11                 // int 1867927527
+30-        30: ixor
+31-        31: getstatic     #28                 // Field a:I
+32-        34: getstatic     #29                 // Field b:[J
+33-        37: ldc           #1                  // int 0
+34-        39: laload
+35-        40: l2i
+36-        41: ldc           #11                 // int 1867927527
+37-        43: ixor
+38-        44: iadd
+===== p =====
+===== q =====
+===== r =====
+464-       973: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+465-       976: invokedynamic #146,  0            // InvokeDynamic #15:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+466-       981: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+467-       984: iload         19
+468-       986: ifeq          1011
+469-       989: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+470-       992: invokestatic  #125                // Method l.c:()Ll;
+471-       995: aload_0
+472:       996: invokestatic  #124                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+473-       999: invokevirtual #126                // Method l.e:(Ljava/lang/String;)Ljava/lang/String;
+474-      1002: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+475-      1005: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+476-      1008: invokevirtual #109                // Method java/io/PrintStream.println:()V
+477-      1011: return
+478-
+479-  static {};
+480-    Code:
+481-         0: new           #45                 // class java/util/Scanner
+482-         3: dup
+483-         4: getstatic     #57                 // Field java/lang/System.in:Ljava/io/InputStream;
+484-         7: invokespecial #122                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+485-        10: putstatic     #59                 // Field a:Ljava/util/Scanner;
+486-        13: new           #44                 // class java/util/Random
+487-        16: dup
+===== s =====
+===== t =====
+===== u =====
+===== v =====
+===== w =====
+===== x =====
+===== y =====
+===== z =====
+===== aa =====
+===== ab =====
+===== ac =====
+===== ad =====
+===== af =====
+===== ag =====
+===== ah =====
+===== ai =====
+===== ae =====
+===== aj =====
+===== ak =====
+===== al =====
+===== am =====

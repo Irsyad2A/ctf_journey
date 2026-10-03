@@ -1,0 +1,143 @@
+
+================================================
+INPUT = []
+================================================
+public e(String) -> sigil-pertempuran []: 13936
+public b(String) -> 13936
+public c(String) -> fbad8f5a745c
+public f(String) -> sigil-arsip: fbad8f5a745c
+public d(String) -> b140ee58cf60
+public a(String) -> false
+public g(String) -> sigil-ekspor: b140ee58cf60
+
+================================================
+INPUT = [Q5]
+================================================
+public e(String) -> sigil-pertempuran [Q5]: 67549
+public b(String) -> 67549
+public c(String) -> fcd0bea063cd
+public f(String) -> sigil-arsip: fcd0bea063cd
+public d(String) -> 492b6149e785
+public a(String) -> false
+public g(String) -> sigil-ekspor: 492b6149e785
+
+================================================
+INPUT = [Q05]
+================================================
+public e(String) -> sigil-pertempuran [Q05]: 44815
+public b(String) -> 44815
+public c(String) -> dd0171725e3f
+public f(String) -> sigil-arsip: dd0171725e3f
+public d(String) -> 5904ff17d92b
+public a(String) -> false
+public g(String) -> sigil-ekspor: 5904ff17d92b
+
+================================================
+INPUT = [Q5:frieren]
+================================================
+public e(String) -> sigil-pertempuran [Q5:frieren]: 46009
+public b(String) -> 46009
+public c(String) -> 5327865ddb77
+public f(String) -> sigil-arsip: 5327865ddb77
+public d(String) -> 96cd795f8ec3
+public a(String) -> false
+public g(String) -> sigil-ekspor: 96cd795f8ec3
+
+================================================
+INPUT = [Q5|frieren]
+================================================
+public e(String) -> sigil-pertempuran [Q5|frieren]: 20388
+public b(String) -> 20388
+public c(String) -> ec593a6db56d
+public f(String) -> sigil-arsip: ec593a6db56d
+public d(String) -> 7ffbb38dd065
+public a(String) -> false
+public g(String) -> sigil-ekspor: 7ffbb38dd065
+
+================================================
+INPUT = [Q5frieren]
+================================================
+public e(String) -> sigil-pertempuran [Q5frieren]: 90911
+public b(String) -> 90911
+public c(String) -> cfd7b1bb4952
+public f(String) -> sigil-arsip: cfd7b1bb4952
+public d(String) -> 83eae79519ff
+public a(String) -> false
+public g(String) -> sigil-ekspor: 83eae79519ff
+
+================================================
+INPUT = [frieren]
+================================================
+public e(String) -> sigil-pertempuran [frieren]: 16261
+public b(String) -> 16261
+public c(String) -> ec94062b3736
+public f(String) -> sigil-arsip: ec94062b3736
+public d(String) -> c14afb86d061
+public a(String) -> false
+public g(String) -> sigil-ekspor: c14afb86d061
+
+================================================
+INPUT = [Frieren]
+================================================
+public e(String) -> sigil-pertempuran [Frieren]: 45326
+public b(String) -> 45326
+public c(String) -> bc0bc98fce54
+public f(String) -> sigil-arsip: bc0bc98fce54
+public d(String) -> ade55a48e1ee
+public a(String) -> false
+public g(String) -> sigil-ekspor: ade55a48e1ee
+
+================================================
+INPUT = [Segel Kuno]
+================================================
+public e(String) -> sigil-pertempuran [Segel Kuno]: 30634
+public b(String) -> 30634
+public c(String) -> 65499beb5d1d
+public f(String) -> sigil-arsip: 65499beb5d1d
+public d(String) -> 128c03492012
+public a(String) -> false
+public g(String) -> sigil-ekspor: 128c03492012
+
+================================================
+INPUT = [Jembatan Tua]
+================================================
+public e(String) -> sigil-pertempuran [Jembatan Tua]: 98776
+public b(String) -> 98776
+public c(String) -> cee09731cd4f
+public f(String) -> sigil-arsip: cee09731cd4f
+public d(String) -> c6547c8a1ec9
+public a(String) -> false
+public g(String) -> sigil-ekspor: c6547c8a1ec9
+
+================================================
+INPUT = [95910]
+================================================
+public e(String) -> sigil-pertempuran [95910]: 26592
+public b(String) -> 26592
+public c(String) -> 0c158998553b
+public f(String) -> sigil-arsip: 0c158998553b
+public d(String) -> 5f06f7c711e7
+public a(String) -> false
+public g(String) -> sigil-ekspor: 5f06f7c711e7
+
+================================================
+INPUT = [bd3d174e3b60]
+================================================
+public e(String) -> sigil-pertempuran [bd3d174e3b60]: 65783
+public b(String) -> 65783
+public c(String) -> 6a7bbc0fc465
+public f(String) -> sigil-arsip: 6a7bbc0fc465
+public d(String) -> 657d8e729566
+public a(String) -> false
+public g(String) -> sigil-ekspor: 657d8e729566
+
+================================================
+INPUT = [0b23aa7001b2]
+================================================
+public e(String) -> sigil-pertempuran [0b23aa7001b2]: 47209
+public b(String) -> 47209
+public c(String) -> 5e53725bde6d
+public f(String) -> sigil-arsip: 5e53725bde6d
+public d(String) -> 7df58eb20293
+public a(String) -> false
+public g(String) -> sigil-ekspor: 7df58eb20293

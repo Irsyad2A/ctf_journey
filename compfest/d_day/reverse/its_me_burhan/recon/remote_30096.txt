@@ -1,0 +1,36 @@
+[x] Opening connection to 35.213.152.145 on port 30096
+[x] Opening connection to 35.213.152.145 on port 30096: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30096: Done
+[*] BurhanQuest menu reached
+[*] trying username=b'burhan' password=b'burunghantu123'
+
+========== LOGIN TRACE ==========
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+[*] trying username=b'Burhan' password=b'burunghantu123'
+
+========== LOGIN TRACE ==========
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+[*] trying username=b'BURHAN' password=b'burunghantu123'
+
+========== LOGIN TRACE ==========
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+[*] Closed connection to 35.213.152.145 port 30096
+[-] No hardcoded-admin candidate accepted

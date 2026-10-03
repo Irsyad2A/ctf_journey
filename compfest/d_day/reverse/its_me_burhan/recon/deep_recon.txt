@@ -1,0 +1,272 @@
+
+===== CLASS a =====
+-- fields --
+-- constructors --
+public a()
+public a(java.lang.String)
+-- methods --
+public static java.lang.String a.a(java.lang.String)
+public java.lang.String a.getActorName()
+public java.lang.String a.getWelcomeMessage()
+
+===== CLASS am =====
+-- fields --
+public static final am AUTH = AUTH
+public static final am ADMIN = ADMIN
+public static final am PENGEMBARA = PENGEMBARA
+public static final am BATTLE = BATTLE
+public static final am SYSTEM = SYSTEM
+public static final am ERROR = ERROR
+private static final am[] $VALUES = [Lam;@55f96302
+-- constructors --
+private am(java.lang.String,int)
+-- methods --
+public static am[] am.values()
+public static am am.valueOf(java.lang.String)
+public static java.lang.String am.a(java.lang.String)
+private static am[] am.a()
+
+===== CLASS ak =====
+-- fields --
+public static final ak QUEST = QUEST
+public static final ak WANDERER = WANDERER
+private static final ak[] $VALUES = [Lak;@232204a1
+-- constructors --
+private ak(java.lang.String,int)
+-- methods --
+public static ak[] ak.values()
+public static ak ak.valueOf(java.lang.String)
+public static java.lang.String ak.a(java.lang.String)
+private static ak[] ak.a()
+
+===== CLASS entities.Wanderer =====
+-- fields --
+private java.lang.String b = 
+private int c = 
+private int d = 
+private int e = 
+private double f = 
+private double g = 
+private double h = 
+private double i = 
+private c j = 
+private double k = 
+private java.lang.String l = 
+private java.util.ArrayList m = 
+private int n = 
+private int o = 
+private int p = 
+private int q = 
+private boolean r = 
+public static final java.text.DecimalFormat a = DecimalFormat [locale: "English (United States)", pattern: "#0.##"]
+
+-- constructors --
+public entities.Wanderer(int,java.lang.String,java.lang.String,java.lang.String,double,double,double)
+-- methods --
+public java.lang.String entities.Wanderer.getName()
+public java.lang.String entities.Wanderer.toString()
+public void entities.Wanderer.e(double)
+public void entities.Wanderer.e()
+public void entities.Wanderer.i()
+public void entities.Wanderer.b(int,int)
+public void entities.Wanderer.b()
+protected void entities.Wanderer.b(java.lang.String)
+public int entities.Wanderer.b(int)
+public void entities.Wanderer.b(double)
+protected java.util.Optional entities.Wanderer.c()
+public double entities.Wanderer.c(double)
+public static java.lang.String entities.Wanderer.c(java.lang.String)
+public void entities.Wanderer.h()
+public void entities.Wanderer.f()
+public java.lang.String entities.Wanderer.d()
+public double entities.Wanderer.d(double)
+public void entities.Wanderer.a(boolean)
+public void entities.Wanderer.a(f)
+public boolean entities.Wanderer.a(h)
+public void entities.Wanderer.a(int,int)
+public int entities.Wanderer.a(int)
+protected void entities.Wanderer.a(java.lang.String)
+public void entities.Wanderer.a(c,double)
+public void entities.Wanderer.a(double)
+public boolean entities.Wanderer.g()
+public java.lang.String entities.Wanderer.getId()
+public void entities.Wanderer.j()
+public int entities.Wanderer.getLevel()
+public java.lang.String entities.Wanderer.getActorName()
+public java.lang.String entities.Wanderer.getWelcomeMessage()
+public double entities.Wanderer.getAttackPower()
+public int entities.Wanderer.getCoins()
+public java.lang.String entities.Wanderer.getCombatInfo()
+public java.util.ArrayList entities.Wanderer.getCompletedQuestHistory()
+public int entities.Wanderer.getConsecutiveLosses()
+public double entities.Wanderer.getCurrentHp()
+public double entities.Wanderer.getDefense()
+public int entities.Wanderer.getExp()
+public java.lang.String entities.Wanderer.getJobName()
+public java.lang.String entities.Wanderer.getJobTitle()
+public double entities.Wanderer.getMaxHp()
+public java.lang.String entities.Wanderer.getPassiveSummary()
+public java.lang.String entities.Wanderer.getTitle()
+public int entities.Wanderer.getTotalBattles()
+public int entities.Wanderer.getTotalLosses()
+public int entities.Wanderer.getTotalWins()
+public double entities.Wanderer.getWinRate()
+
+ADMIN PASSWORD TEST: K76LD64XY3URX4RM -> true
+[l.b()] = 4562ef6a00c986f5be5a9320cbec7dde81f7fa97da47e493c7a0f739608ddebd6c99607b122712f47922a762f902faa1666471
+[l.d()] = DEV-SEED
+
+===== DECODE MAIN STRINGS =====
+[DECODE] 녠녋녈녉녎녑녒념녟녞녝녜녛녚녙녘녇녆녅년녃녂녁녀녏녎녍녌녋녊녉녈녷녶녵녴녳녲녱녰녿녾녽논녻녺녹노녧녦녥녤녣녢녡녠녯녮녭녬녫녪녩녨넗넖넕넔넓넒넑널넟넞넝넜넛넚넙넘넇넆넅넄넃넂넁넀넏넎넍넌넋넊넉너넷넶넵넴넳넲넱넰넿넾넽넼넻넺넹넸넧넦넥네넣넢넡넠넯넮넭넬넫넪넩넨뇖뇗뇢뇉뇎뇏뇌놑놞뇃뇀뇁뇆뇇뇄뇅뇚뇛뇘뇙뇞뇟뇜뇝뇒뇓뇐뇑뇖뇗뇔뇕뇪뇫뇨뇩뇮뇯뇬뇭뇢뇣뇠뇡뇦뇧뇤뇥뇺뇻뇸뇹뇾뇿뇼뇽뇲뇳뇰뇱뇶뇷뇴뇵놊놋놈놉놎놏놌농놂놃놀놁놆놇놄놅놚놛놘놙놞놟놜놝높놓놐놑놖놗놔놕놪놫놨놩놮놯놬놭놢놣놠놡놦놧놤놥놺놻놸놹놾놿놼놽놲놳놰놱놶놷놴놵끊끋뀔뀕끤끏끌끍끂뀟뀜끁끆끇끄끅끚끛끘끙끞끟끜끝끒끓끐끑끖끗끔끕끪끫끨끩끮끯끬끭끢끣끠끡끦끧끤끥끺끻끸끹끾끿끼끽끲끳끰끱끶끷끴끵뀊뀋뀈뀉뀎뀏뀌뀍뀂뀃뀀뀁뀆뀇뀄뀅뀚뀛뀘뀙뀞뀟뀜뀝뀒뀓뀐뀑뀖뀗뀔뀕뀪뀫뀨뀩뀮뀯뀬뀭뀢뀣뀠뀡뀦뀧뀤뀥뀺뀻뀸뀹뀾뀿뀼뀽뀲뀳뀰뀱뀶뀷뀴뀵냊냋냈냉낒낓냦냍냂냃냀낝낚냇냄냅镲镳镰镱镶長镴镵镺镻镸냑냖냗냔냕냪냫냨냩냮냯냬냭냢냣냠냡냦냧냤냥냺냻镐镑镖镗镔냽냲냳냰냱냶냷냴냵낊낋낈낉낎낏낌낍낂낃낀낁낆낇낄낅낚낛나낙낞锷锴锵锺锻锸낑낖낗낔낕낪낫남납낮낯났낭낢낣날낡낦낧낤낥낺낻낸낹낾낿낼낽낲낳낰낱锞锟锜锝離덋덈덉덎덏댐댑덨덃덀덁덆댛댘덅덚雪雩雱零雷雭雬難離雡雹雾雿더덕덪덫덨덩덮덯덬덭덢덣덠덡덦덧덤덥덺덻델雈雏雗雔雕덲덳데덱덶덷덴덵댊댋댈댉댎댏댌댍댂댃대댁댆댇댄댅댚댛댘댙댞隷隴隵隣隢隡隠难隿隼댕댪댫댨댩댮댯댬댭댢댣댠댡댦댧댤댥댺댻댸댹댾댿댼댽댲댳댰댱댶隆隅隝院陣돈돉돎돏돌돍뎞뎟돪돁돆돇도뎙뎆돛돘동陯陷陴陵돒돓돐돑陧陿陼陽돪陃陀陁陆陇돬际陊陋陈돡陎陏陌降陒陓限陑돾돿降陕陚陛陘陙陞陟돴돵뎊뎋阠阡阦阧阤阥뎂뎃뎀阩阮阯阬阭防阳阰뎙뎞뎟阴阵阺뎓뎐뎑뎖阦阥阽阂阃뎨阁阆阇阄阅뎢阋阈阉阎뎧뎤阍阒阓阐阑阖뎿뎼뎽阚阛阘阙阞뎷뎴阝韢韣韠韡韦韧뉌뉍뉂뉃눜눝뉬뉇뉄뉅뉚눇누뉙뉞뉟韭韵韺韻韸韹韾響韼韽韂뉫韙韘韆韇韄뉭韓韋韈韉뉦韖韕韍韒韓韉韈韖韗韔뉽韃韛韘韙韇韆韜韝鞢눋눈鞸鞿鞾鞽鞼鞪鞫鞨눁鞷鞶鞬鞭鞲鞪鞩鞱鞶鞷눜鞬鞺鞻鞸눑눖눗눔눕鞛鞃鞀鞁鞟鞞鞄鞅鞊눣鞑鞉鞎鞏눤눥鞒鞓鞐鞈鞏鞗鞔鞕눲鞛鞘鞙鞇鞆눴눵靻靺靹靡靦靧靽닍닂닃닀닁늚늛닮닅닚닛님늅늂닟닜닝靣靻靸靹靧靦靥靤靛靃靀靁닮非靄靅靊닣靑靉靎靏다닥靋靓靐靑닾靎靍靌닲닳靁静非靟담靄霢霣霠늉늎늏霤霥霪霫霨霩霮늇늄霴露霳霰늙霯霷霴霵늒霢霸霹霾늗는늕霂霃霙霁霆震늬霜霊霋霈늡霗霏霌霍늺霊霐霑霖霗霔霕霚늳霁需霞霟霜霝郢땋땈땉郿郧郤郥땂땃땀땁땆땇딘딙땰땛땘땙땞딃딀땝땒땓郡郹郾郿땔땕땪땫郙郁郆郇땬郜郊郋郈땡郗郏郌郍땺땻郉郑郖郗땼땽땲땳땰땱郇郟郜郝딊邺邠邡邦딏딌邥邪邫邱邰邮邯邬딅딚邪邰邱邶딟邭邵邺邻딐邠邧邿邼邽딪邚邙邁邆邇還딭딢邒邈邉邎딧邕邍邒邓딸邈邖邗邔邌邃邂따딱딶邆邅還遻遣遠遡뗎뗏遽遥遪遫뗀適遮遯뗄뗅떆떇뗲뗙뗞뗟뗜떁떎뗓뗐뗑遾避遼遽遂遃遀遁遆遇遄뗭뗢遒遑遉過遏遌遍遒道遐뗹遖遗達違遚뗳뗰뗱뗶뗷遜遝逢連떈逡逦逧逤逥逳進逨逩逮逯逬逭進逳떘週逶逷逴떝逺逻逸逹逾떗逥逤逛逃退送逆逇逄逜逊逋떠逐逗透逌逍递逓逐逑逖逎逍逕通逛逘這逞떷떴逝釢釣釠釡釦둏둌둍釳釲釨釩釮釯釬둅둚둛됄됅둴둟둜둝둒됏됌둑둖釦釥釤釛釚釙釘釟釞針釜둢둣둠둡釗釖釕釔釋释釉釈둾野重里釃釂둰둱둶둷둴釄醻醺醹됉醿醾醽醼醳됃됀醰醷醶醵醴醫醪醩됙醯醮醭醬됒醢醡醠醧醦됔됕됪됫醙醘醟醞醝醜됢醒醑됡됦됧醕醔醋醊醉醈醏醎됼됽醃醂醁醀醇醆됴됵酻酺酹酸酿酾듌듍듂듃듀酰酷酶酵酴듚듛듘듙뒂뒃듶득듒듓듐뒍뒊듗듔듕듪듫듨듩듮듯듬듭듢듣든듡듦듧들듥듺듻듸듹듾듿듼듽듲듳듰등듶듷듴듵뒊뒋뒈뒉뒎뒏뒌뒍뒂뒃뒀뒁뒆뒇뒄뒅뒚뒛뒘뒙뒞뒟뒜뒝뒒뒓뒐뒑뒖뒗뒔뒕뒪뒫뒨뒩뒮뒯뒬뒭뒢뒣뒠뒡뒦뒧뒤뒥뒺뒻뒸뒹뒾뒿뒼뒽뒲뒳뒰뒱뒶뒷뒴뒵띊띋띈띉띎띏띌띍띂띃띀띁띆띇띄띅띚띛띘띙띞띟뜀뜁띸띓띐띑띖뜋뜈띕띪띫띨띩띮띯띬띭띢띣띠띡띦띧띤띥띺띻띸띹띾띿라락띲띳띰띱띶띷띴띵뜊뜋뜈뜉뜎뜏뜌뜍뜂뜃뜀뜁뜆뜇뜄뜅뜚뜛뜘뜙뜞뜟뜜뜝뜒뜓뜐뜑뜖뜗뜔뜕뜪뜫뜨뜩뜮뜯뜬뜭뜢뜣뜠뜡뜦뜧뜤뜥뜺뜻뜸뜹뜾뜿뜼뜽뜲뜳뜰뜱뜶뜷뜴뜵럊럋럈량럎럏럌럍럂럃럀럁럆럇럄럅럚럛럘럙럞럟럜럝랎랏럺럑럖럗럔럋럴럶럵럴럳럲럱런럿럾럽럼럻럺럹럸럧럦럥럤럣럢럡럠럯럮럭러럫럪럩럨랗랖랕랔랓랒랑랐랟랞랝랜랛랚랙래랇랆랅랄랃랂랁란랏랎랍람랋랊랉랈랷랶략랴랳랲랱랰랿랾랽랼랻랺랹랸랧랦랥랤랣랢랡랠랯랮랭랬랫랪랩램뙗뙖뙕뙔뙓뙒뙑뙐뙟뙞뙝뙜뙛뙚뙙뙘뙇뙆뙅뙄뙃뙂뙁뙀뙏뙎뙌뙍뙼  =>  \n    >>=========================================================================================================================<<\n    ||                                                                                                                         ||\n    ||                                                                                                                         ||\n    ||   ███████████                       █████                              ██████                                 █████     ||\n    ||  ░░███░░░░░███                     ░░███                             ███░░░░███                              ░░███      ||\n    ||   ░███    ░███ █████ ████ ████████  ░███████    ██████   ████████   ███    ░░███ █████ ████  ██████   █████  ███████    ||\n    ||   ░██████████ ░░███ ░███ ░░███░░███ ░███░░███  ░░░░░███ ░░███░░███ ░███     ░███░░███ ░███  ███░░███ ███░░  ░░░███░     ||\n    ||   ░███░░░░░███ ░███ ░███  ░███ ░░░  ░███ ░███   ███████  ░███ ░███ ░███   ██░███ ░███ ░███ ░███████ ░░█████   ░███      ||\n    ||   ░███    ░███ ░███ ░███  ░███      ░███ ░███  ███░░███  ░███ ░███ ░░███ ░░████  ░███ ░███ ░███░░░   ░░░░███  ░███ ███  ||\n    ||   ███████████  ░░████████ █████     ████ █████░░████████ ████ █████ ░░░██████░██ ░░████████░░██████  ██████   ░░█████   ||\n    ||  ░░░░░░░░░░░    ░░░░░░░░ ░░░░░     ░░░░ ░░░░░  ░░░░░░░░ ░░░░ ░░░░░    ░░░░░░ ░░   ░░░░░░░░  ░░░░░░  ░░░░░░     ░░░░░    ||\n    ||                                                                                                                         ||\n    ||                                                                                                                         ||\n    >>=========================================================================================================================<<\n
+[DECODE] 넹넎넄너넃넎넘녍넆넂넔넀너넀년넁넓녛넺넌넌넗넝넓넣넆넕넂넂녖  =>  Selamat datang di BurhanQuest!
+[DECODE] 넹넒넛넝넋넂  =>  System
+[DECODE] 넺넙넇넎넜넎넁녍넏넆넎넆넇넋넅너넓녛넝넋넌널넎녝넆넒넛녑넂넒넆넑넿넬넩녧  =>  Program mengalami error tak terduga.
+[DECODE] 녛녅녈넥넁너넅넃  =>  1. Login
+[DECODE] 녘녅녈넢넋넃넙넌널녃넄넀넔넎년넕너넔넟넋넟넒  =>  2. Keluar dari program
+[DECODE] 넧넊넛넜넅넄넍넃녂넓넉넍넏넏넅넋녀녛  =>  Masukkan pilihan: 
+[DECODE] 녛  =>  1
+[DECODE] 녘  =>  2
+[DECODE] 넾넎넚넀넃넎녌넆넃널넉넉녆넓넁넉넛넓녘넔넛넑넛넚넇넝넑넚넗넙녔넷넿넹넠넨넠넞넹넨넱넷녡  =>  Terima kasih telah menggunakan BurhanQuest!
+[DECODE] 넺넂넄넀넆넎넂녍넖넊넄넀넍녇넒넄넖넒넜녗녞넷넝넏넓넃념넜넗넄넁넞넡넪넦녩넾넦넠네넪넢넮녡넢넢넪넢넻넵노넻넻넱넽넯논  =>  Pilihan tidak valid. Harap masukkan pilihan dengan benar.
+[DECODE] 넧넊넛넜넅넄넍넃녂넖넓넄넔넉넅너넟녁녘  =>  Masukkan username: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넓넁넒넕널넋넗넞녁녘  =>  Masukkan password: 
+[DECODE] 넿넘넍넛넀넎넁너녂넂넔넀넓녇넔넄넉너넏넖넌넛녜넎넓넟넑넙녘녽  =>  Username atau password salah.\n
+[DECODE] 넭넊넏너넂녏넀넂넅넊넎녁넍넂년넁넛넗넙넔녞넌넕넎넆넖넝녟  =>  Gagal login ke dalam sistem.
+[DECODE] 녛녅녈넥넇넇넍넙녂넇넁넇넒넆넖녅넋넎넝넊넊  =>  1. Lihat daftar quest
+[DECODE] 녘녅녈넥넇넇넍넙녂넇넁넇넒넆넖녅넊넞넖넞넛넒넞넜넀넒  =>  2. Lihat daftar pengembara
+[DECODE] 녙녅녈넽넏넂넎넌넊녃넑넔넃넔널  =>  3. Tambah quest
+[DECODE] 녞녅녈넽넏넂넎넌넊녃널넄너넀넁너넘넚넊넘  =>  4. Tambah pengembara
+[DECODE] 녟녅녈넽넏넂넎넌넊녃넍넎너넔널넀너  =>  5. Tambah monster
+[DECODE] 녜녅녈넥넇넇넍넙녂넇넁넇넒넆넖녅넗넔넖넊넊넚넎  =>  6. Lihat daftar monster
+[DECODE] 녝녅녈넯넇넃넘너널녃넄넀넀넓넅넗녚넊넍넜넍넋  =>  7. Filter daftar quest
+[DECODE] 녒녅녈넯넇넃넘너널녃넄넀넀넓넅넗녚넋넝넗넙넚넑넟넓넁넑  =>  8. Filter daftar pengembara
+[DECODE] 녓녅녈넽넏넂넜넄넎너넁넏녆넃넅넃넎넚넊녙넏넊넙넎넆녓넄넔넄넂넆넀넾  =>  9. Tampilkan daftar quest terurut
+[DECODE] 녛녛녆녉넺넎넁넝넋넏넋넀너녇넀넄넜넏넙넋녞넏넙넓넕넖넝넓넗넅넕녕넾넮넺넼넼넺넸  =>  10. Tampilkan daftar pengembara terurut
+[DECODE] 녛녚녆녉넢넎넂넇넗넗녀넊넃녇넌넄너넒녘넛넛넍넕넖넇넇넞너넗  =>  11. Lanjut ke hari berikutnya
+[DECODE] 녛녙녆녉넫넄넟넝넍넑녀넀넒넆넑녅넓넖너넖넌녟넘넜넆넒  =>  12. Ekspor atau impor data
+[DECODE] 녛녘녆녉넢넆넄넌넖녃넡넓넕넎넔녅넮넞넊넊넛넘넙넑  =>  13. Lihat Arsip Tersegel
+[DECODE] 녚녅녈넢넋넃넙넌널  =>  0. Keluar
+[DECODE] 녙  =>  3
+[DECODE] 녞  =>  4
+[DECODE] 녟  =>  5
+[DECODE] 녜  =>  6
+[DECODE] 녝  =>  7
+[DECODE] 녒  =>  8
+[DECODE] 녓  =>  9
+[DECODE] 녛녛  =>  10
+[DECODE] 녛녚  =>  11
+[DECODE] 녛녙  =>  12
+[DECODE] 녛녘  =>  13
+[DECODE] 녚  =>  0
+[DECODE] 녠넺넝넌넝넛녌넔넃넍넇녁넒넂넖넁넛넝넌넘넌녅  =>  \nQuest yang terdaftar:
+[DECODE] 녠넻넍넇넉넊넁넏넃넑넁녁넟넆넊넂녚넏넝넋넚넞넚넉넓넁녊  =>  \nPengembara yang terdaftar:
+[DECODE] 녠넦넇넇넝넛넉넟녂넚넁넏넁녇널넀너넟넙넟넊넞넎녇  =>  \nMonster yang terdaftar:
+[DECODE] 녠녖녕녔녎넮넞넞넋넓녀넵넃넕넗넀넝넞넔녙넹넊넕넑넖녓녍녌녋  =>  \n=== Arsip Tersegel Guild ===
+[DECODE] 넹넎넏넌넂녏넘너널넁넕넊넇녉년넣넖넚넟녙넙넊넕넑넖녉  =>  Segel terbuka. Flag guild:
+[DECODE] 넨넎넚넁넏넜넅넁녂넏넏넆넉넒널녅넞넚넊널녞넌넕넎넆넖넝녟  =>  Berhasil logout dari sistem.
+[DECODE] 넦넄넏넆넛넛녌넏넇넑너넀넕넎너녋녰  =>  Logout berhasil.\n
+[DECODE] 넣넅넘넜넚녏넅넃넔넂넌너넂녋년너넛너넍넒넕넞넒녝넂넚넜넘넞넖넚녕넳넪넦넮녮넻넩넿넱넦네넨넧녧녬녵녷녪녫녰녿  =>  Input invalid, masukkan pilihan yang tersedia (0-13)!
+[DECODE] 넾넎넚넃넏넋넅녍넇넑넒넎넔녇넔넄넞넚녘넔넛넑넉녝넓넗넝넘넘녙  =>  Terjadi error pada menu admin.
+[DECODE] 넨넎넄넜넃녏넍넉넃녃넍넎너넔널넀너녕녘넭넟넒넞넜넚넘넑넟녖넚넛넛넹넿넭넻녮넻넩넿넮넦넢넨넮녧넠네넲넮넴넬녰녕  =>  Belum ada monster. Tambahkan monster terlebih dahulu.\n
+[DECODE] 녠녖녕녔녎넻넍넀넀넂너녁넷넒넁넖넎녛녅년녃  =>  \n=== Tambah Quest ===
+[DECODE] 넧넊넛넜넅넄넍넃녂넍넁넌넇녇넕널넟너넌녃녞  =>  Masukkan nama quest: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넇넅넒넍넕넍넕넉넒녘너넋넚넏넉녈녓  =>  Masukkan deskripsi quest: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넗넉넏넁넌넅넑녚널넝넊넋넓넕넉넓넝념녙넛넂널넔넢녤넥넬넠넪넢넪넣넫녯넲넳넫넭넱녳녡노  =>  Masukkan tingkat kesulitan (mudah/menengah/sulit): 
+[DECODE] 넺넂넄넀넆녏넁넂넌널넔넄넔녝년  =>  Pilih monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넍넏넌넉넕년너넕넕넋넍넛넍녆녝  =>  Masukkan nomor monster: 
+[DECODE] 넺넂넄넀넆녏넘넄넒넆녀널넓넂넗넑녀  =>  Pilih tipe quest:
+[DECODE] 녛녅녈넭넏넆넀넔  =>  1. Daily
+[DECODE] 녘녅녈넻넋너넙넁넃넑  =>  2. Regular
+[DECODE] 녙녅녈넫넁넚넂넙넛  =>  3. Bounty
+[DECODE] 넧넊넛넜넅넄넍넃녂넓넉넍넏넏넅넋녚넏넑넉넛녟넍너넗넀넄녋녖  =>  Masukkan pilihan tipe quest: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넁넏넏넓넔년넀넂넋녂녙  =>  Masukkan bonus exp: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넁넏넏넓넔년넎넕넒넖녃녞  =>  Masukkan bonus koin: 
+[DECODE] 넻넞넍넚넚녏넎너널넋넁넒넏넋년넁넓넏넙넔넜넞넔넖넓넝녑녻  =>  Quest berhasil ditambahkan!\n
+[DECODE] 넧넊넛넜넅넄넍넃녂넍넁넌넇녇넔넀넔넜넝넔넜넞넎넜녈녓  =>  Masukkan nama pengembara: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넖넓넄넔넉넅너넟녛너넜널넘넙널널넒넂널녌녗  =>  Masukkan username pengembara: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넓넁넒넕널넋넗넞녛너넜널넘넙널널넒넂널녌녗  =>  Masukkan password pengembara: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넫넰녁넋넆넏넖넓넖넙넕년녟  =>  Masukkan HP maksimal: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넂넔넕넇넄넏녅넊넔넏넜넌녅녜  =>  Masukkan attack power: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넇넅넇넃넉넗넀녀녛  =>  Masukkan defense: 
+[DECODE] 넺넂넄넀넆녏넦넂넀녃넣넍넇넔넗녟  =>  Pilih Job Class:
+[DECODE] 녛녅녈넧넁넙넅넎넇녃녈넵넇넉넔넄녚넨넓널넒넓녕  =>  1. Novice (Tanpa Skill)
+[DECODE] 녘녅녈넽넏넁넇  =>  2. Tank
+[DECODE] 녙녅녈네넏너넉  =>  3. Mage
+[DECODE] 녞녅녈넨넝넜넍넞넑넊넎  =>  4. Assassin
+[DECODE] 녟녅녈넯넇너넄넙넇넑  =>  5. Fighter
+[DECODE] 녜녅녈넺넛넟넜넂널넗  =>  6. Support
+[DECODE] 넺넂넄넀넆넎넂녗녂  =>  Pilihan: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넍넁넌넇녇넉넊넔너넌넜넌녅녜  =>  Masukkan nama monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넫넰녁넋넆넏넖넓넖넙넕녞넒넓넓넁넇넕넃녌녗  =>  Masukkan HP maksimal monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넂넔넕넇넄넏녅넊넔넏넜넌녟넑넒넜넀넄넔넄녍녔  =>  Masukkan attack power monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넇넅넇넃넉넗넀녚넖넗넗넍넋넙넏녈녓  =>  Masukkan defense monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넆넘넑녆넕넁넒넛넉넜녙넓널넒넎넆넖넂녋녖  =>  Masukkan exp reward monster: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넀넏너너녇넖넀넍넚넊넝녞넒넓넓넁넇넕넃녌녗  =>  Masukkan coin reward monster: 
+[DECODE] 넧넄넆넚넚넊넞녍넀넆넒넉넇넔넍넉녚넟넑넍넟넒넞넜넚넘넑넟녗녽  =>  Monster berhasil ditambahkan!\n
+[DECODE] 넬넂넄넝넋넝녌넉넃넅넔넀넔녇넕널넟너넌  =>  Filter daftar quest
+[DECODE] 녛녅녈넯넇넃넘너널녃넂넄넔넃넅넖넛넉넓넘널녟넏넉넓넇넅넂  =>  1. Filter berdasarkan status
+[DECODE] 녘녅녈넯넇넃넘너널녃넂넄넔넃넅넖넛넉넓넘널녟너넔넜넔넛널넂녗넟널넹넾네넠넺넮넢  =>  2. Filter berdasarkan tingkat kesulitan
+[DECODE] 넲녅녈넢넋넂넎넌넎넊녀넊넃녇넉넀넔넎녘넌넊넞넑넜  =>  X. Kembali ke menu utama
+[DECODE] 넧넊넛넜넅넄넍넃녂넗넉넑넃녇넂넌넖넏넝넋년녟  =>  Masukkan tipe filter: 
+[DECODE] 넒  =>  x
+[DECODE] 넧넊넛넜넅넄넍넃녂널넔넀넒넒넗녅넋넎넝넊넊녟넅넜넜넔념넘넘널넝넛녪넯넡넯넧넣넸넨넰녣녨넵넣넵넷넠넾넲넹녶넭넺넰넸넡넲넹노녺녷넹넴녙녞녃녂녏녁넌넊녚넄넀녀녒녆녑넅넝녣넟넙녋녑녈녈녙넓녛녔녛녕녕녙녣넫녣녬넮녢녩녣녷넣녵녵녧녪녥넿넺  =>  Masukkan status quest yang ingin difilter (tersedia/selesai), masukkan 'x' atau 'X' untuk kembali ke menu utama: 
+[DECODE] 녠넯넉넏넚넎넞녍넓넖넅넒넒녇널넀너넝넑넕넊넚넎녇  =>  \nDaftar quest terfilter:
+[DECODE] 넧넊넛넜넅넄넍넃녂넗넉넏넁넌넅넑녚널넝넊넋넓넕넉넓넝념넀넃넒넇넁녪넲넩넧넩녯넥넣넥넪넮녡넢넮넢넬넶넯넽넫녾녷넱넨넶넲넸녾넻넲넺넰년녌녉녁넁녜녙녁녋녗넉넍넆녊녅녖녏념녓녘념넟넛녅넕넓녑녅녗녂넔넒녒넬넨논녠녻녹녦넢녨녥녬녤녦녨녬넺녰녽넹녳녺녲녨넲녦녤녰녻녶넮넵  =>  Masukkan tingkat kesulitan quest yang ingin difilter (mudah/menengah/sulit), masukkan 'x' atau 'X' untuk kembali ke menu utama: 
+[DECODE] 넬넂넄넝넋넝녌넉넃넅넔넀넔녇넔넀넔넜넝넔넜넞넎넜녒넑넕넃넒넖넇넔넸넠넩넧녮넽넩넣넶넢넮넦녦넫넡넳넿넷  =>  Filter daftar pengembara berdasarkan rentang level
+[DECODE] 넧넊넛넜넅넄넍넃녂넑넅넏넒넆넊넂녚넗넝넏넛넓녜녕넛넝넛넝넃넄넝넓녣녫넱넨넠넨녬네넬네넩넯녦넣넭넣넳넷넬넼넬녳논넰넳넠넥넺넽넶넺녵넍녓넏넉녏녛녍녘넂넄노넆넆녒녊녑녏념넘녒녛녒녞녜녞녚널녚녓넗녙념녤녾넨논녺녮녡녬넸넣  =>  Masukkan rentang level (inklusif) yang ingin difilter, masukkan 'x' atau 'X' untuk kembali ke menu utama: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넁넁넕넇넔년넇넛넌넙넑년녟  =>  Masukkan batas bawah: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넁넁넕넇넔년넄넎넚넋녃녞  =>  Masukkan batas atas: 
+[DECODE] 녠넯넉넏넚넎넞녍넒넆넎넆넃넊넆넄너넚녘넍넛넍넚넔넞넇넕넃녌  =>  \nDaftar pengembara terfilter:
+[DECODE] 넿넙넝넝넅넎넂녍넆넂넆넕넇넕년넔넏넞넋넍  =>  Urutkan daftar quest
+[DECODE] 녛녅녈넫넋넝너넌넑넂넒넊넇넉년넑넓넕넟넒넟넋녜넖넗넀넅넝넟넃넕넛  =>  1. Berdasarkan tingkat kesulitan
+[DECODE] 녘녅녈넫넋넝너넌넑넂넒넊넇넉년넗넟넌넙넋넚녟넟넒넛넝넃  =>  2. Berdasarkan reward coins
+[DECODE] 넧넊넛넜넅넄넍넃녂넊넎넑넓넓녞녅  =>  Masukkan input: 
+[DECODE] 넧넊넛넜넅넄넍넃녂넌넒넅넃넕년널너넎넌넘널녟녔넜넁널녟넕넓넄넗녜녦녫넥넨넽넺넧넦넣넭녠녦넾녠녤네넮넺넭녹녹넇녻녽넧넽네네넽녷넿넰녇녉녉녅녇넏녇녈넂녎녅녏녓넇녑녑녛녖녙넃넞  =>  Masukkan order urutan (asc/desc), masukkan 'x' atau 'X' untuk kembali ke menu utama: 
+[DECODE] 넋넘넋  =>  asc
+[DECODE] 녠넯넉넏넚넎넞녍넓넖넅넒넒녇널넀너넎넊넌넊녅  =>  \nDaftar quest terurut:
+[DECODE] 넿넙넝넝넅넎넂녍넆넂넆넕넇넕년넕넟넕넟넜넓넝넝넏넓  =>  Urutkan daftar pengembara
+[DECODE] 녛녅녈넫넋넝너넌넑넂넒넊넇넉년넋넛넖넙  =>  1. Berdasarkan nama
+[DECODE] 녘녅녈넫넋넝너넌넑넂넒넊넇넉년넉넟넍넝넕  =>  2. Berdasarkan level
+[DECODE] 녠넯넉넏넚넎넞녍넒넆넎넆넃넊넆넄너넚녘넍넛넍넉넏넇넇녊  =>  \nDaftar pengembara terurut:
+[DECODE] 녠녖녕녔녎넪넇넞넒넌넒녁넇넓넅널녚넲넕넉넑넍녜넹넓넇넑녑녋녊녉  =>  \n=== Ekspor atau Impor Data ===
+[DECODE] 녛녅녈넬넅넜넜넂널녃녈넮넓넓넔널넎녁녘넚넍넉녜넙넓넝념넅넎넃녝  =>  1. Ekspor (Output: csv dan txt)
+[DECODE] 녘녅녈넠넃넟넃넟녂녋넩넏넖넒널녟녚넘넋넏녗  =>  2. Impor (Input: csv)
+[DECODE] 넣넅넘넜넚녏넅넃넔넂넌너넂녋년너넛너넍넒넕넞넒녝넂넚넜넘넞넖넚녕넳넪넦넮녮넻넩넿넱넦네넨넧녧녬녴녶녻녪녹넿넫넽넨녲넋녹녰  =>  Input invalid, masukkan pilihan yang tersedia (1, 2 atau X)!
+[DECODE] 넭넊넏너넂녏넁너넎넂넋넔넍넆넊녅넟널넋넉넑넍녓넔넟넃넟넃녖넓넕넁넫녥  =>  Gagal melakukan ekspor/impor data.
+[DECODE] 녠넻넁넅넇넇녌넉넃넗넁녁넟넆넊넂녚넒넖넞넗넑녜넙넛넖넛넂넆넘넆녏  =>  \nPilih data yang ingin diekspor:
+[DECODE] 녛녅녈넸넛넊넟넙  =>  1. Quest
+[DECODE] 녘녅녈넾넏넁너너널넆넒  =>  2. Wanderer
+[DECODE] 넲녅녈넢넋넂넎넌넎넊  =>  X. Kembali
+[DECODE] 넉넘넞  =>  csv
+[DECODE] 넞넓넜  =>  txt
+[DECODE] 녠넻넁넅넇넇녌넉넃넗넁녁넟넆넊넂녚넒넖넞넗넑녜넙넛넚넝넁넙넅녎  =>  \nPilih data yang ingin diimpor:
+[DECODE] 녠넠넍넝넇넄녌넋넋넏넅녁넟넆넊넂녚넒넖넞넗넑녜넙넛넚넝넁넙넅녕녕넚넪넻넽넧네넭넣녢넡넥넳넧넣넥녥넾넲노넪넿넫넩녽넠넼넿넥녶넱넻넹녎녎녚넉녗녎녂녊넂념녁녌녇넆  =>  \nKetik file yang ingin diimpor! Pastikan berada di satu root folder yang sama!
+[DECODE] 네넊넅너녎넉넅넁넇녃녈넊넉넔넋넋넝널넙넗녞넊넒넉넇넘념넜넓넚넖넔넾넪네넢넯넡녥녷녢  =>  Nama file (kosongkan untuk membatalkan): 
+[DECODE] 넛넞넍넚넚  =>  quest
+[DECODE] 넚넎넆넎넋넂넎넌널넂  =>  pengembara
+[DECODE] 넮넊넜너녎넍넉넟넊넂넓너넊녇넀넌넉넒넕넉넟넑녝  =>  Data berhasil disimpan!
+[DECODE] 넾넎넚넃넏넋넅녍넇넑넒넎넔녝년넡넏넋넔널넝넞너넘넥넒넞넕넓넅넑넇넏넳넫넬넾넻넥넢넬녯녠넥넳넷넨넬넱넺넫넰녾넨넽넳넶넶넢넴네녷넠넰녘녏녍녝녋년녟년넘  =>  Terjadi error: DuplicateWandererException, duplikasi wanderer terdeteksi:
+[DECODE] 넁넎넛너넂넎넄넌넌녃넎넀넋넆년넑넓넋넝녙넘넖널넘  =>  kesalahan nama tipe file
+[DECODE] 넁넎넛너넂넎넄넌넌녃넆넎넔넊넅넑녚녝녘널널넋넙넚넀넚넄널넅녗널넔넾넪  =>  kesalahan format & integritas data
+[DECODE] 넁넎넛너넂넎넄넌넌녃넎넀넋넆년넃넓넗넝  =>  kesalahan nama file
+[DECODE] 넍넎넜넼넝넊넞넃넃넎넅  =>  getUsername
+[DECODE] 녍  =>  '
+[DECODE] 념  =>  :
+[DECODE] 녇  =>  -
+[DECODE] 넭넊넏너넂녏넁너넌넄넅넊넕넗넋넗녚넟넙넍넟녟넘넔넀넚녞  =>  Gagal mengekspor data diri.
+[DECODE] 녛녅녈넥넇넇넍넙녂넇넁넕넇녇넀넌너넒  =>  1. Lihat data diri
+[DECODE] 녘녅녈넥넇넇넍넙녂넇넁넇넒넆넖녅넋넎넝넊넊  =>  2. Lihat daftar quest
+[DECODE] 녙녅녈넯넇넃넘너널녃넄넀넀넓넅넗녚넊넍넜넍넋  =>  3. Filter daftar quest
+[DECODE] 녞녅녈넽넏넂넜넄넎너넁넏녆넃넅넃넎넚넊녙넏넊넙넎넆녓넄넔넄넂넆넀넾  =>  4. Tampilkan daftar quest terurut
+[DECODE] 녟녅녈넨넃넍넅넁녂넒넕넄넕넓  =>  5. Ambil quest
+[DECODE] 녜녅녈넬넅넜넜넂널녃넄넀넒넆년넁넓넉넑녙녖넰넉넉넂넆넄녋녖넃넌넁녣  =>  6. Ekspor data diri (Output: txt)
+[DECODE] 녝녅녈넹넏넟넍넃녂넳넅넏넁넒넉널넗넚넖녙넹넊넕넑넖  =>  7. Papan Pengumuman Guild
+[DECODE] 녠녖녕녔녎넫넍넙넃녃네너넔넎년녘녇녆  =>  \n=== Data Diri ===
+[DECODE] 녠녖녕녔녎넿넍넝넃넍녀넱넃넉넃널넗넎넕넘널녟넻너넛넟넔녑녋녊녉  =>  \n=== Papan Pengumuman Guild ===
+[DECODE] 넣넅넘넜넚녏넅넃넔넂넌너넂녋년너넛너넍넒넕넞넒녝넂넚넜넘넞넖넚녕넳넪넦넮녮넻넩넿넱넦네넨넧녧녬녵녷녬녱노  =>  Input invalid, masukkan pilihan yang tersedia (0-7)!
+[DECODE] 넾넎넚넃넏넋넅녍넇넑넒넎넔녇넔넄넞넚녘넔넛넑넉녝넂넖넞넖넓넚넖넔넸넪녦  =>  Terjadi error pada menu pengembara.
+[DECODE] 넮넊넎넝넏넝녌넜넗넆넓넕녆넞넅넋넝녛넌넜넌넌넙넙넛넒녊  =>  Daftar quest yang tersedia:
+[DECODE] 넧넊넛넜넅넄넍넃녂넪네녁넷넒넁넖넎녛넁넘널넘녜넔넜넔넙넟녖넓넝넔넧넩넡넥녮녧넭넹넣넶녠녦넞녠녫녢넢논노넬넰넫넩넶녲넸넵넼넴넶넸넼넃넑너  =>  Masukkan ID Quest yang ingin diambil (atau 'X'/'x' untuk kembali): 
+[DECODE] 넫넀넝넇넃넚녌넙넇넏넁넉녆넃넍넎넟넗넍넘넌넔넝넓녒넗넑넃넟녗넇넜넹넿넭네녮넍넹넿넪넢넮널넳넢넷넱녺넰넹넫넻넱넽녽넹넲넼넰넾녷녧녵녁녊년녀넎녋녅넍녎녆녖년녊넇넕넋  =>  Akunmu telah dikeluarkan dari sistem BurhanQuest karena kalah 3 kali di level 1.
+[DECODE] 넡넊넅넜녎넎넇넌넌녃넏넕넉넊넅넑넓너녘넕넑넘넓너넆녓넔널넄넞녔넆넣넸넼넬넣녡  =>  Kamu akan otomatis logout dari sistem.
+[DECODE] 넾넂넆넎넅넎넘녍넉넆넓넔넊넎널넄넔녛넉넌넛넌너녝넚넒넞너넗녗넖넚넦넮넠녳녮넢넹넩넣넫녬녡넫넢넪넠넴넼넹넱녲녿넽넩넳넦녰넢넣넻넽넡넄  =>  Tingkat kesulitan quest hanya boleh: mudah, menengah, atau sulit.

@@ -1,0 +1,9 @@
+[x] Opening connection to 35.213.152.145 on port 30094
+[x] Opening connection to 35.213.152.145 on port 30094: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30094: Done
+
+========== CONNECTED ==========
+
+CTFd access token: [!] Instance requested CTFd access token.
+[!] This is a separate gate from the BurhanQuest login.
+[*] Closed connection to 35.213.152.145 port 30094

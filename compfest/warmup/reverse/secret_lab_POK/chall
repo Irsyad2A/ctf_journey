@@ -1,0 +1,118 @@
+_start:
+ xor    rcx,rcx
+
+one:
+ lea    rax,ds:0x0 // load addr of byte data to rax (encoded flag)
+                   // rax -> b5 aa c8 aa ad a0 af cc cf b4 ad
+                   //        5962238958690513854
+                   //        8046461106730470846
+                   //        18419947566587760561
+                   //        11968928106916091634
+ mov    bl,BYTE PTR [rax]
+ xor    bl,0x69
+ add    bl,0xe7
+ xor    rdx,rdx
+
+s1:
+ inc    bl
+ inc    rdx
+ cmp    rdx,0x19
+ jne    s1
+ xor    bl,0x96
+ mov    BYTE PTR [rcx+0x0],bl
+ inc    rcx
+ inc    rax
+ cmp    rcx,0xb
+ jne    one
+
+two:
+ mov    bx,WORD PTR [rax]
+ add    bx,0xbe
+ xor    bx,0x42
+ shr    bx,0x4
+ xor    bl,0x4
+ shr    bx,0x4
+ mov    BYTE PTR [rcx+0x0],bl
+ add    rax,0x2
+ inc    rcx
+ cmp    rcx,0xf
+ jne    two
+
+ and    rdx,0x0
+ mov    dx,0xfe
+ shl    dl,0x8
+ xor    dx,0xfe
+ shl    dx,0x8
+ or     dx,0xbf
+ xor    dx,0x40
+
+three:
+ mov    bx,WORD PTR [rax]
+ and    bx,dx
+ push   rax
+ mov    al,bl
+ shl    ax,0x8
+ shr    bx,0x8
+ add    bx,ax
+ shr    bx,1
+ xor    rax,rax
+ mov    al,bl
+ shl    ax,0x8
+ shr    bx,0x8
+ add    bx,ax
+ pop    rax
+ mov    WORD PTR [rcx+0x0],bx
+ add    rax,0x2
+ add    rcx,0x2
+ cmp    rcx,0x17
+ jne    three
+
+four:
+ mov    ebx,DWORD PTR [rax]
+ not    ebx
+ shl    ebx,0x2
+ inc    bl
+ shl    ebx,0x2
+ inc    bl
+ shl    ebx,0x3
+ add    bl,0x7
+ shl    ebx,1
+ inc    bl
+ mov    DWORD PTR [rcx+0x0],ebx
+ add    rax,0x4
+ add    rcx,0x4
+ mov    bl,0x5f
+ mov    BYTE PTR [rcx+0x0],bl
+ inc    rcx
+
+ mov    ebx,DWORD PTR [rax]
+ not    ebx
+ shl    ebx,0x4
+ inc    bl
+ xor    bl,0x6
+ shl    ebx,0x2
+ inc    bl
+ shl    ebx,0x2
+ mov    DWORD PTR [rcx+0x0],ebx
+ add    rax,0x4
+ add    rcx,0x4
+
+five:
+ mov    rbx,QWORD PTR [rax]
+ shr    rbx,1
+ push   rax
+ xor    rax,rax
+ xor    rdx,rdx
+
+s2:
+ shr    rbx,1
+ rcl    rax,1
+ test   rbx,rbx
+ jne    s2
+ mov    rbx,rax
+ mov    QWORD PTR [rcx+0x0],rbx
+
+exit:
+ mov    rax,0x3c
+ mov    rdi,0x0
+ syscall

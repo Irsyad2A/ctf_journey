@@ -1,0 +1,686 @@
+===== ALL p.* CALLERS =====
+6222:         8: invokespecial #145                // Method p."<init>":(Ljava/lang/String;)V
+6225:        16: invokevirtual #146                // Method p.a:(Ljava/lang/String;)J
+8525:       536: invokespecial #327                // Method p."<init>":(Ljava/lang/String;)V
+8534:       558: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8553:       594: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8562:       616: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8572:       639: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8582:       662: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8623:       741: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8641:       775: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8654:       800: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8662:       820: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+8674:       846: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+9442:      1955: invokestatic  #328                // Method p.a:(I)[B
+9445:      1962: invokestatic  #328                // Method p.a:(I)[B
+9446:      1965: invokestatic  #336                // Method p.a:([B[B)[B
+9447:      1968: invokestatic  #334                // Method p.a:([B)[B
+9448:      1971: invokestatic  #339                // Method p.b:([B)J
+9471:      2013: invokestatic  #331                // Method p.a:(JII)[I
+9945:      2769: invokestatic  #336                // Method p.a:([B[B)[B
+10283:      3267: invokestatic  #334                // Method p.a:([B)[B
+10284:      3270: invokestatic  #339                // Method p.b:([B)J
+10307:      3312: invokestatic  #331                // Method p.a:(JII)[I
+10312:      3323: invokestatic  #328                // Method p.a:(I)[B
+10315:      3330: invokestatic  #328                // Method p.a:(I)[B
+10316:      3333: invokestatic  #336                // Method p.a:([B[B)[B
+10317:      3336: invokestatic  #334                // Method p.a:([B)[B
+10318:      3339: invokestatic  #339                // Method p.b:([B)J
+10341:      3381: invokestatic  #331                // Method p.a:(JII)[I
+10378:        28: invokestatic  #328                // Method p.a:(I)[B
+10389:        47: invokestatic  #328                // Method p.a:(I)[B
+10402:        70: invokestatic  #328                // Method p.a:(I)[B
+10415:        93: invokestatic  #338                // Method p.b:(Ljava/lang/String;)[B
+10423:       107: invokestatic  #328                // Method p.a:(I)[B
+10431:       121: invokestatic  #338                // Method p.b:(Ljava/lang/String;)[B
+10444:       144: invokestatic  #328                // Method p.a:(I)[B
+10457:       167: invokestatic  #338                // Method p.b:(Ljava/lang/String;)[B
+10468:       186: invokestatic  #328                // Method p.a:(I)[B
+10843:       515: invokestatic  #334                // Method p.a:([B)[B
+10860:       543: invokestatic  #340                // Method p.b:([B[B)[B
+11203:      1048: invokestatic  #335                // Method p.a:([BI)[I
+11228:        36: invokestatic  #337                // Method p.b:(I)Ljava/lang/String;
+11643:       668: invokestatic  #330                // Method p.a:(I[I)[I
+12009:        38: invokestatic  #329                // Method p.a:(I[B)[B
+12948:        23: invokevirtual #333                // Method p.a:(Ljava/lang/String;II)I
+12963:        20: invokevirtual #332                // Method p.a:(Ljava/lang/String;I)Ljava/lang/String;
+12978:        20: invokevirtual #332                // Method p.a:(Ljava/lang/String;I)Ljava/lang/String;
+
+===== ALL x.* CALLERS =====
+49:        71: invokestatic  #417                // Method x.a:()Lx;
+56:        88: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+310:       229: invokestatic  #417                // Method x.a:()Lx;
+317:       247: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+848:      1237: invokestatic  #417                // Method x.a:()Lx;
+855:      1258: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+906:      1380: invokestatic  #417                // Method x.a:()Lx;
+912:      1395: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+939:      1453: invokestatic  #417                // Method x.a:()Lx;
+946:      1469: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+1070:       277: invokestatic  #417                // Method x.a:()Lx;
+1077:       295: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+1195:       215: invokestatic  #417                // Method x.a:()Lx;
+1202:       233: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+1290:       130: invokestatic  #417                // Method x.a:()Lx;
+1297:       148: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+1877:       329: invokestatic  #417                // Method x.a:()Lx;
+1884:       345: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+2015:       271: invokestatic  #417                // Method x.a:()Lx;
+2022:       290: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2056:       366: invokestatic  #417                // Method x.a:()Lx;
+2063:       385: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2215:       332: invokestatic  #417                // Method x.a:()Lx;
+2248:       407: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2256:       425: invokestatic  #417                // Method x.a:()Lx;
+2263:       444: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+2546:       136: invokestatic  #417                // Method x.a:()Lx;
+2552:       152: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2571:       197: invokestatic  #417                // Method x.a:()Lx;
+2578:       213: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+2950:       763: invokestatic  #417                // Method x.a:()Lx;
+2956:       778: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2985:       836: invokestatic  #417                // Method x.a:()Lx;
+2992:       852: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+3039:        77: invokestatic  #417                // Method x.a:()Lx;
+3046:        96: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+3064:       142: invokestatic  #417                // Method x.a:()Lx;
+3070:       157: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+3104:       225: invokestatic  #417                // Method x.a:()Lx;
+3111:       242: invokevirtual #419                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+3812:        12: invokestatic  #100                // Method x.a:()Lx;
+3817:        23: invokevirtual #101                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+7156:         0: invokestatic  #158                // Method x.a:()Lx;
+7157:         3: invokevirtual #159                // Method x.b:()Ljava/lang/String;
+25905:         0: invokestatic  #72                 // Method x.a:()Lx;
+25927:        56: invokevirtual #73                 // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+25936:        77: invokevirtual #73                 // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+26355:        11: invokestatic  #129                // Method x.a:()Lx;
+26366:        39: invokevirtual #130                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+26619:       647: invokevirtual #130                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28834:        36: invokestatic  #122                // Method x.a:()Lx;
+28843:        60: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28856:        85: invokestatic  #122                // Method x.a:()Lx;
+28865:       109: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+
+===== l.f READS / WRITES =====
+8519:       524: putfield      #271                // Field f:Ljava/lang/String;
+11988:         1: getfield      #271                // Field f:Ljava/lang/String;
+
+===== l.a() FLAG BYTE TRANSFORM =====
+4216-      1146: getstatic     #265                // Field A:[J
+4217-      1149: ldc           #10                 // int 9
+4218-      1151: laload
+4219-      1152: l2i
+4220-      1153: ldc           #72                 // int 1525927635
+4221-      1155: ixor
+4222-      1156: irem
+4223-      1157: ifne          649
+4224-      1160: goto          673
+4225-      1163: aload         4
+4226-      1165: aload_0
+4227-      1166: getfield      #290                // Field y:[I
+4228-      1169: invokestatic  #313                // Method java/util/Arrays.equals:([I[I)Z
+4229-      1172: ireturn
+4230-
+4231:  public byte[] a();
+4232-    Code:
+4233-         0: aload_0
+4234-         1: getfield      #271                // Field f:Ljava/lang/String;
+4235-         4: getstatic     #264                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+4236-         7: invokevirtual #300                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+4237-        10: astore_1
+4238-        11: getstatic     #265                // Field A:[J
+4239-        14: ldc           #1                  // int 0
+4240-        16: laload
+4241-        17: l2i
+4242-        18: ldc           #56                 // int 706111391
+4243-        20: ixor
+4244-        21: istore_2
+4245-        22: iload_2
+4246-        23: aload_0
+4247-        24: getfield      #286                // Field u:[I
+4248-        27: arraylength
+4249-        28: if_icmpge     536
+4250-        31: aload_0
+4251-        32: getfield      #286                // Field u:[I
+4252-        35: iload_2
+4253-        36: iaload
+4254-        37: aload_1
+4255-        38: invokestatic  #329                // Method p.a:(I[B)[B
+4256-        41: astore_1
+4257-        42: iload_2
+4258-        43: getstatic     #265                // Field A:[J
+4259-        46: ldc           #3                  // int 2
+4260-        48: laload
+4261-        49: l2i
+4262-        50: ldc           #50                 // int 553036542
+4263-        52: ixor
+4264-        53: iadd
+4265-        54: iload_2
+4266-        55: getstatic     #265                // Field A:[J
+4267-        58: ldc           #3                  // int 2
+4268-        60: laload
+4269-        61: l2i
+4270-        62: ldc           #50                 // int 553036542
+4271-        64: ixor
+4272-        65: iadd
+4273-        66: getstatic     #265                // Field A:[J
+4274-        69: ldc           #3                  // int 2
+4275-        71: laload
+4276-        72: l2i
+4277-        73: ldc           #50                 // int 553036542
+4278-        75: ixor
+4279-        76: iadd
+4280-        77: iload_2
+4281-        78: iconst_m1
+4282-        79: ixor
+4283-        80: getstatic     #265                // Field A:[J
+4284-        83: ldc           #3                  // int 2
+4285-        85: laload
+4286-        86: l2i
+4287-        87: ldc           #50                 // int 553036542
+4288-        89: ixor
+4289-        90: iconst_m1
+4290-        91: ixor
+4291-        92: ior
+4292-        93: iadd
+4293-        94: isub
+4294-        95: iload_2
+4295-        96: getstatic     #265                // Field A:[J
+4296-        99: ldc           #3                  // int 2
+4297-       101: laload
+4298-       102: l2i
+4299-       103: ldc           #50                 // int 553036542
+4300-       105: ixor
+4301-       106: iadd
+4302-       107: getstatic     #265                // Field A:[J
+4303-       110: ldc           #3                  // int 2
+4304-       112: laload
+4305-       113: l2i
+4306-       114: ldc           #50                 // int 553036542
+4307-       116: ixor
+4308-       117: iadd
+4309-       118: iload_2
+4310-       119: iconst_m1
+4311-       120: ixor
+4312-       121: getstatic     #265                // Field A:[J
+4313-       124: ldc           #3                  // int 2
+4314-       126: laload
+4315-       127: l2i
+4316-       128: ldc           #50                 // int 553036542
+4317-       130: ixor
+4318-       131: iconst_m1
+4319-       132: ixor
+4320-       133: ior
+4321-       134: iadd
+4322-       135: iadd
+4323-       136: iload_2
+4324-       137: getstatic     #265                // Field A:[J
+4325-       140: ldc           #3                  // int 2
+4326-       142: laload
+4327-       143: l2i
+4328-       144: ldc           #50                 // int 553036542
+4329-       146: ixor
+4330-       147: iadd
+4331-       148: iload_2
+4332-       149: getstatic     #265                // Field A:[J
+4333-       152: ldc           #3                  // int 2
+4334-       154: laload
+4335-       155: l2i
+4336-       156: ldc           #50                 // int 553036542
+4337-       158: ixor
+4338-       159: iadd
+4339-       160: getstatic     #265                // Field A:[J
+4340-       163: ldc           #3                  // int 2
+4341-       165: laload
+4342-       166: l2i
+4343-       167: ldc           #50                 // int 553036542
+4344-       169: ixor
+4345-       170: iadd
+4346-       171: iload_2
+4347-       172: iconst_m1
+4348-       173: ixor
+4349-       174: getstatic     #265                // Field A:[J
+4350-       177: ldc           #3                  // int 2
+4351-       179: laload
+4352-       180: l2i
+4353-       181: ldc           #50                 // int 553036542
+4354-       183: ixor
+4355-       184: iconst_m1
+4356-       185: ixor
+4357-       186: ior
+4358-       187: iadd
+4359-       188: isub
+4360-       189: iload_2
+4361-       190: getstatic     #265                // Field A:[J
+4362-       193: ldc           #3                  // int 2
+4363-       195: laload
+4364-       196: l2i
+4365-       197: ldc           #50                 // int 553036542
+4366-       199: ixor
+4367-       200: iadd
+4368-       201: getstatic     #265                // Field A:[J
+4369-       204: ldc           #3                  // int 2
+4370-       206: laload
+4371-       207: l2i
+4372-       208: ldc           #50                 // int 553036542
+4373-       210: ixor
+4374-       211: iadd
+4375-       212: iload_2
+4376-       213: iconst_m1
+4377-       214: ixor
+4378-       215: getstatic     #265                // Field A:[J
+4379-       218: ldc           #3                  // int 2
+4380-       220: laload
+4381-       221: l2i
+4382-       222: ldc           #50                 // int 553036542
+4383-       224: ixor
+4384-       225: iconst_m1
+4385-       226: ixor
+4386-       227: ior
+4387-       228: iadd
+4388-       229: iadd
+4389-       230: getstatic     #265                // Field A:[J
+4390-       233: ldc           #3                  // int 2
+4391-       235: laload
+4392-       236: l2i
+4393-       237: ldc           #50                 // int 553036542
+4394-       239: ixor
+4395-       240: iadd
+4396-       241: iload_2
+4397-       242: iconst_m1
+4398-       243: iadd
+4399-       244: getstatic     #265                // Field A:[J
+4400-       247: ldc           #3                  // int 2
+4401-       249: laload
+4402-       250: l2i
+4403-       251: ldc           #50                 // int 553036542
+4404-       253: ixor
+4405-       254: iadd
+4406-       255: iload_2
+4407-       256: iconst_m1
+4408-       257: ixor
+4409-       258: iconst_m1
+4410-       259: iconst_m1
+4411-       260: ixor
+4412-       261: ior
+4413-       262: iadd
+4414-       263: iload_2
+4415-       264: iconst_m1
+4416-       265: iadd
+4417-       266: iload_2
+4418-       267: iconst_m1
+4419-       268: iadd
+4420-       269: getstatic     #265                // Field A:[J
+4421-       272: ldc           #3                  // int 2
+4422-       274: laload
+4423-       275: l2i
+4424-       276: ldc           #50                 // int 553036542
+4425-       278: ixor
+4426-       279: iadd
+4427-       280: iload_2
+4428-       281: iconst_m1
+4429-       282: ixor
+4430-       283: iconst_m1
+4431-       284: iconst_m1
+4432-       285: ixor
+4433-       286: ior
+4434-       287: iadd
+4435-       288: isub
+4436-       289: isub
+4437-       290: getstatic     #265                // Field A:[J
+4438-       293: ldc           #3                  // int 2
+4439-       295: laload
+4440-       296: l2i
+4441-       297: ldc           #50                 // int 553036542
+4442-       299: ixor
+4443-       300: iconst_m1
+4444-       301: ixor
+4445-       302: ior
+4446-       303: iadd
+4447-       304: isub
+4448-       305: iload_2
+4449-       306: getstatic     #265                // Field A:[J
+4450-       309: ldc           #3                  // int 2
+4451-       311: laload
+4452-       312: l2i
+4453-       313: ldc           #50                 // int 553036542
+4454-       315: ixor
+4455-       316: iadd
+4456-       317: iload_2
+4457-       318: getstatic     #265                // Field A:[J
+4458-       321: ldc           #3                  // int 2
+4459-       323: laload
+4460-       324: l2i
+4461-       325: ldc           #50                 // int 553036542
+4462-       327: ixor
+4463-       328: iadd
+4464-       329: getstatic     #265                // Field A:[J
+4465-       332: ldc           #3                  // int 2
+4466-       334: laload
+4467-       335: l2i
+4468-       336: ldc           #50                 // int 553036542
+4469-       338: ixor
+4470-       339: iadd
+4471-       340: iload_2
+4472-       341: iconst_m1
+4473-       342: ixor
+4474-       343: getstatic     #265                // Field A:[J
+4475-       346: ldc           #3                  // int 2
+4476-       348: laload
+4477-       349: l2i
+4478-       350: ldc           #50                 // int 553036542
+4479-       352: ixor
+4480-       353: iconst_m1
+4481-       354: ixor
+4482-       355: ior
+4483-       356: iadd
+4484-       357: isub
+4485-       358: iload_2
+4486-       359: getstatic     #265                // Field A:[J
+4487-       362: ldc           #3                  // int 2
+4488-       364: laload
+4489-       365: l2i
+4490-       366: ldc           #50                 // int 553036542
+4491-       368: ixor
+4492-       369: iadd
+4493-       370: getstatic     #265                // Field A:[J
+4494-       373: ldc           #3                  // int 2
+4495-       375: laload
+4496-       376: l2i
+4497-       377: ldc           #50                 // int 553036542
+4498-       379: ixor
+4499-       380: iadd
+4500-       381: iload_2
+4501-       382: iconst_m1
+4502-       383: ixor
+4503-       384: getstatic     #265                // Field A:[J
+4504-       387: ldc           #3                  // int 2
+4505-       389: laload
+4506-       390: l2i
+4507-       391: ldc           #50                 // int 553036542
+4508-       393: ixor
+4509-       394: iconst_m1
+4510-       395: ixor
+4511-       396: ior
+4512-       397: iadd
+4513-       398: iadd
+4514-       399: getstatic     #265                // Field A:[J
+4515-       402: ldc           #3                  // int 2
+4516-       404: laload
+4517-       405: l2i
+4518-       406: ldc           #50                 // int 553036542
+4519-       408: ixor
+4520-       409: iadd
+4521-       410: iload_2
+4522-       411: iconst_m1
+4523-       412: iadd
+4524-       413: getstatic     #265                // Field A:[J
+4525-       416: ldc           #3                  // int 2
+4526-       418: laload
+4527-       419: l2i
+4528-       420: ldc           #50                 // int 553036542
+4529-       422: ixor
+4530-       423: iadd
+4531-       424: iload_2
+4532-       425: iconst_m1
+4533-       426: ixor
+4534-       427: iconst_m1
+4535-       428: iconst_m1
+4536-       429: ixor
+4537-       430: ior
+4538-       431: iadd
+4539-       432: iload_2
+4540-       433: iconst_m1
+4541-       434: iadd
+4542-       435: iload_2
+4543-       436: iconst_m1
+4544-       437: iadd
+4545-       438: getstatic     #265                // Field A:[J
+4546-       441: ldc           #3                  // int 2
+4547-       443: laload
+4548-       444: l2i
+4549-       445: ldc           #50                 // int 553036542
+4550-       447: ixor
+4551-       448: iadd
+4552-       449: iload_2
+4553-       450: iconst_m1
+4554-       451: ixor
+4555-       452: iconst_m1
+4556-       453: iconst_m1
+4557-       454: ixor
+4558-       455: ior
+4559-       456: iadd
+4560-       457: isub
+4561-       458: isub
+4562-       459: getstatic     #265                // Field A:[J
+4563-       462: ldc           #3                  // int 2
+4564-       464: laload
+4565-       465: l2i
+4566-       466: ldc           #50                 // int 553036542
+4567-       468: ixor
+4568-       469: iconst_m1
+4569-       470: ixor
+4570-       471: ior
+4571-       472: iadd
+4572-       473: iadd
+4573-       474: istore_2
+4574-       475: getstatic     #265                // Field A:[J
+4575-       478: ldc           #5                  // int 4
+4576-       480: laload
+4577-       481: l2i
+4578-       482: ldc           #73                 // int 1553610290
+4579-       484: ixor
+4580-       485: getstatic     #291                // Field z:I
+4581-       488: getstatic     #265                // Field A:[J
+4582-       491: ldc           #34                 // int 33
+4583-       493: laload
+4584-       494: l2i
+4585-       495: ldc           #69                 // int 1339126751
+4586-       497: ixor
+4587-       498: iadd
+4588-       499: getstatic     #291                // Field z:I
+4589-       502: getstatic     #265                // Field A:[J
+4590-       505: ldc           #34                 // int 33
+4591-       507: laload
+4592-       508: l2i
+4593-       509: ldc           #69                 // int 1339126751
+4594-       511: ixor
+4595-       512: iadd
+4596-       513: imul
+4597-       514: imul
+4598-       515: getstatic     #265                // Field A:[J
+4599-       518: ldc           #3                  // int 2
+4600-       520: laload
+4601-       521: l2i
+4602-       522: ldc           #50                 // int 553036542
+4603-       524: ixor
+4604-       525: isub
+4605-       526: getstatic     #291                // Field z:I
+4606-       529: isub
+4607-       530: ifne          22
+4608-       533: goto          42
+4609-       536: aload_1
+4610-       537: areturn
+4611-
+4612-  public java.lang.String b();
+4613-    Code:
+4614-         0: aload_0
+4615-         1: invokevirtual #316                // Method a:()[B
+4616-         4: astore_1
+4617-         5: new           #158                // class java/lang/StringBuilder
+4618-         8: dup
+4619-         9: aload_1
+4620-        10: arraylength
+4621-        11: getstatic     #265                // Field A:[J
+4622-        14: ldc           #10                 // int 9
+4623-        16: laload
+4624-        17: l2i
+4625-        18: ldc           #72                 // int 1525927635
+4626-        20: ixor
+4627-        21: imul
+4628-        22: invokespecial #305                // Method java/lang/StringBuilder."<init>":(I)V
+4629-        25: astore_2
+4630-        26: aload_1
+4631-        27: astore_3
+4632-        28: aload_3
+4633-        29: arraylength
+4634-        30: istore        4
+4635-        32: getstatic     #265                // Field A:[J
+4636-        35: ldc           #1                  // int 0
+4637-        37: laload
+4638-        38: l2i
+4639-        39: ldc           #56                 // int 706111391
+4640-        41: ixor
+4641-        42: istore        5
+4642-        44: iload         5
+4643-        46: iload         4
+4644-        48: if_icmpge     801
+4645-        51: aload_3
+4646-        52: iload         5
+4647-        54: baload
+4648-        55: istore        6
+4649-        57: aload_2
+4650-        58: ldc           #101                // String 䰼䰨䰩䱢
+4651-        60: invokestatic  #321                // Method h:(Ljava/lang/String;)Ljava/lang/String;
+4652-        63: getstatic     #265                // Field A:[J
+4653-        66: ldc           #3                  // int 2
+4654-        68: laload
+4655-        69: l2i
+4656-        70: ldc           #50                 // int 553036542
+4657-        72: ixor
+4658-        73: anewarray     #156                // class java/lang/Object
+4659-        76: dup
+4660-        77: getstatic     #265                // Field A:[J
+4661-        80: ldc           #1                  // int 0
+4662-        82: laload
+4663-        83: l2i
+4664-        84: ldc           #56                 // int 706111391
+4665-        86: ixor
+4666-        87: iload         6
+4667-        89: sipush        255
+4668-        92: iadd
+4669-        93: iload         6
+4670-        95: sipush        255
+4671-        98: iadd
+4672-        99: getstatic     #265                // Field A:[J
+4673-       102: ldc           #3                  // int 2
+4674-       104: laload
+4675-       105: l2i
+4676-       106: ldc           #50                 // int 553036542
+4677-       108: ixor
+4678-       109: iadd
+4679-       110: iload         6
+4680-       112: iconst_m1
+4681-       113: ixor
+4682-       114: sipush        255
+4683-       117: iconst_m1
+4684-       118: ixor
+4685-       119: ior
+4686-       120: iadd
+4687-       121: isub
+4688-       122: iload         6
+4689-       124: sipush        255
+4690-       127: iadd
+4691-       128: getstatic     #265                // Field A:[J
+4692-       131: ldc           #3                  // int 2
+4693-       133: laload
+4694-       134: l2i
+4695-       135: ldc           #50                 // int 553036542
+4696-       137: ixor
+4697-       138: iadd
+4698-       139: iload         6
+4699-       141: iconst_m1
+4700-       142: ixor
+4701-       143: sipush        255
+4702-       146: iconst_m1
+4703-       147: ixor
+4704-       148: ior
+4705-       149: iadd
+4706-       150: iadd
+4707-       151: iload         6
+4708-       153: sipush        255
+4709-       156: iadd
+4710-       157: iload         6
+4711-       159: sipush        255
+4712-       162: iadd
+4713-       163: getstatic     #265                // Field A:[J
+4714-       166: ldc           #3                  // int 2
+4715-       168: laload
+4716-       169: l2i
+4717-       170: ldc           #50                 // int 553036542
+4718-       172: ixor
+4719-       173: iadd
+4720-       174: iload         6
+4721-       176: iconst_m1
+4722-       177: ixor
+4723-       178: sipush        255
+4724-       181: iconst_m1
+4725-       182: ixor
+4726-       183: ior
+4727-       184: iadd
+4728-       185: isub
+4729-       186: iload         6
+4730-       188: sipush        255
+4731-       191: iadd
+4732-       192: getstatic     #265                // Field A:[J
+4733-       195: ldc           #3                  // int 2
+4734-       197: laload
+4735-       198: l2i
+4736-       199: ldc           #50                 // int 553036542
+4737-       201: ixor
+4738-       202: iadd
+4739-       203: iload         6
+4740-       205: iconst_m1
+4741-       206: ixor
+4742-       207: sipush        255
+4743-       210: iconst_m1
+4744-       211: ixor
+4745-       212: ior
+4746-       213: iadd
+4747-       214: iadd
+4748-       215: getstatic     #265                // Field A:[J
+4749-       218: ldc           #3                  // int 2
+4750-       220: laload
+4751-       221: l2i
+4752-       222: ldc           #50                 // int 553036542
+4753-       224: ixor
+4754-       225: iadd
+4755-       226: iload         6
+4756-       228: iconst_m1
+4757-       229: iadd
+4758-       230: getstatic     #265                // Field A:[J
+4759-       233: ldc           #3                  // int 2
+4760-       235: laload
+4761-       236: l2i
+4762-       237: ldc           #50                 // int 553036542
+4763-       239: ixor
+4764-       240: iadd
+4765-       241: iload         6
+4766-       243: iconst_m1
+4767-       244: ixor
+4768-       245: iconst_m1
+4769-       246: iconst_m1
+4770-       247: ixor
+4771-       248: ior
+4772-       249: iadd
+4773-       250: iload         6
+4774-       252: iconst_m1
+4775-       253: iadd
+4776-       254: iload         6
+4777-       256: iconst_m1
+4778-       257: iadd
+4779-       258: getstatic     #265                // Field A:[J
+4780-       261: ldc           #3                  // int 2
+4781-       263: laload
+4782-       264: l2i
+4783-       265: ldc           #50                 // int 553036542
+4784-       267: ixor
+4785-       268: iadd
+4786-       269: iload         6
+4787-       271: iconst_m1
+4788-       272: ixor
+4789-       273: iconst_m1
+4790-       274: iconst_m1
+4791-       275: ixor

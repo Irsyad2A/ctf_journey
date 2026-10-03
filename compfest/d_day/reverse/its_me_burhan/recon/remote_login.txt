@@ -1,0 +1,6 @@
+[x] Opening connection to 35.213.152.145 on port 30094
+[x] Opening connection to 35.213.152.145 on port 30094: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30094: Done
+CTFd access token: mktemp: No space left on device (os error 28) at path "/tmp/tmp.ra7CGaIHlm"
+[-] Remote instance failed to create its temporary environment.
+[*] Closed connection to 35.213.152.145 port 30094

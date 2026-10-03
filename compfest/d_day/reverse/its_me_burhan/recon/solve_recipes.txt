@@ -1,0 +1,148 @@
+===== javap invokedynamic recipes =====
+
+BootstrapMethods:
+  0: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #95 mhp\u0001
+  1: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #91 matk\u0001
+  2: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #93 mdef\u0001
+  3: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #94 mexp\u0001
+  4: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #92 mcoin\u0001
+  5: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #87 Q\u0001
+  6: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #85 \u0001>\u0001
+  7: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #86 \u0001>\u0001>\u0001
+  8: #359 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #446 (Ljava/lang/Object;)Ljava/lang/Object;
+      #358 REF_invokeVirtual f.getId:()Ljava/lang/String;
+      #445 (Lf;)Ljava/lang/String;
+  9: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #89 battle:\u0001
+  10: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #88 archive:\u0001
+  11: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #90 export:\u0001
+  12: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #98 sigil-pertempuran [\u0001]: \u0001
+  13: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #96 sigil-arsip: \u0001
+  14: #360 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #97 sigil-ekspor: \u0001
+
+===== Runtime oracle =====
+
+INPUT=[]
+b() -> 13936
+c() -> fbad8f5a745c
+d() -> b140ee58cf60
+e() -> sigil-pertempuran []: 13936
+f() -> sigil-arsip: fbad8f5a745c
+g() -> sigil-ekspor: b140ee58cf60
+
+INPUT=[Q5]
+b(Q5) -> 67549
+c(Q5) -> fcd0bea063cd
+d(Q5) -> 492b6149e785
+e(Q5) -> sigil-pertempuran [Q5]: 67549
+f(Q5) -> sigil-arsip: fcd0bea063cd
+g(Q5) -> sigil-ekspor: 492b6149e785
+
+INPUT=[Q5:frieren]
+b(Q5:frieren) -> 46009
+c(Q5:frieren) -> 5327865ddb77
+d(Q5:frieren) -> 96cd795f8ec3
+e(Q5:frieren) -> sigil-pertempuran [Q5:frieren]: 46009
+f(Q5:frieren) -> sigil-arsip: 5327865ddb77
+g(Q5:frieren) -> sigil-ekspor: 96cd795f8ec3
+
+INPUT=[Q5|frieren]
+b(Q5|frieren) -> 20388
+c(Q5|frieren) -> ec593a6db56d
+d(Q5|frieren) -> 7ffbb38dd065
+e(Q5|frieren) -> sigil-pertempuran [Q5|frieren]: 20388
+f(Q5|frieren) -> sigil-arsip: ec593a6db56d
+g(Q5|frieren) -> sigil-ekspor: 7ffbb38dd065
+
+INPUT=[Q5frieren]
+b(Q5frieren) -> 90911
+c(Q5frieren) -> cfd7b1bb4952
+d(Q5frieren) -> 83eae79519ff
+e(Q5frieren) -> sigil-pertempuran [Q5frieren]: 90911
+f(Q5frieren) -> sigil-arsip: cfd7b1bb4952
+g(Q5frieren) -> sigil-ekspor: 83eae79519ff
+
+INPUT=[frieren]
+b(frieren) -> 16261
+c(frieren) -> ec94062b3736
+d(frieren) -> c14afb86d061
+e(frieren) -> sigil-pertempuran [frieren]: 16261
+f(frieren) -> sigil-arsip: ec94062b3736
+g(frieren) -> sigil-ekspor: c14afb86d061
+
+INPUT=[Frieren]
+b(Frieren) -> 45326
+c(Frieren) -> bc0bc98fce54
+d(Frieren) -> ade55a48e1ee
+e(Frieren) -> sigil-pertempuran [Frieren]: 45326
+f(Frieren) -> sigil-arsip: bc0bc98fce54
+g(Frieren) -> sigil-ekspor: ade55a48e1ee
+
+INPUT=[Segel Kuno]
+b(Segel Kuno) -> 30634
+c(Segel Kuno) -> 65499beb5d1d
+d(Segel Kuno) -> 128c03492012
+e(Segel Kuno) -> sigil-pertempuran [Segel Kuno]: 30634
+f(Segel Kuno) -> sigil-arsip: 65499beb5d1d
+g(Segel Kuno) -> sigil-ekspor: 128c03492012
+
+INPUT=[Jembatan Tua]
+b(Jembatan Tua) -> 98776
+c(Jembatan Tua) -> cee09731cd4f
+d(Jembatan Tua) -> c6547c8a1ec9
+e(Jembatan Tua) -> sigil-pertempuran [Jembatan Tua]: 98776
+f(Jembatan Tua) -> sigil-arsip: cee09731cd4f
+g(Jembatan Tua) -> sigil-ekspor: c6547c8a1ec9
+
+INPUT=[95910]
+b(95910) -> 26592
+c(95910) -> 0c158998553b
+d(95910) -> 5f06f7c711e7
+e(95910) -> sigil-pertempuran [95910]: 26592
+f(95910) -> sigil-arsip: 0c158998553b
+g(95910) -> sigil-ekspor: 5f06f7c711e7
+
+INPUT=[bd3d174e3b60]
+b(bd3d174e3b60) -> 65783
+c(bd3d174e3b60) -> 6a7bbc0fc465
+d(bd3d174e3b60) -> 657d8e729566
+e(bd3d174e3b60) -> sigil-pertempuran [bd3d174e3b60]: 65783
+f(bd3d174e3b60) -> sigil-arsip: 6a7bbc0fc465
+g(bd3d174e3b60) -> sigil-ekspor: 657d8e729566
+
+INPUT=[0b23aa7001b2]
+b(0b23aa7001b2) -> 47209
+c(0b23aa7001b2) -> 5e53725bde6d
+d(0b23aa7001b2) -> 7df58eb20293
+e(0b23aa7001b2) -> sigil-pertempuran [0b23aa7001b2]: 47209
+f(0b23aa7001b2) -> sigil-arsip: 5e53725bde6d
+g(0b23aa7001b2) -> sigil-ekspor: 7df58eb20293

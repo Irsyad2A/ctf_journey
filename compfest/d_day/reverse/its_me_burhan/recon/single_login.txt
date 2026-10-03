@@ -1,0 +1,53 @@
+[x] Opening connection to 35.213.152.145 on port 30019
+[x] Opening connection to 35.213.152.145 on port 30019: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30019: Done
+
+========== MENU ==========
+
+ 
+    >>=========================================================================================================================<<
+    ||                                                                                                                         ||
+    ||                                                                                                                         ||
+    ||   ███████████                       █████                              ██████                                 █████     ||
+    ||  ░░███░░░░░███                     ░░███                             ███░░░░███                              ░░███      ||
+    ||   ░███    ░███ █████ ████ ████████  ░███████    ██████   ████████   ███    ░░███ █████ ████  ██████   █████  ███████    ||
+    ||   ░██████████ ░░███ ░███ ░░███░░███ ░███░░███  ░░░░░███ ░░███░░███ ░███     ░███░░███ ░███  ███░░███ ███░░  ░░░███░     ||
+    ||   ░███░░░░░███ ░███ ░███  ░███ ░░░  ░███ ░███   ███████  ░███ ░███ ░███   ██░███ ░███ ░███ ░███████ ░░█████   ░███      ||
+    ||   ░███    ░███ ░███ ░███  ░███      ░███ ░███  ███░░███  ░███ ░███ ░░███ ░░████  ░███ ░███ ░███░░░   ░░░░███  ░███ ███  ||
+    ||   ███████████  ░░████████ █████     ████ █████░░████████ ████ █████ ░░░██████░██ ░░████████░░██████  ██████   ░░█████   ||
+    ||  ░░░░░░░░░░░    ░░░░░░░░ ░░░░░     ░░░░ ░░░░░  ░░░░░░░░ ░░░░ ░░░░░    ░░░░░░ ░░   ░░░░░░░░  ░░░░░░  ░░░░░░     ░░░░░    ||
+    ||                                                                                                                         ||
+    ||                                                                                                                         ||
+    >>=========================================================================================================================<<
+
+Selamat datang di BurhanQuest!
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+
+========== USERNAME PROMPT ==========
+
+ 1
+Masukkan username:
+Traceback (most recent call last):
+  File "/home/lucymayreel/ctf/compfest/d_day/reverse/its_me_burhan/recon/solver_single.py", line 48, in <module>
+    main()
+    ~~~~^^
+  File "/home/lucymayreel/ctf/compfest/d_day/reverse/its_me_burhan/recon/solver_single.py", line 34, in main
+    data = io.recvuntil(b"Masukkan password:", timeout=5)
+  File "/home/lucymayreel/.local/lib/python3.13/site-packages/pwnlib/tubes/tube.py", line 381, in recvuntil
+    res = self.recv(timeout=self.timeout)
+  File "/home/lucymayreel/.local/lib/python3.13/site-packages/pwnlib/tubes/tube.py", line 146, in recv
+    return self._recv(numb, timeout) or b''
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/lucymayreel/.local/lib/python3.13/site-packages/pwnlib/tubes/tube.py", line 216, in _recv
+    if not self.buffer and not self._fillbuffer(timeout):
+                               ~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/lucymayreel/.local/lib/python3.13/site-packages/pwnlib/tubes/tube.py", line 195, in _fillbuffer
+    data = self.recv_raw(self.buffer.get_fill_size())
+  File "/home/lucymayreel/.local/lib/python3.13/site-packages/pwnlib/tubes/sock.py", line 56, in recv_raw
+    raise EOFError
+EOFError
+[*] Closed connection to 35.213.152.145 port 30019

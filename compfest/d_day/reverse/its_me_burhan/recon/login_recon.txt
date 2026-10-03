@@ -1,0 +1,1594 @@
+
+================================================================================
+FILE: /home/lucymayreel/ctf/compfest/d_day/reverse/its_me_burhan/recon/ALL.javap
+================================================================================
+
+--- MATCH line 2497: 32: invokevirtual #319                // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+2467:        138: if_icmpge     153
+2468:        141: aload_1
+2469:        142: iload         4
+2470:        144: iconst_1
+2471:        145: iadd
+2472:        146: invokevirtual #349                // Method java/lang/String.substring:(I)Ljava/lang/String;
+2473:        149: invokevirtual #351                // Method java/lang/String.trim:()Ljava/lang/String;
+2474:        152: areturn
+2475:        153: aload_1
+2476:        154: areturn
+2477:       Exception table:
+2478:          from    to  target type
+2479:              0    38    52   Class java/lang/Exception
+2480: 
+2481:   private static void b(entities.Wanderer);
+2482:     Code:
+2483:          0: new           #225                // class aj
+2484:          3: dup
+2485:          4: getstatic     #268                // Field b:Lt;
+2486:          7: invokespecial #311                // Method aj."<init>":(Lt;)V
+2487:         10: astore_1
+2488:         11: invokestatic  #361                // Method java/time/Instant.now:()Ljava/time/Instant;
+2489:         14: invokevirtual #362                // Method java/time/Instant.toString:()Ljava/lang/String;
+2490:         17: ldc           #148                // String 념
+2491:         19: invokestatic  #287                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+2492:         22: ldc           #146                // String 녇
+2493:         24: invokestatic  #287                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+2494:         27: invokevirtual #348                // Method java/lang/String.replace:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+2495:         30: astore_2
+2496:         31: aload_0
+2497:         32: invokevirtual #319                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+2498:         35: aload_0
+2499:         36: invokevirtual #317                // Method entities/Wanderer.getId:()Ljava/lang/String;
+2500:         39: aload_2
+2501:         40: invokedynamic #439,  0            // InvokeDynamic #18:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+2502:         45: astore_3
+2503:         46: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2504:         49: invokevirtual #327                // Method java/io/PrintStream.println:()V
+2505:         52: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2506:         55: aload_1
+2507:         56: aload_0
+2508:         57: invokevirtual #312                // Method aj.a:(Lentities/Wanderer;)Ljava/lang/String;
+2509:         60: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2510:         63: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2511:         66: invokevirtual #327                // Method java/io/PrintStream.println:()V
+2512:         69: aload_1
+2513:         70: aload_3
+2514:         71: aload_0
+2515:         72: invokevirtual #313                // Method aj.a:(Ljava/lang/String;Lentities/Wanderer;)V
+2516:         75: aload_3
+2517:         76: iconst_0
+2518:         77: anewarray     #248                // class java/lang/String
+2519:         80: invokestatic  #420                // InterfaceMethod java/nio/file/Path.of:(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+2520:         83: invokestatic  #371                // Method l.c:()Ll;
+2521:         86: aload_0
+2522:         87: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+2523:         90: invokevirtual #373                // Method l.g:(Ljava/lang/String;)Ljava/lang/String;
+2524:         93: invokestatic  #356                // Method java/lang/System.lineSeparator:()Ljava/lang/String;
+2525:         96: invokedynamic #440,  0            // InvokeDynamic #19:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+2526:        101: iconst_2
+2527:        102: anewarray     #255                // class java/nio/file/OpenOption
+2528:        105: dup
+2529:        106: iconst_0
+2530:        107: getstatic     #279                // Field java/nio/file/StandardOpenOption.CREATE:Ljava/nio/file/StandardOpenOption;
+2531:        110: aastore
+2532:        111: dup
+2533:        112: iconst_1
+2534:        113: getstatic     #278                // Field java/nio/file/StandardOpenOption.APPEND:Ljava/nio/file/StandardOpenOption;
+2535:        116: aastore
+2536:        117: invokestatic  #360                // Method java/nio/file/Files.writeString:(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;
+2537:        120: pop
+2538:        121: getstatic     #269                // Field c:I
+2539:        124: iconst_1
+2540:        125: iadd
+2541:        126: iconst_2
+2542:        127: irem
+2543:        128: ifne          136
+2544:        131: goto          171
+2545:        134: astore        4
+2546:        136: invokestatic  #417                // Method x.a:()Lx;
+2547:        139: getstatic     #275                // Field am.PENGEMBARA:Lam;
+2548:        142: aload_0
+2549:        143: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+2550:        146: aload_3
+2551:        147: invokedynamic #441,  0            // InvokeDynamic #20:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+2552:        152: invokevirtual #418                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+2553:        155: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2554:        158: invokestatic  #371                // Method l.c:()Ll;
+2555:        161: aload_0
+2556:        162: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+2557:        165: invokevirtual #373                // Method l.g:(Ljava/lang/String;)Ljava/lang/String;
+2558:        168: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2559:        171: getstatic     #277                // Field java/lang/System.out:Ljava/io/PrintStream;
+2560:        174: aload_3
+2561:        175: invokedynamic #442,  0            // InvokeDynamic #21:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+2562:        180: invokevirtual #328                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+2563:        183: getstatic     #269                // Field c:I
+2564:        186: iconst_1
+2565:        187: iadd
+2566:        188: iconst_2
+2567:        189: irem
+2568:        190: ifne          238
+2569:        193: goto          69
+2570:        196: astore_1
+2571:        197: invokestatic  #417                // Method x.a:()Lx;
+2572:        200: getstatic     #275                // Field am.PENGEMBARA:Lam;
+2573:        203: aload_0
+2574:        204: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+2575:        207: ldc           #122                // String 넭넊넏너넂녏넁너넌넄넅넊넕넗넋넗녚넟넙넍넟녟넘넔넀넚녞
+2576:        209: invokestatic  #287                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+
+
+--- MATCH line 3243: 1: invokevirtual #13                 // Method getUsername:()Ljava/lang/String; ---
+3213:          0: aload_0
+3214:          1: ldc           #5                  // String 噳噄噃噙噐噟
+3215:          3: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3216:          6: ldc           #4                  // String 噓噄噃噙噐噟
+3217:          8: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3218:         11: ldc           #3                  // String 噓噄噃噄噟噖噙噐噟噅噄嘀嘃嘂
+3219:         13: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3220:         16: invokespecial #14                 // Method b."<init>":(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3221:         19: return
+3222: 
+3223:   public a(java.lang.String);
+3224:     Code:
+3225:          0: aload_0
+3226:          1: ldc           #5                  // String 噳噄噃噙噐噟
+3227:          3: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3228:          6: ldc           #4                  // String 噓噄噃噙噐噟
+3229:          8: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3230:         11: aload_1
+3231:         12: invokespecial #14                 // Method b."<init>":(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3232:         15: return
+3233: 
+3234:   public java.lang.String getWelcomeMessage();
+3235:     Code:
+3236:          0: ldc           #6                  // String 噽噞噖噘噟嘑噓噔噃噙噐噂噘噝嘐嘑噢噔噝噐噜噐噅嘑噕噐噅噐噟噖嘝嘑噳噄噃噙噐噟嘟
+3237:          2: invokestatic  #12                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+3238:          5: areturn
+3239: 
+3240:   public java.lang.String getActorName();
+3241:     Code:
+3242:          0: aload_0
+3243:          1: invokevirtual #13                 // Method getUsername:()Ljava/lang/String;
+3244:          4: invokedynamic #21,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+3245:          9: areturn
+3246: 
+3247:   public static java.lang.String a(java.lang.String);
+3248:     Code:
+3249:          0: new           #10                 // class java/lang/StringBuilder
+3250:          3: dup
+3251:          4: invokespecial #17                 // Method java/lang/StringBuilder."<init>":()V
+3252:          7: astore_1
+3253:          8: iconst_0
+3254:          9: istore_2
+3255:         10: iload_2
+3256:         11: aload_0
+3257:         12: invokevirtual #16                 // Method java/lang/String.length:()I
+3258:         15: if_icmpge     40
+3259:         18: aload_0
+3260:         19: iload_2
+3261:         20: invokevirtual #15                 // Method java/lang/String.charAt:(I)C
+3262:         23: istore_3
+3263:         24: aload_1
+3264:         25: iload_3
+3265:         26: ldc           #1                  // int 22065
+3266:         28: ixor
+3267:         29: i2c
+3268:         30: invokevirtual #18                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+3269:         33: pop
+3270:         34: iinc          2, 1
+3271:         37: goto          10
+3272:         40: aload_1
+3273:         41: invokevirtual #19                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+3274:         44: areturn
+3275: }
+3276: public abstract class b {
+3277:   private java.lang.String a;
+3278: 
+3279:   private java.lang.String b;
+3280: 
+3281:   private java.lang.String c;
+3282: 
+3283:   public b(java.lang.String, java.lang.String, java.lang.String);
+3284:     Code:
+3285:          0: aload_0
+3286:          1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+3287:          4: aload_0
+3288:          5: aload_1
+3289:          6: putfield      #4                  // Field a:Ljava/lang/String;
+3290:          9: aload_0
+3291:         10: aload_2
+3292:         11: putfield      #5                  // Field b:Ljava/lang/String;
+3293:         14: aload_0
+3294:         15: aload_3
+3295:         16: putfield      #6                  // Field c:Ljava/lang/String;
+3296:         19: return
+3297: 
+3298:   public abstract java.lang.String getWelcomeMessage();
+3299: 
+3300:   public abstract java.lang.String getActorName();
+3301: 
+3302:   public boolean a(java.lang.String, java.lang.String);
+3303:     Code:
+3304:          0: aload_0
+3305:          1: invokevirtual #8                  // Method getUsername:()Ljava/lang/String;
+3306:          4: aload_1
+3307:          5: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3308:          8: ifeq          26
+3309:         11: aload_0
+3310:         12: invokevirtual #7                  // Method a:()Ljava/lang/String;
+3311:         15: aload_2
+3312:         16: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3313:         19: ifeq          26
+3314:         22: iconst_1
+3315:         23: goto          27
+3316:         26: iconst_0
+3317:         27: ireturn
+3318: 
+3319:   public java.lang.String getName();
+3320:     Code:
+3321:          0: aload_0
+3322:          1: getfield      #4                  // Field a:Ljava/lang/String;
+
+
+--- MATCH line 3305: 1: invokevirtual #8                  // Method getUsername:()Ljava/lang/String; ---
+3275: }
+3276: public abstract class b {
+3277:   private java.lang.String a;
+3278: 
+3279:   private java.lang.String b;
+3280: 
+3281:   private java.lang.String c;
+3282: 
+3283:   public b(java.lang.String, java.lang.String, java.lang.String);
+3284:     Code:
+3285:          0: aload_0
+3286:          1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+3287:          4: aload_0
+3288:          5: aload_1
+3289:          6: putfield      #4                  // Field a:Ljava/lang/String;
+3290:          9: aload_0
+3291:         10: aload_2
+3292:         11: putfield      #5                  // Field b:Ljava/lang/String;
+3293:         14: aload_0
+3294:         15: aload_3
+3295:         16: putfield      #6                  // Field c:Ljava/lang/String;
+3296:         19: return
+3297: 
+3298:   public abstract java.lang.String getWelcomeMessage();
+3299: 
+3300:   public abstract java.lang.String getActorName();
+3301: 
+3302:   public boolean a(java.lang.String, java.lang.String);
+3303:     Code:
+3304:          0: aload_0
+3305:          1: invokevirtual #8                  // Method getUsername:()Ljava/lang/String;
+3306:          4: aload_1
+3307:          5: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3308:          8: ifeq          26
+3309:         11: aload_0
+3310:         12: invokevirtual #7                  // Method a:()Ljava/lang/String;
+3311:         15: aload_2
+3312:         16: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3313:         19: ifeq          26
+3314:         22: iconst_1
+3315:         23: goto          27
+3316:         26: iconst_0
+3317:         27: ireturn
+3318: 
+3319:   public java.lang.String getName();
+3320:     Code:
+3321:          0: aload_0
+3322:          1: getfield      #4                  // Field a:Ljava/lang/String;
+3323:          4: areturn
+3324: 
+3325:   public java.lang.String getUsername();
+3326:     Code:
+3327:          0: aload_0
+3328:          1: getfield      #5                  // Field b:Ljava/lang/String;
+3329:          4: areturn
+3330: 
+3331:   protected java.lang.String a();
+3332:     Code:
+3333:          0: aload_0
+3334:          1: getfield      #6                  // Field c:Ljava/lang/String;
+3335:          4: areturn
+3336: }
+3337: public class entities.Wanderer extends b {
+3338:   private java.lang.String b;
+3339: 
+3340:   private int c;
+3341: 
+3342:   private int d;
+3343: 
+3344:   private int e;
+3345: 
+3346:   private double f;
+3347: 
+3348:   private double g;
+3349: 
+3350:   private double h;
+3351: 
+3352:   private double i;
+3353: 
+3354:   private c j;
+3355: 
+3356:   private double k;
+3357: 
+3358:   private java.lang.String l;
+3359: 
+3360:   private java.util.ArrayList m;
+3361: 
+3362:   private int n;
+3363: 
+3364:   private int o;
+3365: 
+3366:   private int p;
+3367: 
+3368:   private int q;
+3369: 
+3370:   private boolean r;
+3371: 
+3372:   public static final java.text.DecimalFormat a;
+3373: 
+3374:   public entities.Wanderer(int, java.lang.String, java.lang.String, java.lang.String, double, double, double);
+3375:     Code:
+3376:          0: aload_0
+3377:          1: aload_2
+3378:          2: aload_3
+3379:          3: aload         4
+3380:          5: invokespecial #53                 // Method b."<init>":(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3381:          8: aload_0
+3382:          9: iload_1
+3383:         10: invokedynamic #102,  0            // InvokeDynamic #0:makeConcatWithConstants:(I)Ljava/lang/String;
+3384:         15: putfield      #36                 // Field b:Ljava/lang/String;
+
+
+--- MATCH line 3325: public java.lang.String getUsername(); ---
+3295:         16: putfield      #6                  // Field c:Ljava/lang/String;
+3296:         19: return
+3297: 
+3298:   public abstract java.lang.String getWelcomeMessage();
+3299: 
+3300:   public abstract java.lang.String getActorName();
+3301: 
+3302:   public boolean a(java.lang.String, java.lang.String);
+3303:     Code:
+3304:          0: aload_0
+3305:          1: invokevirtual #8                  // Method getUsername:()Ljava/lang/String;
+3306:          4: aload_1
+3307:          5: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3308:          8: ifeq          26
+3309:         11: aload_0
+3310:         12: invokevirtual #7                  // Method a:()Ljava/lang/String;
+3311:         15: aload_2
+3312:         16: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+3313:         19: ifeq          26
+3314:         22: iconst_1
+3315:         23: goto          27
+3316:         26: iconst_0
+3317:         27: ireturn
+3318: 
+3319:   public java.lang.String getName();
+3320:     Code:
+3321:          0: aload_0
+3322:          1: getfield      #4                  // Field a:Ljava/lang/String;
+3323:          4: areturn
+3324: 
+3325:   public java.lang.String getUsername();
+3326:     Code:
+3327:          0: aload_0
+3328:          1: getfield      #5                  // Field b:Ljava/lang/String;
+3329:          4: areturn
+3330: 
+3331:   protected java.lang.String a();
+3332:     Code:
+3333:          0: aload_0
+3334:          1: getfield      #6                  // Field c:Ljava/lang/String;
+3335:          4: areturn
+3336: }
+3337: public class entities.Wanderer extends b {
+3338:   private java.lang.String b;
+3339: 
+3340:   private int c;
+3341: 
+3342:   private int d;
+3343: 
+3344:   private int e;
+3345: 
+3346:   private double f;
+3347: 
+3348:   private double g;
+3349: 
+3350:   private double h;
+3351: 
+3352:   private double i;
+3353: 
+3354:   private c j;
+3355: 
+3356:   private double k;
+3357: 
+3358:   private java.lang.String l;
+3359: 
+3360:   private java.util.ArrayList m;
+3361: 
+3362:   private int n;
+3363: 
+3364:   private int o;
+3365: 
+3366:   private int p;
+3367: 
+3368:   private int q;
+3369: 
+3370:   private boolean r;
+3371: 
+3372:   public static final java.text.DecimalFormat a;
+3373: 
+3374:   public entities.Wanderer(int, java.lang.String, java.lang.String, java.lang.String, double, double, double);
+3375:     Code:
+3376:          0: aload_0
+3377:          1: aload_2
+3378:          2: aload_3
+3379:          3: aload         4
+3380:          5: invokespecial #53                 // Method b."<init>":(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+3381:          8: aload_0
+3382:          9: iload_1
+3383:         10: invokedynamic #102,  0            // InvokeDynamic #0:makeConcatWithConstants:(I)Ljava/lang/String;
+3384:         15: putfield      #36                 // Field b:Ljava/lang/String;
+3385:         18: aload_0
+3386:         19: iconst_1
+3387:         20: putfield      #37                 // Field c:I
+3388:         23: aload_0
+3389:         24: iconst_0
+3390:         25: putfield      #38                 // Field d:I
+3391:         28: aload_0
+3392:         29: iconst_0
+3393:         30: putfield      #39                 // Field e:I
+3394:         33: aload_0
+3395:         34: dload         5
+3396:         36: putfield      #40                 // Field f:D
+3397:         39: aload_0
+3398:         40: dload         5
+3399:         42: putfield      #41                 // Field g:D
+3400:         45: aload_0
+3401:         46: dload         7
+3402:         48: putfield      #42                 // Field h:D
+3403:         51: aload_0
+3404:         52: dload         9
+
+
+--- MATCH line 3634: 5: invokevirtual #76                 // Method getUsername:()Ljava/lang/String; ---
+3604:         10: aload_1
+3605:         11: areturn
+3606: 
+3607:   public java.lang.String getPassiveSummary();
+3608:     Code:
+3609:          0: ldc           #3                  // String
+3610:          2: invokestatic  #58                 // Method c:(Ljava/lang/String;)Ljava/lang/String;
+3611:          5: areturn
+3612: 
+3613:   public java.lang.String getJobName();
+3614:     Code:
+3615:          0: aload_0
+3616:          1: invokevirtual #85                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+3617:          4: ldc           #19                 // class entities/Wanderer
+3618:          6: invokevirtual #84                 // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+3619:          9: ifeq          18
+3620:         12: ldc           #15                 // String 﫻ﴯﻀ缴
+3621:         14: invokestatic  #58                 // Method c:(Ljava/lang/String;)Ljava/lang/String;
+3622:         17: areturn
+3623:         18: aload_0
+3624:         19: invokevirtual #85                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+3625:         22: invokevirtual #80                 // Method java/lang/Class.getSimpleName:()Ljava/lang/String;
+3626:         25: invokevirtual #89                 // Method java/lang/String.toUpperCase:()Ljava/lang/String;
+3627:         28: areturn
+3628: 
+3629:   public java.lang.String getActorName();
+3630:     Code:
+3631:          0: aload_0
+3632:          1: invokevirtual #67                 // Method getJobName:()Ljava/lang/String;
+3633:          4: aload_0
+3634:          5: invokevirtual #76                 // Method getUsername:()Ljava/lang/String;
+3635:          8: invokedynamic #103,  0            // InvokeDynamic #1:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+3636:         13: areturn
+3637: 
+3638:   public java.lang.String getWelcomeMessage();
+3639:     Code:
+3640:          0: aload_0
+3641:          1: invokevirtual #71                 // Method getName:()Ljava/lang/String;
+3642:          4: invokedynamic #104,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+3643:          9: areturn
+3644: 
+3645:   public java.lang.String getName();
+3646:     Code:
+3647:          0: aload_0
+3648:          1: invokespecial #54                 // Method b.getName:()Ljava/lang/String;
+3649:          4: areturn
+3650: 
+3651:   public double getAttackPower();
+3652:     Code:
+3653:          0: aload_0
+3654:          1: getfield      #42                 // Field h:D
+3655:          4: dreturn
+3656: 
+3657:   public double getDefense();
+3658:     Code:
+3659:          0: aload_0
+3660:          1: getfield      #43                 // Field i:D
+3661:          4: dreturn
+3662: 
+3663:   public void b(double);
+3664:     Code:
+3665:          0: aload_0
+3666:          1: dup
+3667:          2: getfield      #40                 // Field f:D
+3668:          5: dload_1
+3669:          6: dsub
+3670:          7: putfield      #40                 // Field f:D
+3671:         10: return
+3672: 
+3673:   public void e();
+3674:     Code:
+3675:          0: return
+3676: 
+3677:   public double c(double);
+3678:     Code:
+3679:          0: dload_1
+3680:          1: dreturn
+3681: 
+3682:   public double d(double);
+3683:     Code:
+3684:          0: dload_1
+3685:          1: dreturn
+3686: 
+3687:   public void e(double);
+3688:     Code:
+3689:          0: return
+3690: 
+3691:   public void f();
+3692:     Code:
+3693:          0: aload_0
+3694:          1: aconst_null
+3695:          2: putfield      #44                 // Field j:Lc;
+3696:          5: aload_0
+3697:          6: dconst_1
+3698:          7: putfield      #45                 // Field k:D
+3699:         10: aload_0
+3700:         11: aconst_null
+3701:         12: putfield      #46                 // Field l:Ljava/lang/String;
+3702:         15: return
+3703: 
+3704:   public boolean g();
+3705:     Code:
+3706:          0: aload_0
+3707:          1: invokevirtual #63                 // Method getCurrentHp:()D
+3708:          4: dconst_0
+3709:          5: dcmpg
+3710:          6: ifgt          13
+3711:          9: iconst_1
+3712:         10: goto          14
+3713:         13: iconst_0
+
+
+--- MATCH line 3746: 9: invokevirtual #76                 // Method getUsername:()Ljava/lang/String; ---
+3716:   public java.lang.String getCombatInfo();
+3717:     Code:
+3718:          0: aload_0
+3719:          1: invokevirtual #71                 // Method getName:()Ljava/lang/String;
+3720:          4: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3721:          7: aload_0
+3722:          8: invokevirtual #63                 // Method getCurrentHp:()D
+3723:         11: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3724:         14: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3725:         17: aload_0
+3726:         18: invokevirtual #70                 // Method getMaxHp:()D
+3727:         21: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3728:         24: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3729:         27: aload_0
+3730:         28: invokevirtual #61                 // Method getAttackPower:()D
+3731:         31: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3732:         34: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3733:         37: aload_0
+3734:         38: invokevirtual #64                 // Method getDefense:()D
+3735:         41: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3736:         44: invokedynamic #105,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+3737:         49: areturn
+3738: 
+3739:   public java.lang.String toString();
+3740:     Code:
+3741:          0: aload_0
+3742:          1: invokevirtual #66                 // Method getId:()Ljava/lang/String;
+3743:          4: aload_0
+3744:          5: invokevirtual #71                 // Method getName:()Ljava/lang/String;
+3745:          8: aload_0
+3746:          9: invokevirtual #76                 // Method getUsername:()Ljava/lang/String;
+3747:         12: aload_0
+3748:         13: invokevirtual #68                 // Method getJobTitle:()Ljava/lang/String;
+3749:         16: aload_0
+3750:         17: invokevirtual #69                 // Method getLevel:()I
+3751:         20: aload_0
+3752:         21: invokevirtual #65                 // Method getExp:()I
+3753:         24: aload_0
+3754:         25: invokevirtual #62                 // Method getCoins:()I
+3755:         28: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3756:         31: aload_0
+3757:         32: invokevirtual #63                 // Method getCurrentHp:()D
+3758:         35: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3759:         38: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3760:         41: aload_0
+3761:         42: invokevirtual #70                 // Method getMaxHp:()D
+3762:         45: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3763:         48: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3764:         51: aload_0
+3765:         52: invokevirtual #61                 // Method getAttackPower:()D
+3766:         55: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3767:         58: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3768:         61: aload_0
+3769:         62: invokevirtual #64                 // Method getDefense:()D
+3770:         65: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3771:         68: aload_0
+3772:         69: invokevirtual #73                 // Method getTotalBattles:()I
+3773:         72: aload_0
+3774:         73: invokevirtual #75                 // Method getTotalWins:()I
+3775:         76: aload_0
+3776:         77: invokevirtual #74                 // Method getTotalLosses:()I
+3777:         80: getstatic     #35                 // Field a:Ljava/text/DecimalFormat;
+3778:         83: aload_0
+3779:         84: invokevirtual #77                 // Method getWinRate:()D
+3780:         87: invokevirtual #95                 // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+3781:         90: invokedynamic #106,  0            // InvokeDynamic #4:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)Ljava/lang/String;
+3782:         95: areturn
+3783: 
+3784:   public void a(f);
+3785:     Code:
+3786:          0: aload_1
+3787:          1: ifnull        13
+3788:          4: aload_0
+3789:          5: getfield      #47                 // Field m:Ljava/util/ArrayList;
+3790:          8: aload_1
+3791:          9: invokevirtual #98                 // Method java/util/ArrayList.add:(Ljava/lang/Object;)Z
+3792:         12: pop
+3793:         13: return
+3794: 
+3795:   public java.util.ArrayList getCompletedQuestHistory();
+3796:     Code:
+3797:          0: new           #29                 // class java/util/ArrayList
+3798:          3: dup
+3799:          4: aload_0
+3800:          5: getfield      #47                 // Field m:Ljava/util/ArrayList;
+3801:          8: invokespecial #97                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+3802:         11: areturn
+3803: 
+3804:   protected void b(java.lang.String);
+3805:     Code:
+3806:          0: aload_1
+3807:          1: ifnull        11
+3808:          4: aload_1
+3809:          5: invokevirtual #87                 // Method java/lang/String.isBlank:()Z
+3810:          8: ifeq          12
+3811:         11: return
+3812:         12: invokestatic  #100                // Method x.a:()Lx;
+3813:         15: getstatic     #34                 // Field am.BATTLE:Lam;
+3814:         18: aload_0
+3815:         19: invokevirtual #60                 // Method getActorName:()Ljava/lang/String;
+3816:         22: aload_1
+3817:         23: invokevirtual #101                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+3818:         26: return
+3819: 
+3820:   public java.lang.String getTitle();
+3821:     Code:
+3822:          0: aload_0
+3823:          1: invokevirtual #69                 // Method getLevel:()I
+3824:          4: bipush        20
+3825:          6: if_icmplt     15
+
+
+--- MATCH line 13814: 1: invokevirtual #40                 // Method getUsername:()Ljava/lang/String; ---
+13784:        284: ldc           #3                  // int 2
+13785:        286: laload
+13786:        287: l2i
+13787:        288: ldc           #50                 // int 553036542
+13788:        290: ixor
+13789:        291: isub
+13790:        292: getstatic     #291                // Field z:I
+13791:        295: isub
+13792:        296: ifne          19
+13793:        299: goto          146
+13794:        302: aload_1
+13795:        303: invokevirtual #308                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+13796:        306: areturn
+13797: }
+13798: public final class o extends a {
+13799:   private static int a;
+13800: 
+13801:   private static long[] b;
+13802: 
+13803:   public o();
+13804:     Code:
+13805:          0: aload_0
+13806:          1: ldc           #12                 // String
+13807:          3: invokestatic  #39                 // Method b:(Ljava/lang/String;)Ljava/lang/String;
+13808:          6: invokespecial #30                 // Method a."<init>":(Ljava/lang/String;)V
+13809:          9: return
+13810: 
+13811:   public boolean a(java.lang.String, java.lang.String);
+13812:     Code:
+13813:          0: aload_0
+13814:          1: invokevirtual #40                 // Method getUsername:()Ljava/lang/String;
+13815:          4: aload_1
+13816:          5: invokevirtual #32                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+13817:          8: ifeq          62
+13818:         11: invokestatic  #38                 // Method l.c:()Ll;
+13819:         14: aload_2
+13820:         15: invokevirtual #37                 // Method l.a:(Ljava/lang/String;)Z
+13821:         18: ifeq          62
+13822:         21: getstatic     #29                 // Field b:[J
+13823:         24: ldc           #1                  // int 0
+13824:         26: laload
+13825:         27: l2i
+13826:         28: ldc           #11                 // int 1867927527
+13827:         30: ixor
+13828:         31: getstatic     #28                 // Field a:I
+13829:         34: getstatic     #29                 // Field b:[J
+13830:         37: ldc           #1                  // int 0
+13831:         39: laload
+13832:         40: l2i
+13833:         41: ldc           #11                 // int 1867927527
+13834:         43: ixor
+13835:         44: iadd
+13836:         45: getstatic     #29                 // Field b:[J
+13837:         48: ldc           #2                  // int 1
+13838:         50: laload
+13839:         51: l2i
+13840:         52: ldc           #7                  // int 572424338
+13841:         54: ixor
+13842:         55: irem
+13843:         56: ifne          72
+13844:         59: goto          72
+13845:         62: getstatic     #29                 // Field b:[J
+13846:         65: ldc           #3                  // int 2
+13847:         67: laload
+13848:         68: l2i
+13849:         69: ldc           #9                  // int 703016959
+13850:         71: ixor
+13851:         72: ireturn
+13852: 
+13853:   public static java.lang.String b(java.lang.String);
+13854:     Code:
+13855:          0: new           #15                 // class java/lang/StringBuilder
+13856:          3: dup
+13857:          4: invokespecial #34                 // Method java/lang/StringBuilder."<init>":()V
+13858:          7: astore_1
+13859:          8: getstatic     #29                 // Field b:[J
+13860:         11: ldc           #3                  // int 2
+13861:         13: laload
+13862:         14: l2i
+13863:         15: ldc           #9                  // int 703016959
+13864:         17: ixor
+13865:         18: istore_2
+13866:         19: iload_2
+13867:         20: aload_0
+13868:         21: invokevirtual #33                 // Method java/lang/String.length:()I
+13869:         24: if_icmpge     259
+13870:         27: aload_0
+13871:         28: iload_2
+13872:         29: invokevirtual #31                 // Method java/lang/String.charAt:(I)C
+13873:         32: istore_3
+13874:         33: aload_1
+13875:         34: iload_3
+13876:         35: getstatic     #29                 // Field b:[J
+13877:         38: ldc           #4                  // int 3
+13878:         40: laload
+13879:         41: l2i
+13880:         42: ldc           #8                  // int 587757436
+13881:         44: ixor
+13882:         45: iadd
+13883:         46: getstatic     #29                 // Field b:[J
+13884:         49: ldc           #1                  // int 0
+13885:         51: laload
+13886:         52: l2i
+13887:         53: ldc           #11                 // int 1867927527
+13888:         55: ixor
+13889:         56: iadd
+13890:         57: iload_3
+13891:         58: iconst_m1
+13892:         59: ixor
+13893:         60: getstatic     #29                 // Field b:[J
+
+
+--- MATCH line 26239: 1: invokevirtual #35                 // Method b.getUsername:()Ljava/lang/String; ---
+26209: 
+26210:   private static boolean a(int);
+26211:     Code:
+26212:          0: iload_0
+26213:          1: invokestatic  #37                 // Method java/lang/Character.isLetterOrDigit:(I)Z
+26214:          4: ifne          13
+26215:          7: iload_0
+26216:          8: bipush        32
+26217:         10: if_icmpne     17
+26218:         13: iconst_1
+26219:         14: goto          18
+26220:         17: iconst_0
+26221:         18: ireturn
+26222: 
+26223:   private static boolean b(int);
+26224:     Code:
+26225:          0: iload_0
+26226:          1: invokestatic  #37                 // Method java/lang/Character.isLetterOrDigit:(I)Z
+26227:          4: ifne          13
+26228:          7: iload_0
+26229:          8: bipush        95
+26230:         10: if_icmpne     17
+26231:         13: iconst_1
+26232:         14: goto          18
+26233:         17: iconst_0
+26234:         18: ireturn
+26235: 
+26236:   private static boolean a(java.lang.String, b);
+26237:     Code:
+26238:          0: aload_1
+26239:          1: invokevirtual #35                 // Method b.getUsername:()Ljava/lang/String;
+26240:          4: aload_0
+26241:          5: invokevirtual #44                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+26242:          8: ireturn
+26243: 
+26244:   private static boolean a(java.lang.String, java.lang.String, b);
+26245:     Code:
+26246:          0: aload_2
+26247:          1: aload_0
+26248:          2: aload_1
+26249:          3: invokevirtual #33                 // Method b.a:(Ljava/lang/String;Ljava/lang/String;)Z
+26250:          6: ireturn
+26251: 
+26252:   public static java.lang.String k(java.lang.String);
+26253:     Code:
+26254:          0: new           #21                 // class java/lang/StringBuilder
+26255:          3: dup
+26256:          4: invokespecial #49                 // Method java/lang/StringBuilder."<init>":()V
+26257:          7: astore_1
+26258:          8: iconst_0
+26259:          9: istore_2
+26260:         10: iload_2
+26261:         11: aload_0
+26262:         12: invokevirtual #47                 // Method java/lang/String.length:()I
+26263:         15: if_icmpge     45
+26264:         18: aload_0
+26265:         19: iload_2
+26266:         20: invokevirtual #42                 // Method java/lang/String.charAt:(I)C
+26267:         23: istore_3
+26268:         24: aload_1
+26269:         25: iload_3
+26270:         26: ldc           #1                  // int 40079
+26271:         28: ixor
+26272:         29: iload_2
+26273:         30: ldc           #2                  // int 65535
+26274:         32: irem
+26275:         33: ixor
+26276:         34: i2c
+26277:         35: invokevirtual #50                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+26278:         38: pop
+26279:         39: iinc          2, 1
+26280:         42: goto          10
+26281:         45: aload_1
+26282:         46: invokevirtual #51                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+26283:         49: areturn
+26284: }
+26285: public class r {
+26286:   private static final java.util.Scanner a;
+26287: 
+26288:   private static java.util.Random b;
+26289: 
+26290:   public static void a(long);
+26291:     Code:
+26292:          0: new           #44                 // class java/util/Random
+26293:          3: dup
+26294:          4: lload_0
+26295:          5: invokespecial #121                // Method java/util/Random."<init>":(J)V
+26296:          8: putstatic     #60                 // Field b:Ljava/util/Random;
+26297:         11: return
+26298: 
+26299:   public static double[] a(h);
+26300:     Code:
+26301:          0: iconst_2
+26302:          1: newarray       double
+26303:          3: dup
+26304:          4: iconst_0
+26305:          5: dconst_0
+26306:          6: dastore
+26307:          7: dup
+26308:          8: iconst_1
+26309:          9: dconst_0
+26310:         10: dastore
+26311:         11: astore_1
+26312:         12: aload_0
+26313:         13: getstatic     #56                 // Field h.MUDAH:Lh;
+26314:         16: if_acmpne     34
+26315:         19: aload_1
+26316:         20: iconst_0
+26317:         21: ldc2_w        #51                 // double 1.25d
+26318:         24: dastore
+
+
+--- MATCH line 28839: 48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+28809:         28: iload_3
+28810:         29: ifeq          36
+28811:         32: iconst_1
+28812:         33: goto          37
+28813:         36: iconst_0
+28814:         37: ireturn
+28815: 
+28816:   public boolean b(entities.Wanderer);
+28817:     Code:
+28818:          0: aload_1
+28819:          1: ifnonnull     6
+28820:          4: iconst_0
+28821:          5: ireturn
+28822:          6: invokedynamic #130,  0            // InvokeDynamic #0:test:()Ljava/util/function/Predicate;
+28823:         11: astore_2
+28824:         12: invokedynamic #131,  0            // InvokeDynamic #1:test:()Ljava/util/function/Predicate;
+28825:         17: astore_3
+28826:         18: aload_2
+28827:         19: aload_1
+28828:         20: invokeinterface #127,  2          // InterfaceMethod java/util/function/Predicate.test:(Ljava/lang/Object;)Z
+28829:         25: ifeq          65
+28830:         28: aload_1
+28831:         29: invokevirtual #69                 // Method entities/Wanderer.i:()V
+28832:         32: aload_1
+28833:         33: invokevirtual #68                 // Method entities/Wanderer.h:()V
+28834:         36: invokestatic  #122                // Method x.a:()Lx;
+28835:         39: getstatic     #58                 // Field am.SYSTEM:Lam;
+28836:         42: ldc           #32                 // String 髗髬髵髳髥髬
+28837:         44: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+28838:         47: aload_1
+28839:         48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+28840:         51: aload_1
+28841:         52: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+28842:         55: invokedynamic #132,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+28843:         60: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28844:         63: iconst_0
+28845:         64: ireturn
+28846:         65: aload_3
+28847:         66: aload_1
+28848:         67: invokeinterface #127,  2          // InterfaceMethod java/util/function/Predicate.test:(Ljava/lang/Object;)Z
+28849:         72: ifeq          114
+28850:         75: aload_1
+28851:         76: invokevirtual #70                 // Method entities/Wanderer.j:()V
+28852:         79: aload_0
+28853:         80: aload_1
+28854:         81: invokevirtual #112                // Method a:(Lentities/Wanderer;)Z
+28855:         84: pop
+28856:         85: invokestatic  #122                // Method x.a:()Lx;
+28857:         88: getstatic     #58                 // Field am.SYSTEM:Lam;
+28858:         91: ldc           #32                 // String 髗髬髵髳髥髬
+28859:         93: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+28860:         96: aload_1
+28861:         97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+28862:        100: aload_1
+28863:        101: invokevirtual #64                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+28864:        104: invokedynamic #133,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+28865:        109: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28866:        112: iconst_1
+28867:        113: ireturn
+28868:        114: iconst_0
+28869:        115: ireturn
+28870: 
+28871:   public java.util.ArrayList a();
+28872:     Code:
+28873:          0: new           #50                 // class java/util/ArrayList
+28874:          3: dup
+28875:          4: aload_0
+28876:          5: getfield      #59                 // Field a:Lj;
+28877:          8: invokevirtual #79                 // Method j.a:()Ljava/util/ArrayList;
+28878:         11: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+28879:         14: areturn
+28880: 
+28881:   public int b();
+28882:     Code:
+28883:          0: aload_0
+28884:          1: getfield      #59                 // Field a:Lj;
+28885:          4: invokevirtual #81                 // Method j.b:()I
+28886:          7: ireturn
+28887: 
+28888:   public java.util.ArrayList a(int, int);
+28889:     Code:
+28890:          0: new           #50                 // class java/util/ArrayList
+28891:          3: dup
+28892:          4: aload_0
+28893:          5: getfield      #59                 // Field a:Lj;
+28894:          8: iload_1
+28895:          9: iload_2
+28896:         10: invokedynamic #134,  0            // InvokeDynamic #4:test:(II)Ljava/util/function/Predicate;
+28897:         15: invokevirtual #83                 // Method j.b:(Ljava/util/function/Predicate;)Ljava/util/ArrayList;
+28898:         18: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+28899:         21: areturn
+28900: 
+28901:   public java.util.ArrayList a(boolean);
+28902:     Code:
+28903:          0: aload_0
+28904:          1: invokevirtual #109                // Method a:()Ljava/util/ArrayList;
+28905:          4: astore_2
+28906:          5: invokedynamic #135,  0            // InvokeDynamic #5:apply:()Ljava/util/function/Function;
+28907:         10: invokestatic  #124                // InterfaceMethod java/util/Comparator.comparing:(Ljava/util/function/Function;)Ljava/util/Comparator;
+28908:         13: astore_3
+28909:         14: iload_1
+28910:         15: ifne          25
+28911:         18: aload_3
+28912:         19: invokeinterface #126,  1          // InterfaceMethod java/util/Comparator.reversed:()Ljava/util/Comparator;
+28913:         24: astore_3
+28914:         25: aload_2
+28915:         26: aload_3
+28916:         27: invokevirtual #99                 // Method java/util/ArrayList.sort:(Ljava/util/Comparator;)V
+28917:         30: aload_2
+28918:         31: areturn
+
+
+--- MATCH line 28861: 97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+28831:         29: invokevirtual #69                 // Method entities/Wanderer.i:()V
+28832:         32: aload_1
+28833:         33: invokevirtual #68                 // Method entities/Wanderer.h:()V
+28834:         36: invokestatic  #122                // Method x.a:()Lx;
+28835:         39: getstatic     #58                 // Field am.SYSTEM:Lam;
+28836:         42: ldc           #32                 // String 髗髬髵髳髥髬
+28837:         44: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+28838:         47: aload_1
+28839:         48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+28840:         51: aload_1
+28841:         52: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+28842:         55: invokedynamic #132,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+28843:         60: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28844:         63: iconst_0
+28845:         64: ireturn
+28846:         65: aload_3
+28847:         66: aload_1
+28848:         67: invokeinterface #127,  2          // InterfaceMethod java/util/function/Predicate.test:(Ljava/lang/Object;)Z
+28849:         72: ifeq          114
+28850:         75: aload_1
+28851:         76: invokevirtual #70                 // Method entities/Wanderer.j:()V
+28852:         79: aload_0
+28853:         80: aload_1
+28854:         81: invokevirtual #112                // Method a:(Lentities/Wanderer;)Z
+28855:         84: pop
+28856:         85: invokestatic  #122                // Method x.a:()Lx;
+28857:         88: getstatic     #58                 // Field am.SYSTEM:Lam;
+28858:         91: ldc           #32                 // String 髗髬髵髳髥髬
+28859:         93: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+28860:         96: aload_1
+28861:         97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+28862:        100: aload_1
+28863:        101: invokevirtual #64                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+28864:        104: invokedynamic #133,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+28865:        109: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+28866:        112: iconst_1
+28867:        113: ireturn
+28868:        114: iconst_0
+28869:        115: ireturn
+28870: 
+28871:   public java.util.ArrayList a();
+28872:     Code:
+28873:          0: new           #50                 // class java/util/ArrayList
+28874:          3: dup
+28875:          4: aload_0
+28876:          5: getfield      #59                 // Field a:Lj;
+28877:          8: invokevirtual #79                 // Method j.a:()Ljava/util/ArrayList;
+28878:         11: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+28879:         14: areturn
+28880: 
+28881:   public int b();
+28882:     Code:
+28883:          0: aload_0
+28884:          1: getfield      #59                 // Field a:Lj;
+28885:          4: invokevirtual #81                 // Method j.b:()I
+28886:          7: ireturn
+28887: 
+28888:   public java.util.ArrayList a(int, int);
+28889:     Code:
+28890:          0: new           #50                 // class java/util/ArrayList
+28891:          3: dup
+28892:          4: aload_0
+28893:          5: getfield      #59                 // Field a:Lj;
+28894:          8: iload_1
+28895:          9: iload_2
+28896:         10: invokedynamic #134,  0            // InvokeDynamic #4:test:(II)Ljava/util/function/Predicate;
+28897:         15: invokevirtual #83                 // Method j.b:(Ljava/util/function/Predicate;)Ljava/util/ArrayList;
+28898:         18: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+28899:         21: areturn
+28900: 
+28901:   public java.util.ArrayList a(boolean);
+28902:     Code:
+28903:          0: aload_0
+28904:          1: invokevirtual #109                // Method a:()Ljava/util/ArrayList;
+28905:          4: astore_2
+28906:          5: invokedynamic #135,  0            // InvokeDynamic #5:apply:()Ljava/util/function/Function;
+28907:         10: invokestatic  #124                // InterfaceMethod java/util/Comparator.comparing:(Ljava/util/function/Function;)Ljava/util/Comparator;
+28908:         13: astore_3
+28909:         14: iload_1
+28910:         15: ifne          25
+28911:         18: aload_3
+28912:         19: invokeinterface #126,  1          // InterfaceMethod java/util/Comparator.reversed:()Ljava/util/Comparator;
+28913:         24: astore_3
+28914:         25: aload_2
+28915:         26: aload_3
+28916:         27: invokevirtual #99                 // Method java/util/ArrayList.sort:(Ljava/util/Comparator;)V
+28917:         30: aload_2
+28918:         31: areturn
+28919: 
+28920:   public java.util.ArrayList b(boolean);
+28921:     Code:
+28922:          0: aload_0
+28923:          1: invokevirtual #109                // Method a:()Ljava/util/ArrayList;
+28924:          4: astore_2
+28925:          5: invokedynamic #136,  0            // InvokeDynamic #6:applyAsInt:()Ljava/util/function/ToIntFunction;
+28926:         10: invokestatic  #125                // InterfaceMethod java/util/Comparator.comparingInt:(Ljava/util/function/ToIntFunction;)Ljava/util/Comparator;
+28927:         13: astore_3
+28928:         14: iload_1
+28929:         15: ifne          25
+28930:         18: aload_3
+28931:         19: invokeinterface #126,  1          // InterfaceMethod java/util/Comparator.reversed:()Ljava/util/Comparator;
+28932:         24: astore_3
+28933:         25: aload_2
+28934:         26: aload_3
+28935:         27: invokevirtual #99                 // Method java/util/ArrayList.sort:(Ljava/util/Comparator;)V
+28936:         30: aload_2
+28937:         31: areturn
+28938: 
+28939:   public boolean b(java.lang.String);
+28940:     Code:
+
+
+--- MATCH line 31274: 22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+31244:        115: invokedynamic #170,  0            // InvokeDynamic #2:apply:()Ljava/util/function/Function;
+31245:        120: invokeinterface #167,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+31246:        125: aload_0
+31247:        126: invokedynamic #171,  0            // InvokeDynamic #3:apply:(Lac;)Ljava/util/function/Function;
+31248:        131: invokeinterface #167,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+31249:        136: aload_1
+31250:        137: dup
+31251:        138: invokestatic  #151                // Method java/util/Objects.requireNonNull:(Ljava/lang/Object;)Ljava/lang/Object;
+31252:        141: pop
+31253:        142: invokedynamic #169,  0            // InvokeDynamic #1:accept:(Lab;)Ljava/util/function/Consumer;
+31254:        147: invokeinterface #166,  2          // InterfaceMethod java/util/stream/Stream.forEach:(Ljava/util/function/Consumer;)V
+31255:        152: return
+31256: 
+31257:   private java.util.List a(entities.Wanderer);
+31258:     Code:
+31259:          0: bipush        11
+31260:          2: anewarray     #72                 // class java/lang/String
+31261:          5: dup
+31262:          6: iconst_0
+31263:          7: aload_1
+31264:          8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+31265:         11: aastore
+31266:         12: dup
+31267:         13: iconst_1
+31268:         14: aload_1
+31269:         15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+31270:         18: aastore
+31271:         19: dup
+31272:         20: iconst_2
+31273:         21: aload_1
+31274:         22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+31275:         25: aastore
+31276:         26: dup
+31277:         27: iconst_3
+31278:         28: aload_1
+31279:         29: invokestatic  #160                // Method z.a:(Lentities/Wanderer;)Ljava/lang/String;
+31280:         32: aastore
+31281:         33: dup
+31282:         34: iconst_4
+31283:         35: aload_1
+31284:         36: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+31285:         39: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31286:         42: aastore
+31287:         43: dup
+31288:         44: iconst_5
+31289:         45: aload_1
+31290:         46: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+31291:         49: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31292:         52: aastore
+31293:         53: dup
+31294:         54: bipush        6
+31295:         56: aload_1
+31296:         57: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+31297:         60: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31298:         63: aastore
+31299:         64: dup
+31300:         65: bipush        7
+31301:         67: aload_1
+31302:         68: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+31303:         71: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31304:         74: aastore
+31305:         75: dup
+31306:         76: bipush        8
+31307:         78: aload_1
+31308:         79: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+31309:         82: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31310:         85: aastore
+31311:         86: dup
+31312:         87: bipush        9
+31313:         89: aload_1
+31314:         90: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+31315:         93: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31316:         96: aastore
+31317:         97: dup
+31318:         98: bipush        10
+31319:        100: aload_1
+31320:        101: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+31321:        104: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31322:        107: aastore
+31323:        108: invokestatic  #164                // Method z.a:([Ljava/lang/String;)Ljava/util/List;
+31324:        111: areturn
+31325: 
+31326:   private void c(ab);
+31327:     Code:
+31328:          0: aload_1
+31329:          1: ldc           #7                  // String ࢳࢳࢳࢮࣺࣜ࣫ࣾ࣡ࣼࢮࣺࣟࣻ࣫ࣽࢮࣦ࣯ࣺ࣌ࣻࣼ࣠ࣟࣻ࣫ࣽࢮࢳࢳࢳ
+31330:          3: invokestatic  #100                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+31331:          6: invokevirtual #94                 // Method ab.c:(Ljava/lang/String;)V
+31332:          9: aload_1
+31333:         10: aload_0
+31334:         11: getfield      #85                 // Field a:Lt;
+31335:         14: invokevirtual #156                // Method t.h:()I
+31336:         17: invokedynamic #172,  0            // InvokeDynamic #4:makeConcatWithConstants:(I)Ljava/lang/String;
+31337:         22: invokevirtual #94                 // Method ab.c:(Ljava/lang/String;)V
+31338:         25: aload_1
+31339:         26: ldc           #2                  // String
+31340:         28: invokestatic  #100                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+31341:         31: invokevirtual #94                 // Method ab.c:(Ljava/lang/String;)V
+31342:         34: bipush        9
+31343:         36: anewarray     #72                 // class java/lang/String
+31344:         39: dup
+31345:         40: iconst_0
+31346:         41: ldc           #21                 // String ࣇ࣊
+31347:         43: invokestatic  #100                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+31348:         46: aastore
+31349:         47: dup
+31350:         48: iconst_1
+31351:         49: ldc           #8                  // String ࣀ࣯ࣣ࣯
+31352:         51: invokestatic  #100                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+31353:         54: aastore
+
+
+--- MATCH line 31645: 22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+31615:          0: aload_0
+31616:          1: getfield      #85                 // Field a:Lt;
+31617:          4: invokevirtual #153                // Method t.c:()Ljava/util/ArrayList;
+31618:          7: invokevirtual #150                // Method java/util/ArrayList.stream:()Ljava/util/stream/Stream;
+31619:         10: invokedynamic #178,  0            // InvokeDynamic #10:apply:()Ljava/util/function/Function;
+31620:         15: invokeinterface #167,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+31621:         20: invokedynamic #179,  0            // InvokeDynamic #11:apply:()Ljava/util/function/Function;
+31622:         25: invokeinterface #167,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+31623:         30: invokestatic  #152                // Method java/util/stream/Collectors.toList:()Ljava/util/stream/Collector;
+31624:         33: invokeinterface #165,  2          // InterfaceMethod java/util/stream/Stream.collect:(Ljava/util/stream/Collector;)Ljava/lang/Object;
+31625:         38: checkcast     #78                 // class java/util/List
+31626:         41: areturn
+31627: 
+31628:   private static java.util.List b(entities.Wanderer);
+31629:     Code:
+31630:          0: bipush        10
+31631:          2: anewarray     #72                 // class java/lang/String
+31632:          5: dup
+31633:          6: iconst_0
+31634:          7: aload_0
+31635:          8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+31636:         11: aastore
+31637:         12: dup
+31638:         13: iconst_1
+31639:         14: aload_0
+31640:         15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+31641:         18: aastore
+31642:         19: dup
+31643:         20: iconst_2
+31644:         21: aload_0
+31645:         22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+31646:         25: aastore
+31647:         26: dup
+31648:         27: iconst_3
+31649:         28: aload_0
+31650:         29: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+31651:         32: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31652:         35: aastore
+31653:         36: dup
+31654:         37: iconst_4
+31655:         38: aload_0
+31656:         39: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+31657:         42: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31658:         45: aastore
+31659:         46: dup
+31660:         47: iconst_5
+31661:         48: aload_0
+31662:         49: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+31663:         52: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31664:         55: aastore
+31665:         56: dup
+31666:         57: bipush        6
+31667:         59: aload_0
+31668:         60: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+31669:         63: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31670:         66: aastore
+31671:         67: dup
+31672:         68: bipush        7
+31673:         70: aload_0
+31674:         71: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+31675:         74: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31676:         77: aastore
+31677:         78: dup
+31678:         79: bipush        8
+31679:         81: aload_0
+31680:         82: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+31681:         85: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31682:         88: aastore
+31683:         89: dup
+31684:         90: bipush        9
+31685:         92: aload_0
+31686:         93: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+31687:         96: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31688:         99: aastore
+31689:        100: invokestatic  #164                // Method z.a:([Ljava/lang/String;)Ljava/util/List;
+31690:        103: areturn
+31691: 
+31692:   private static entities.Wanderer a(b);
+31693:     Code:
+31694:          0: aload_0
+31695:          1: checkcast     #66                 // class entities/Wanderer
+31696:          4: areturn
+31697: 
+31698:   private java.util.List b(f);
+31699:     Code:
+31700:          0: aload_0
+31701:          1: getfield      #85                 // Field a:Lt;
+31702:          4: aload_1
+31703:          5: invokevirtual #133                // Method f.getMonster:()Lc;
+31704:          8: invokevirtual #113                // Method c.a:()Ljava/lang/String;
+31705:         11: iconst_1
+31706:         12: invokevirtual #143                // Method java/lang/String.substring:(I)Ljava/lang/String;
+31707:         15: invokevirtual #157                // Method t.m:(Ljava/lang/String;)Lc;
+31708:         18: astore_2
+31709:         19: bipush        8
+31710:         21: anewarray     #72                 // class java/lang/String
+31711:         24: dup
+31712:         25: iconst_0
+31713:         26: aload_1
+31714:         27: invokevirtual #132                // Method f.getId:()Ljava/lang/String;
+31715:         30: aastore
+31716:         31: dup
+31717:         32: iconst_1
+31718:         33: aload_1
+31719:         34: invokevirtual #134                // Method f.getName:()Ljava/lang/String;
+31720:         37: aastore
+31721:         38: dup
+31722:         39: iconst_2
+31723:         40: aload_1
+31724:         41: invokevirtual #129                // Method f.getDescription:()Ljava/lang/String;
+
+
+--- MATCH line 31780: 22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+31750:         85: invokevirtual #130                // Method f.getDifficulty:()Lh;
+31751:         88: invokevirtual #138                // Method h.getMinWandererLevel:()I
+31752:         91: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31753:         94: aastore
+31754:         95: dup
+31755:         96: bipush        7
+31756:         98: aload_1
+31757:         99: invokevirtual #136                // Method f.getStatus:()Li;
+31758:        102: invokevirtual #139                // Method i.getDisplayName:()Ljava/lang/String;
+31759:        105: aastore
+31760:        106: invokestatic  #164                // Method z.a:([Ljava/lang/String;)Ljava/util/List;
+31761:        109: areturn
+31762: 
+31763:   private static java.util.List c(entities.Wanderer);
+31764:     Code:
+31765:          0: bipush        10
+31766:          2: anewarray     #72                 // class java/lang/String
+31767:          5: dup
+31768:          6: iconst_0
+31769:          7: aload_0
+31770:          8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+31771:         11: aastore
+31772:         12: dup
+31773:         13: iconst_1
+31774:         14: aload_0
+31775:         15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+31776:         18: aastore
+31777:         19: dup
+31778:         20: iconst_2
+31779:         21: aload_0
+31780:         22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+31781:         25: aastore
+31782:         26: dup
+31783:         27: iconst_3
+31784:         28: aload_0
+31785:         29: invokestatic  #160                // Method z.a:(Lentities/Wanderer;)Ljava/lang/String;
+31786:         32: aastore
+31787:         33: dup
+31788:         34: iconst_4
+31789:         35: aload_0
+31790:         36: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+31791:         39: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31792:         42: aastore
+31793:         43: dup
+31794:         44: iconst_5
+31795:         45: aload_0
+31796:         46: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+31797:         49: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31798:         52: aastore
+31799:         53: dup
+31800:         54: bipush        6
+31801:         56: aload_0
+31802:         57: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+31803:         60: invokestatic  #144                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+31804:         63: aastore
+31805:         64: dup
+31806:         65: bipush        7
+31807:         67: aload_0
+31808:         68: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+31809:         71: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31810:         74: aload_0
+31811:         75: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+31812:         78: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31813:         81: invokedynamic #180,  0            // InvokeDynamic #12:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+31814:         86: aastore
+31815:         87: dup
+31816:         88: bipush        8
+31817:         90: aload_0
+31818:         91: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+31819:         94: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31820:         97: aastore
+31821:         98: dup
+31822:         99: bipush        9
+31823:        101: aload_0
+31824:        102: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+31825:        105: invokestatic  #159                // Method z.a:(D)Ljava/lang/String;
+31826:        108: aastore
+31827:        109: invokestatic  #164                // Method z.a:([Ljava/lang/String;)Ljava/util/List;
+31828:        112: areturn
+31829: 
+31830:   private static entities.Wanderer b(b);
+31831:     Code:
+31832:          0: aload_0
+31833:          1: checkcast     #66                 // class entities/Wanderer
+31834:          4: areturn
+31835: 
+31836:   private static java.util.List c(f);
+31837:     Code:
+31838:          0: bipush        9
+31839:          2: anewarray     #72                 // class java/lang/String
+31840:          5: dup
+31841:          6: iconst_0
+31842:          7: aload_0
+31843:          8: invokevirtual #132                // Method f.getId:()Ljava/lang/String;
+31844:         11: aastore
+31845:         12: dup
+31846:         13: iconst_1
+31847:         14: aload_0
+31848:         15: invokevirtual #134                // Method f.getName:()Ljava/lang/String;
+31849:         18: aastore
+31850:         19: dup
+31851:         20: iconst_2
+31852:         21: aload_0
+31853:         22: invokevirtual #130                // Method f.getDifficulty:()Lh;
+31854:         25: invokevirtual #137                // Method h.getDisplayName:()Ljava/lang/String;
+31855:         28: aastore
+31856:         29: dup
+31857:         30: iconst_3
+31858:         31: aload_0
+31859:         32: invokevirtual #135                // Method f.getQuestType:()Ljava/lang/String;
+
+
+--- MATCH line 33543: 116: invokevirtual #96                 // Method entities/Wanderer.getUsername:()Ljava/lang/String; ---
+33513:         56: aload_2
+33514:         57: aload_0
+33515:         58: ldc           #9                  // String ޮ
+33516:         60: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33517:         63: bipush        40
+33518:         65: invokevirtual #85                 // Method b:(Ljava/lang/String;I)Ljava/lang/String;
+33519:         68: invokevirtual #112                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+33520:         71: ldc           #8                  // String ޙ
+33521:         73: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33522:         76: invokevirtual #112                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+33523:         79: pop
+33524:         80: aload_0
+33525:         81: aload_2
+33526:         82: ldc           #31                 // String ߚߖޱ߀߲߸߲߱߶߸߸ߪ߾
+33527:         84: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33528:         87: aload_1
+33529:         88: invokevirtual #92                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+33530:         91: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33531:         94: aload_0
+33532:         95: aload_2
+33533:         96: ldc           #33                 // String ߝ߳߼߱
+33534:         98: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33535:        101: aload_1
+33536:        102: invokevirtual #95                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+33537:        105: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33538:        108: aload_0
+33539:        109: aload_2
+33540:        110: ldc           #23                 // String ߆ߡߴߢ߹߷߸߱
+33541:        112: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33542:        115: aload_1
+33543:        116: invokevirtual #96                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+33544:        119: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33545:        122: aload_0
+33546:        123: aload_2
+33547:        124: ldc           #30                 // String ߙ߽߳
+33548:        126: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33549:        129: aload_0
+33550:        130: aload_1
+33551:        131: invokevirtual #82                 // Method b:(Lentities/Wanderer;)Ljava/lang/String;
+33552:        134: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33553:        137: aload_0
+33554:        138: aload_2
+33555:        139: ldc           #36                 // String ߟ߷ߧߵ߻
+33556:        141: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33557:        144: aload_1
+33558:        145: invokevirtual #93                 // Method entities/Wanderer.getLevel:()I
+33559:        148: invokestatic  #108                // Method java/lang/String.valueOf:(I)Ljava/lang/String;
+33560:        151: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33561:        154: aload_0
+33562:        155: aload_2
+33563:        156: ldc           #27                 // String ߖߪߡ
+33564:        158: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33565:        161: aload_1
+33566:        162: invokevirtual #91                 // Method entities/Wanderer.getExp:()I
+33567:        165: invokedynamic #131,  0            // InvokeDynamic #0:makeConcatWithConstants:(I)Ljava/lang/String;
+33568:        170: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33569:        173: aload_0
+33570:        174: aload_2
+33571:        175: ldc           #29                 // String ߘ߽߸߾
+33572:        177: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33573:        180: aload_1
+33574:        181: invokevirtual #88                 // Method entities/Wanderer.getCoins:()I
+33575:        184: invokedynamic #132,  0            // InvokeDynamic #1:makeConcatWithConstants:(I)Ljava/lang/String;
+33576:        189: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33577:        192: aload_0
+33578:        193: aload_2
+33579:        194: ldc           #32                 // String ߛ߂
+33580:        196: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33581:        199: aload_0
+33582:        200: aload_1
+33583:        201: invokevirtual #89                 // Method entities/Wanderer.getCurrentHp:()D
+33584:        204: invokevirtual #72                 // Method a:(D)Ljava/lang/String;
+33585:        207: aload_0
+33586:        208: aload_1
+33587:        209: invokevirtual #94                 // Method entities/Wanderer.getMaxHp:()D
+33588:        212: invokevirtual #72                 // Method a:(D)Ljava/lang/String;
+33589:        215: invokedynamic #133,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+33590:        220: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33591:        223: aload_0
+33592:        224: aload_2
+33593:        225: ldc           #26                 // String ߒߦߥ߱ߴ߽
+33594:        227: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33595:        230: aload_0
+33596:        231: aload_1
+33597:        232: invokevirtual #87                 // Method entities/Wanderer.getAttackPower:()D
+33598:        235: invokevirtual #72                 // Method a:(D)Ljava/lang/String;
+33599:        238: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33600:        241: aload_0
+33601:        242: aload_2
+33602:        243: ldc           #28                 // String ߗ߷߷ߵ߹ߥ߰
+33603:        245: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33604:        248: aload_0
+33605:        249: aload_1
+33606:        250: invokevirtual #90                 // Method entities/Wanderer.getDefense:()D
+33607:        253: invokevirtual #72                 // Method a:(D)Ljava/lang/String;
+33608:        256: invokevirtual #81                 // Method a:(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V
+33609:        259: aload_2
+33610:        260: aload_0
+33611:        261: ldc           #20                 // String ޾
+33612:        263: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33613:        266: bipush        40
+33614:        268: invokevirtual #85                 // Method b:(Ljava/lang/String;I)Ljava/lang/String;
+33615:        271: invokevirtual #112                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+33616:        274: ldc           #8                  // String ޙ
+33617:        276: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+33618:        279: invokevirtual #112                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+33619:        282: pop
+33620:        283: aload_2
+33621:        284: ldc           #17                 // String ޶޿ޠަߤެ޵ޱߵ
+33622:        286: invokestatic  #76                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+
+
+================================================================================
+FILE: /home/lucymayreel/ctf/compfest/d_day/reverse/its_me_burhan/recon/l_real.javap
+================================================================================
+
+================================================================================
+FILE: /home/lucymayreel/ctf/compfest/d_day/reverse/its_me_burhan/recon/p_real.javap
+================================================================================

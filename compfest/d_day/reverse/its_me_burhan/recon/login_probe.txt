@@ -1,0 +1,10 @@
+[x] Opening connection to 35.213.152.145 on port 30015
+[x] Opening connection to 35.213.152.145 on port 30015: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30015: Done
+
+========== LOGIN PROMPT ==========
+ 1
+Masukkan username: 
+==================================
+[*] Switching to interactive mode
+[*] Got EOF while reading in interactive

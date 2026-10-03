@@ -1,0 +1,849 @@
+  public boolean a(java.lang.String);
+    Code:
+         0: aload_1
+         1: ifnull        21
+         4: aload_1
+         5: invokevirtual #303                // Method java/lang/String.length:()I
+         8: getstatic     #265                // Field A:[J
+        11: ldc           #24                 // int 23
+        13: laload
+        14: l2i
+        15: ldc           #81                 // int 1972380003
+        17: ixor
+        18: if_icmpeq     32
+        21: getstatic     #265                // Field A:[J
+        24: ldc           #1                  // int 0
+        26: laload
+        27: l2i
+        28: ldc           #56                 // int 706111391
+        30: ixor
+        31: ireturn
+        32: aload_0
+        33: getfield      #289                // Field x:I
+        36: invokestatic  #337                // Method p.b:(I)Ljava/lang/String;
+        39: astore_2
+        40: getstatic     #265                // Field A:[J
+        43: ldc           #24                 // int 23
+        45: laload
+        46: l2i
+        47: ldc           #81                 // int 1972380003
+        49: ixor
+        50: newarray       int
+        52: astore_3
+        53: getstatic     #265                // Field A:[J
+        56: ldc           #1                  // int 0
+        58: laload
+        59: l2i
+        60: ldc           #56                 // int 706111391
+        62: ixor
+        63: istore        4
+        65: iload         4
+        67: getstatic     #265                // Field A:[J
+        70: ldc           #24                 // int 23
+        72: laload
+        73: l2i
+        74: ldc           #81                 // int 1972380003
+        76: ixor
+        77: if_icmpge     634
+        80: aload_2
+        81: aload_1
+        82: iload         4
+        84: invokevirtual #298                // Method java/lang/String.charAt:(I)C
+        87: invokevirtual #301                // Method java/lang/String.indexOf:(I)I
+        90: istore        5
+        92: iload         5
+        94: ifge          108
+        97: getstatic     #265                // Field A:[J
+       100: ldc           #1                  // int 0
+       102: laload
+       103: l2i
+       104: ldc           #56                 // int 706111391
+       106: ixor
+       107: ireturn
+       108: aload_3
+       109: iload         4
+       111: iload         5
+       113: iastore
+       114: iload         4
+       116: getstatic     #265                // Field A:[J
+       119: ldc           #3                  // int 2
+       121: laload
+       122: l2i
+       123: ldc           #50                 // int 553036542
+       125: ixor
+       126: iadd
+       127: iload         4
+       129: getstatic     #265                // Field A:[J
+       132: ldc           #3                  // int 2
+       134: laload
+       135: l2i
+       136: ldc           #50                 // int 553036542
+       138: ixor
+       139: iadd
+       140: getstatic     #265                // Field A:[J
+       143: ldc           #3                  // int 2
+       145: laload
+       146: l2i
+       147: ldc           #50                 // int 553036542
+       149: ixor
+       150: iadd
+       151: iload         4
+       153: iconst_m1
+       154: ixor
+       155: getstatic     #265                // Field A:[J
+       158: ldc           #3                  // int 2
+       160: laload
+       161: l2i
+       162: ldc           #50                 // int 553036542
+       164: ixor
+       165: iconst_m1
+       166: ixor
+       167: ior
+       168: iadd
+       169: isub
+       170: iload         4
+       172: getstatic     #265                // Field A:[J
+       175: ldc           #3                  // int 2
+       177: laload
+       178: l2i
+       179: ldc           #50                 // int 553036542
+       181: ixor
+       182: iadd
+       183: getstatic     #265                // Field A:[J
+       186: ldc           #3                  // int 2
+       188: laload
+       189: l2i
+       190: ldc           #50                 // int 553036542
+       192: ixor
+       193: iadd
+       194: iload         4
+       196: iconst_m1
+       197: ixor
+       198: getstatic     #265                // Field A:[J
+       201: ldc           #3                  // int 2
+       203: laload
+       204: l2i
+       205: ldc           #50                 // int 553036542
+       207: ixor
+       208: iconst_m1
+       209: ixor
+       210: ior
+       211: iadd
+       212: iadd
+       213: iload         4
+       215: getstatic     #265                // Field A:[J
+       218: ldc           #3                  // int 2
+       220: laload
+       221: l2i
+       222: ldc           #50                 // int 553036542
+       224: ixor
+       225: iadd
+       226: iload         4
+       228: getstatic     #265                // Field A:[J
+       231: ldc           #3                  // int 2
+       233: laload
+       234: l2i
+       235: ldc           #50                 // int 553036542
+       237: ixor
+       238: iadd
+       239: getstatic     #265                // Field A:[J
+       242: ldc           #3                  // int 2
+       244: laload
+       245: l2i
+       246: ldc           #50                 // int 553036542
+       248: ixor
+       249: iadd
+       250: iload         4
+       252: iconst_m1
+       253: ixor
+       254: getstatic     #265                // Field A:[J
+       257: ldc           #3                  // int 2
+       259: laload
+       260: l2i
+       261: ldc           #50                 // int 553036542
+       263: ixor
+       264: iconst_m1
+       265: ixor
+       266: ior
+       267: iadd
+       268: isub
+       269: iload         4
+       271: getstatic     #265                // Field A:[J
+       274: ldc           #3                  // int 2
+       276: laload
+       277: l2i
+       278: ldc           #50                 // int 553036542
+       280: ixor
+       281: iadd
+       282: getstatic     #265                // Field A:[J
+       285: ldc           #3                  // int 2
+       287: laload
+       288: l2i
+       289: ldc           #50                 // int 553036542
+       291: ixor
+       292: iadd
+       293: iload         4
+       295: iconst_m1
+       296: ixor
+       297: getstatic     #265                // Field A:[J
+       300: ldc           #3                  // int 2
+       302: laload
+       303: l2i
+       304: ldc           #50                 // int 553036542
+       306: ixor
+       307: iconst_m1
+       308: ixor
+       309: ior
+       310: iadd
+       311: iadd
+       312: getstatic     #265                // Field A:[J
+       315: ldc           #3                  // int 2
+       317: laload
+       318: l2i
+       319: ldc           #50                 // int 553036542
+       321: ixor
+       322: iadd
+       323: iload         4
+       325: iconst_m1
+       326: iadd
+       327: getstatic     #265                // Field A:[J
+       330: ldc           #3                  // int 2
+       332: laload
+       333: l2i
+       334: ldc           #50                 // int 553036542
+       336: ixor
+       337: iadd
+       338: iload         4
+       340: iconst_m1
+       341: ixor
+       342: iconst_m1
+       343: iconst_m1
+       344: ixor
+       345: ior
+       346: iadd
+       347: iload         4
+       349: iconst_m1
+       350: iadd
+       351: iload         4
+       353: iconst_m1
+       354: iadd
+       355: getstatic     #265                // Field A:[J
+       358: ldc           #3                  // int 2
+       360: laload
+       361: l2i
+       362: ldc           #50                 // int 553036542
+       364: ixor
+       365: iadd
+       366: iload         4
+       368: iconst_m1
+       369: ixor
+       370: iconst_m1
+       371: iconst_m1
+       372: ixor
+       373: ior
+       374: iadd
+       375: isub
+       376: isub
+       377: getstatic     #265                // Field A:[J
+       380: ldc           #3                  // int 2
+       382: laload
+       383: l2i
+       384: ldc           #50                 // int 553036542
+       386: ixor
+       387: iconst_m1
+       388: ixor
+       389: ior
+       390: iadd
+       391: isub
+       392: iload         4
+       394: getstatic     #265                // Field A:[J
+       397: ldc           #3                  // int 2
+       399: laload
+       400: l2i
+       401: ldc           #50                 // int 553036542
+       403: ixor
+       404: iadd
+       405: iload         4
+       407: getstatic     #265                // Field A:[J
+       410: ldc           #3                  // int 2
+       412: laload
+       413: l2i
+       414: ldc           #50                 // int 553036542
+       416: ixor
+       417: iadd
+       418: getstatic     #265                // Field A:[J
+       421: ldc           #3                  // int 2
+       423: laload
+       424: l2i
+       425: ldc           #50                 // int 553036542
+       427: ixor
+       428: iadd
+       429: iload         4
+       431: iconst_m1
+       432: ixor
+       433: getstatic     #265                // Field A:[J
+       436: ldc           #3                  // int 2
+       438: laload
+       439: l2i
+       440: ldc           #50                 // int 553036542
+       442: ixor
+       443: iconst_m1
+       444: ixor
+       445: ior
+       446: iadd
+       447: isub
+       448: iload         4
+       450: getstatic     #265                // Field A:[J
+       453: ldc           #3                  // int 2
+       455: laload
+       456: l2i
+       457: ldc           #50                 // int 553036542
+       459: ixor
+       460: iadd
+       461: getstatic     #265                // Field A:[J
+       464: ldc           #3                  // int 2
+       466: laload
+       467: l2i
+       468: ldc           #50                 // int 553036542
+       470: ixor
+       471: iadd
+       472: iload         4
+       474: iconst_m1
+       475: ixor
+       476: getstatic     #265                // Field A:[J
+       479: ldc           #3                  // int 2
+       481: laload
+       482: l2i
+       483: ldc           #50                 // int 553036542
+       485: ixor
+       486: iconst_m1
+       487: ixor
+       488: ior
+       489: iadd
+       490: iadd
+       491: getstatic     #265                // Field A:[J
+       494: ldc           #3                  // int 2
+       496: laload
+       497: l2i
+       498: ldc           #50                 // int 553036542
+       500: ixor
+       501: iadd
+       502: iload         4
+       504: iconst_m1
+       505: iadd
+       506: getstatic     #265                // Field A:[J
+       509: ldc           #3                  // int 2
+       511: laload
+       512: l2i
+       513: ldc           #50                 // int 553036542
+       515: ixor
+       516: iadd
+       517: iload         4
+       519: iconst_m1
+       520: ixor
+       521: iconst_m1
+       522: iconst_m1
+       523: ixor
+       524: ior
+       525: iadd
+       526: iload         4
+       528: iconst_m1
+       529: iadd
+       530: iload         4
+       532: iconst_m1
+       533: iadd
+       534: getstatic     #265                // Field A:[J
+       537: ldc           #3                  // int 2
+       539: laload
+       540: l2i
+       541: ldc           #50                 // int 553036542
+       543: ixor
+       544: iadd
+       545: iload         4
+       547: iconst_m1
+       548: ixor
+       549: iconst_m1
+       550: iconst_m1
+       551: ixor
+       552: ior
+       553: iadd
+       554: isub
+       555: isub
+       556: getstatic     #265                // Field A:[J
+       559: ldc           #3                  // int 2
+       561: laload
+       562: l2i
+       563: ldc           #50                 // int 553036542
+       565: ixor
+       566: iconst_m1
+       567: ixor
+       568: ior
+       569: iadd
+       570: iadd
+       571: istore        4
+       573: getstatic     #265                // Field A:[J
+       576: ldc           #5                  // int 4
+       578: laload
+       579: l2i
+       580: ldc           #73                 // int 1553610290
+       582: ixor
+       583: getstatic     #291                // Field z:I
+       586: getstatic     #265                // Field A:[J
+       589: ldc           #33                 // int 32
+       591: laload
+       592: l2i
+       593: ldc           #67                 // int 1331867150
+       595: ixor
+       596: iadd
+       597: getstatic     #291                // Field z:I
+       600: getstatic     #265                // Field A:[J
+       603: ldc           #33                 // int 32
+       605: laload
+       606: l2i
+       607: ldc           #67                 // int 1331867150
+       609: ixor
+       610: iadd
+       611: imul
+       612: imul
+       613: getstatic     #265                // Field A:[J
+       616: ldc           #3                  // int 2
+       618: laload
+       619: l2i
+       620: ldc           #50                 // int 553036542
+       622: ixor
+       623: isub
+       624: getstatic     #291                // Field z:I
+       627: isub
+       628: ifne          65
+       631: goto          114
+       634: aload_3
+       635: astore        4
+       637: getstatic     #265                // Field A:[J
+       640: ldc           #1                  // int 0
+       642: laload
+       643: l2i
+       644: ldc           #56                 // int 706111391
+       646: ixor
+       647: istore        5
+       649: iload         5
+       651: aload_0
+       652: getfield      #286                // Field u:[I
+       655: arraylength
+       656: if_icmpge     1163
+       659: aload_0
+       660: getfield      #286                // Field u:[I
+       663: iload         5
+       665: iaload
+       666: aload         4
+       668: invokestatic  #330                // Method p.a:(I[I)[I
+       671: astore        4
+       673: iload         5
+       675: getstatic     #265                // Field A:[J
+       678: ldc           #3                  // int 2
+       680: laload
+       681: l2i
+       682: ldc           #50                 // int 553036542
+       684: ixor
+       685: iadd
+       686: iload         5
+       688: getstatic     #265                // Field A:[J
+       691: ldc           #3                  // int 2
+       693: laload
+       694: l2i
+       695: ldc           #50                 // int 553036542
+       697: ixor
+       698: iadd
+       699: getstatic     #265                // Field A:[J
+       702: ldc           #3                  // int 2
+       704: laload
+       705: l2i
+       706: ldc           #50                 // int 553036542
+       708: ixor
+       709: iadd
+       710: iload         5
+       712: iconst_m1
+       713: ixor
+       714: getstatic     #265                // Field A:[J
+       717: ldc           #3                  // int 2
+       719: laload
+       720: l2i
+       721: ldc           #50                 // int 553036542
+       723: ixor
+       724: iconst_m1
+       725: ixor
+       726: ior
+       727: iadd
+       728: isub
+       729: iload         5
+       731: getstatic     #265                // Field A:[J
+       734: ldc           #3                  // int 2
+       736: laload
+       737: l2i
+       738: ldc           #50                 // int 553036542
+       740: ixor
+       741: iadd
+       742: getstatic     #265                // Field A:[J
+       745: ldc           #3                  // int 2
+       747: laload
+       748: l2i
+       749: ldc           #50                 // int 553036542
+       751: ixor
+       752: iadd
+       753: iload         5
+       755: iconst_m1
+       756: ixor
+       757: getstatic     #265                // Field A:[J
+       760: ldc           #3                  // int 2
+       762: laload
+       763: l2i
+       764: ldc           #50                 // int 553036542
+       766: ixor
+       767: iconst_m1
+       768: ixor
+       769: ior
+       770: iadd
+       771: iadd
+       772: iload         5
+       774: getstatic     #265                // Field A:[J
+       777: ldc           #3                  // int 2
+       779: laload
+       780: l2i
+       781: ldc           #50                 // int 553036542
+       783: ixor
+       784: iadd
+       785: iload         5
+       787: getstatic     #265                // Field A:[J
+       790: ldc           #3                  // int 2
+       792: laload
+       793: l2i
+       794: ldc           #50                 // int 553036542
+       796: ixor
+       797: iadd
+       798: getstatic     #265                // Field A:[J
+       801: ldc           #3                  // int 2
+       803: laload
+       804: l2i
+       805: ldc           #50                 // int 553036542
+       807: ixor
+       808: iadd
+       809: iload         5
+       811: iconst_m1
+       812: ixor
+       813: getstatic     #265                // Field A:[J
+       816: ldc           #3                  // int 2
+       818: laload
+       819: l2i
+       820: ldc           #50                 // int 553036542
+       822: ixor
+       823: iconst_m1
+       824: ixor
+       825: ior
+       826: iadd
+       827: isub
+       828: iload         5
+       830: getstatic     #265                // Field A:[J
+       833: ldc           #3                  // int 2
+       835: laload
+       836: l2i
+       837: ldc           #50                 // int 553036542
+       839: ixor
+       840: iadd
+       841: getstatic     #265                // Field A:[J
+       844: ldc           #3                  // int 2
+       846: laload
+       847: l2i
+       848: ldc           #50                 // int 553036542
+       850: ixor
+       851: iadd
+       852: iload         5
+       854: iconst_m1
+       855: ixor
+       856: getstatic     #265                // Field A:[J
+       859: ldc           #3                  // int 2
+       861: laload
+       862: l2i
+       863: ldc           #50                 // int 553036542
+       865: ixor
+       866: iconst_m1
+       867: ixor
+       868: ior
+       869: iadd
+       870: iadd
+       871: getstatic     #265                // Field A:[J
+       874: ldc           #3                  // int 2
+       876: laload
+       877: l2i
+       878: ldc           #50                 // int 553036542
+       880: ixor
+       881: iadd
+       882: iload         5
+       884: iconst_m1
+       885: iadd
+       886: getstatic     #265                // Field A:[J
+       889: ldc           #3                  // int 2
+       891: laload
+       892: l2i
+       893: ldc           #50                 // int 553036542
+       895: ixor
+       896: iadd
+       897: iload         5
+       899: iconst_m1
+       900: ixor
+       901: iconst_m1
+       902: iconst_m1
+       903: ixor
+       904: ior
+       905: iadd
+       906: iload         5
+       908: iconst_m1
+       909: iadd
+       910: iload         5
+       912: iconst_m1
+       913: iadd
+       914: getstatic     #265                // Field A:[J
+       917: ldc           #3                  // int 2
+       919: laload
+       920: l2i
+       921: ldc           #50                 // int 553036542
+       923: ixor
+       924: iadd
+       925: iload         5
+       927: iconst_m1
+       928: ixor
+       929: iconst_m1
+       930: iconst_m1
+       931: ixor
+       932: ior
+       933: iadd
+       934: isub
+       935: isub
+       936: getstatic     #265                // Field A:[J
+       939: ldc           #3                  // int 2
+       941: laload
+       942: l2i
+       943: ldc           #50                 // int 553036542
+       945: ixor
+       946: iconst_m1
+       947: ixor
+       948: ior
+       949: iadd
+       950: isub
+       951: iload         5
+       953: getstatic     #265                // Field A:[J
+       956: ldc           #3                  // int 2
+       958: laload
+       959: l2i
+       960: ldc           #50                 // int 553036542
+       962: ixor
+       963: iadd
+       964: iload         5
+       966: getstatic     #265                // Field A:[J
+       969: ldc           #3                  // int 2
+       971: laload
+       972: l2i
+       973: ldc           #50                 // int 553036542
+       975: ixor
+       976: iadd
+       977: getstatic     #265                // Field A:[J
+       980: ldc           #3                  // int 2
+       982: laload
+       983: l2i
+       984: ldc           #50                 // int 553036542
+       986: ixor
+       987: iadd
+       988: iload         5
+       990: iconst_m1
+       991: ixor
+       992: getstatic     #265                // Field A:[J
+       995: ldc           #3                  // int 2
+       997: laload
+       998: l2i
+       999: ldc           #50                 // int 553036542
+      1001: ixor
+      1002: iconst_m1
+      1003: ixor
+      1004: ior
+      1005: iadd
+      1006: isub
+      1007: iload         5
+      1009: getstatic     #265                // Field A:[J
+      1012: ldc           #3                  // int 2
+      1014: laload
+      1015: l2i
+      1016: ldc           #50                 // int 553036542
+      1018: ixor
+      1019: iadd
+      1020: getstatic     #265                // Field A:[J
+      1023: ldc           #3                  // int 2
+      1025: laload
+      1026: l2i
+      1027: ldc           #50                 // int 553036542
+      1029: ixor
+      1030: iadd
+      1031: iload         5
+      1033: iconst_m1
+      1034: ixor
+      1035: getstatic     #265                // Field A:[J
+      1038: ldc           #3                  // int 2
+      1040: laload
+      1041: l2i
+      1042: ldc           #50                 // int 553036542
+      1044: ixor
+      1045: iconst_m1
+      1046: ixor
+      1047: ior
+      1048: iadd
+      1049: iadd
+      1050: getstatic     #265                // Field A:[J
+      1053: ldc           #3                  // int 2
+      1055: laload
+      1056: l2i
+      1057: ldc           #50                 // int 553036542
+      1059: ixor
+      1060: iadd
+      1061: iload         5
+      1063: iconst_m1
+      1064: iadd
+      1065: getstatic     #265                // Field A:[J
+      1068: ldc           #3                  // int 2
+      1070: laload
+      1071: l2i
+      1072: ldc           #50                 // int 553036542
+      1074: ixor
+      1075: iadd
+      1076: iload         5
+      1078: iconst_m1
+      1079: ixor
+      1080: iconst_m1
+      1081: iconst_m1
+      1082: ixor
+      1083: ior
+      1084: iadd
+      1085: iload         5
+      1087: iconst_m1
+      1088: iadd
+      1089: iload         5
+      1091: iconst_m1
+      1092: iadd
+      1093: getstatic     #265                // Field A:[J
+      1096: ldc           #3                  // int 2
+      1098: laload
+      1099: l2i
+      1100: ldc           #50                 // int 553036542
+      1102: ixor
+      1103: iadd
+      1104: iload         5
+      1106: iconst_m1
+      1107: ixor
+      1108: iconst_m1
+      1109: iconst_m1
+      1110: ixor
+      1111: ior
+      1112: iadd
+      1113: isub
+      1114: isub
+      1115: getstatic     #265                // Field A:[J
+      1118: ldc           #3                  // int 2
+      1120: laload
+      1121: l2i
+      1122: ldc           #50                 // int 553036542
+      1124: ixor
+      1125: iconst_m1
+      1126: ixor
+      1127: ior
+      1128: iadd
+      1129: iadd
+      1130: istore        5
+      1132: getstatic     #291                // Field z:I
+      1135: getstatic     #265                // Field A:[J
+      1138: ldc           #3                  // int 2
+      1140: laload
+      1141: l2i
+      1142: ldc           #50                 // int 553036542
+      1144: ixor
+      1145: iadd
+      1146: getstatic     #265                // Field A:[J
+      1149: ldc           #10                 // int 9
+      1151: laload
+      1152: l2i
+      1153: ldc           #72                 // int 1525927635
+      1155: ixor
+      1156: irem
+      1157: ifne          649
+      1160: goto          673
+      1163: aload         4
+      1165: aload_0
+      1166: getfield      #290                // Field y:[I
+      1169: invokestatic  #313                // Method java/util/Arrays.equals:([I[I)Z
+      1172: ireturn
+
+  public byte[] a();
+    Code:
+         0: aload_0
+         1: getfield      #271                // Field f:Ljava/lang/String;
+         4: getstatic     #264                // Field java/nio/charset/StandardCharsets.UTF_8:Ljava/nio/charset/Charset;
+         7: invokevirtual #300                // Method java/lang/String.getBytes:(Ljava/nio/charset/Charset;)[B
+        10: astore_1
+        11: getstatic     #265                // Field A:[J
+        14: ldc           #1                  // int 0
+        16: laload
+        17: l2i
+        18: ldc           #56                 // int 706111391
+        20: ixor
+        21: istore_2
+        22: iload_2
+        23: aload_0
+        24: getfield      #286                // Field u:[I
+        27: arraylength
+        28: if_icmpge     536
+        31: aload_0
+        32: getfield      #286                // Field u:[I
+        35: iload_2
+        36: iaload
+        37: aload_1
+        38: invokestatic  #329                // Method p.a:(I[B)[B
+        41: astore_1
+        42: iload_2
+        43: getstatic     #265                // Field A:[J
+        46: ldc           #3                  // int 2
+        48: laload
+        49: l2i
+        50: ldc           #50                 // int 553036542
+        52: ixor
+        53: iadd
+        54: iload_2
+        55: getstatic     #265                // Field A:[J
+        58: ldc           #3                  // int 2
+        60: laload
+        61: l2i
+        62: ldc           #50                 // int 553036542
+        64: ixor
+        65: iadd
+        66: getstatic     #265                // Field A:[J
+        69: ldc           #3                  // int 2
+        71: laload
+        72: l2i
+        73: ldc           #50                 // int 553036542
+        75: ixor
+        76: iadd
+        77: iload_2
+        78: iconst_m1
+        79: ixor
+        80: getstatic     #265                // Field A:[J
+        83: ldc           #3                  // int 2
+        85: laload
+        86: l2i
+        87: ldc           #50                 // int 553036542
+        89: ixor
+        90: iconst_m1
+        91: ixor
+        92: ior
+        93: iadd
+        94: isub
+        95: iload_2
+        96: getstatic     #265                // Field A:[J
+        99: ldc           #3                  // int 2
+       101: laload
+       102: l2i
+       103: ldc           #50                 // int 553036542
+       105: ixor

@@ -1,0 +1,268 @@
+public final class o extends a {
+  private static int a;
+
+  private static long[] b;
+
+  public o();
+    Code:
+         0: aload_0
+         1: ldc           #12                 // String
+         3: invokestatic  #39                 // Method b:(Ljava/lang/String;)Ljava/lang/String;
+         6: invokespecial #30                 // Method a."<init>":(Ljava/lang/String;)V
+         9: return
+
+  public boolean a(java.lang.String, java.lang.String);
+    Code:
+         0: aload_0
+         1: invokevirtual #40                 // Method getUsername:()Ljava/lang/String;
+         4: aload_1
+         5: invokevirtual #32                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         8: ifeq          62
+        11: invokestatic  #38                 // Method l.c:()Ll;
+        14: aload_2
+        15: invokevirtual #37                 // Method l.a:(Ljava/lang/String;)Z
+        18: ifeq          62
+        21: getstatic     #29                 // Field b:[J
+        24: ldc           #1                  // int 0
+        26: laload
+        27: l2i
+        28: ldc           #11                 // int 1867927527
+        30: ixor
+        31: getstatic     #28                 // Field a:I
+        34: getstatic     #29                 // Field b:[J
+        37: ldc           #1                  // int 0
+        39: laload
+        40: l2i
+        41: ldc           #11                 // int 1867927527
+        43: ixor
+        44: iadd
+        45: getstatic     #29                 // Field b:[J
+        48: ldc           #2                  // int 1
+        50: laload
+        51: l2i
+        52: ldc           #7                  // int 572424338
+        54: ixor
+        55: irem
+        56: ifne          72
+        59: goto          72
+        62: getstatic     #29                 // Field b:[J
+        65: ldc           #3                  // int 2
+        67: laload
+        68: l2i
+        69: ldc           #9                  // int 703016959
+        71: ixor
+        72: ireturn
+
+  public static java.lang.String b(java.lang.String);
+    Code:
+         0: new           #15                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #34                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: getstatic     #29                 // Field b:[J
+        11: ldc           #3                  // int 2
+        13: laload
+        14: l2i
+        15: ldc           #9                  // int 703016959
+        17: ixor
+        18: istore_2
+        19: iload_2
+        20: aload_0
+        21: invokevirtual #33                 // Method java/lang/String.length:()I
+        24: if_icmpge     259
+        27: aload_0
+        28: iload_2
+        29: invokevirtual #31                 // Method java/lang/String.charAt:(I)C
+        32: istore_3
+        33: aload_1
+        34: iload_3
+        35: getstatic     #29                 // Field b:[J
+        38: ldc           #4                  // int 3
+        40: laload
+        41: l2i
+        42: ldc           #8                  // int 587757436
+        44: ixor
+        45: iadd
+        46: getstatic     #29                 // Field b:[J
+        49: ldc           #1                  // int 0
+        51: laload
+        52: l2i
+        53: ldc           #11                 // int 1867927527
+        55: ixor
+        56: iadd
+        57: iload_3
+        58: iconst_m1
+        59: ixor
+        60: getstatic     #29                 // Field b:[J
+        63: ldc           #4                  // int 3
+        65: laload
+        66: l2i
+        67: ldc           #8                  // int 587757436
+        69: ixor
+        70: iconst_m1
+        71: ixor
+        72: ior
+        73: iadd
+        74: iload_3
+        75: getstatic     #29                 // Field b:[J
+        78: ldc           #4                  // int 3
+        80: laload
+        81: l2i
+        82: ldc           #8                  // int 587757436
+        84: ixor
+        85: iadd
+        86: iload_3
+        87: getstatic     #29                 // Field b:[J
+        90: ldc           #4                  // int 3
+        92: laload
+        93: l2i
+        94: ldc           #8                  // int 587757436
+        96: ixor
+        97: iadd
+        98: getstatic     #29                 // Field b:[J
+       101: ldc           #1                  // int 0
+       103: laload
+       104: l2i
+       105: ldc           #11                 // int 1867927527
+       107: ixor
+       108: iadd
+       109: iload_3
+       110: iconst_m1
+       111: ixor
+       112: getstatic     #29                 // Field b:[J
+       115: ldc           #4                  // int 3
+       117: laload
+       118: l2i
+       119: ldc           #8                  // int 587757436
+       121: ixor
+       122: iconst_m1
+       123: ixor
+       124: ior
+       125: iadd
+       126: isub
+       127: isub
+       128: i2c
+       129: invokevirtual #35                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+       132: pop
+       133: iload_2
+       134: getstatic     #29                 // Field b:[J
+       137: ldc           #1                  // int 0
+       139: laload
+       140: l2i
+       141: ldc           #11                 // int 1867927527
+       143: ixor
+       144: iadd
+       145: iload_2
+       146: getstatic     #29                 // Field b:[J
+       149: ldc           #1                  // int 0
+       151: laload
+       152: l2i
+       153: ldc           #11                 // int 1867927527
+       155: ixor
+       156: iadd
+       157: getstatic     #29                 // Field b:[J
+       160: ldc           #1                  // int 0
+       162: laload
+       163: l2i
+       164: ldc           #11                 // int 1867927527
+       166: ixor
+       167: iadd
+       168: iload_2
+       169: iconst_m1
+       170: ixor
+       171: getstatic     #29                 // Field b:[J
+       174: ldc           #1                  // int 0
+       176: laload
+       177: l2i
+       178: ldc           #11                 // int 1867927527
+       180: ixor
+       181: iconst_m1
+       182: ixor
+       183: ior
+       184: iadd
+       185: isub
+       186: iload_2
+       187: getstatic     #29                 // Field b:[J
+       190: ldc           #1                  // int 0
+       192: laload
+       193: l2i
+       194: ldc           #11                 // int 1867927527
+       196: ixor
+       197: iadd
+       198: getstatic     #29                 // Field b:[J
+       201: ldc           #1                  // int 0
+       203: laload
+       204: l2i
+       205: ldc           #11                 // int 1867927527
+       207: ixor
+       208: iadd
+       209: iload_2
+       210: iconst_m1
+       211: ixor
+       212: getstatic     #29                 // Field b:[J
+       215: ldc           #1                  // int 0
+       217: laload
+       218: l2i
+       219: ldc           #11                 // int 1867927527
+       221: ixor
+       222: iconst_m1
+       223: ixor
+       224: ior
+       225: iadd
+       226: iadd
+       227: istore_2
+       228: getstatic     #28                 // Field a:I
+       231: getstatic     #29                 // Field b:[J
+       234: ldc           #1                  // int 0
+       236: laload
+       237: l2i
+       238: ldc           #11                 // int 1867927527
+       240: ixor
+       241: iadd
+       242: getstatic     #29                 // Field b:[J
+       245: ldc           #2                  // int 1
+       247: laload
+       248: l2i
+       249: ldc           #7                  // int 572424338
+       251: ixor
+       252: irem
+       253: ifne          19
+       256: goto          33
+       259: aload_1
+       260: invokevirtual #36                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+       263: areturn
+
+  static {};
+    Code:
+         0: ldc           #6                  // int 5
+         2: newarray       long
+         4: putstatic     #29                 // Field b:[J
+         7: getstatic     #29                 // Field b:[J
+        10: iconst_0
+        11: ldc2_w        #26                 // long 1867927526l
+        14: lastore
+        15: getstatic     #29                 // Field b:[J
+        18: iconst_1
+        19: ldc2_w        #18                 // long 572424336l
+        22: lastore
+        23: getstatic     #29                 // Field b:[J
+        26: iconst_2
+        27: ldc2_w        #22                 // long 703016959l
+        30: lastore
+        31: getstatic     #29                 // Field b:[J
+        34: iconst_3
+        35: ldc2_w        #20                 // long 587763847l
+        38: lastore
+        39: getstatic     #29                 // Field b:[J
+        42: iconst_4
+        43: ldc2_w        #24                 // long 1639917142l
+        46: lastore
+        47: getstatic     #29                 // Field b:[J
+        50: ldc           #5                  // int 4
+        52: laload
+        53: l2i
+        54: ldc           #10                 // int 1568992034
+        56: ixor
+        57: putstatic     #28                 // Field a:I
+        60: return
+}

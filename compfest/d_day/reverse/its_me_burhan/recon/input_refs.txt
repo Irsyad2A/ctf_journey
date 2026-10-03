@@ -1,0 +1,38 @@
+ALL.javap:2:  private static java.util.Scanner a;
+ALL.javap:69:         7: getstatic     #267                // Field a:Ljava/util/Scanner;
+ALL.javap:70:        10: invokevirtual #367                // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+ALL.javap:3160:         5: new           #261                // class java/util/Scanner
+ALL.javap:3162:         9: getstatic     #276                // Field java/lang/System.in:Ljava/io/InputStream;
+ALL.javap:3163:        12: invokespecial #366                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+ALL.javap:3164:        15: putstatic     #267                // Field a:Ljava/util/Scanner;
+ALL.javap:26286:  private static final java.util.Scanner a;
+ALL.javap:26433:       195: getstatic     #59                 // Field a:Ljava/util/Scanner;
+ALL.javap:26434:       198: invokevirtual #123                // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+ALL.javap:26765:         0: new           #45                 // class java/util/Scanner
+ALL.javap:26767:         4: getstatic     #57                 // Field java/lang/System.in:Ljava/io/InputStream;
+ALL.javap:26768:         7: invokespecial #122                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+ALL.javap:26769:        10: putstatic     #59                 // Field a:Ljava/util/Scanner;
+ALL.javap:30065:  private final java.util.Scanner b;
+ALL.javap:30104:        54: new           #20                 // class java/util/Scanner
+ALL.javap:30107:        59: invokespecial #54                 // Method java/util/Scanner."<init>":(Ljava/io/File;)V
+ALL.javap:30108:        62: putfield      #22                 // Field b:Ljava/util/Scanner;
+ALL.javap:30190:         1: getfield      #22                 // Field b:Ljava/util/Scanner;
+ALL.javap:30191:         4: invokevirtual #56                 // Method java/util/Scanner.hasNextLine:()Z
+ALL.javap:30196:        13: getfield      #22                 // Field b:Ljava/util/Scanner;
+ALL.javap:30197:        16: invokevirtual #57                 // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+ALL.javap:30254:         1: getfield      #22                 // Field b:Ljava/util/Scanner;
+ALL.javap:30255:         4: invokevirtual #55                 // Method java/util/Scanner.close:()V
+Main.javap:2:  private static java.util.Scanner a;
+Main.javap:69:         7: getstatic     #267                // Field a:Ljava/util/Scanner;
+Main.javap:70:        10: invokevirtual #367                // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+Main.javap:3160:         5: new           #261                // class java/util/Scanner
+Main.javap:3162:         9: getstatic     #276                // Field java/lang/System.in:Ljava/io/InputStream;
+Main.javap:3163:        12: invokespecial #366                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+Main.javap:3164:        15: putstatic     #267                // Field a:Ljava/util/Scanner;
+menu_frieren.javap:37:  private static final java.util.Scanner a;
+menu_frieren.javap:184:       195: getstatic     #59                 // Field a:Ljava/util/Scanner;
+menu_frieren.javap:185:       198: invokevirtual #123                // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+menu_frieren.javap:516:         0: new           #45                 // class java/util/Scanner
+menu_frieren.javap:518:         4: getstatic     #57                 // Field java/lang/System.in:Ljava/io/InputStream;
+menu_frieren.javap:519:         7: invokespecial #122                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+menu_frieren.javap:520:        10: putstatic     #59                 // Field a:Ljava/util/Scanner;

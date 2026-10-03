@@ -1,0 +1,43 @@
+  public static byte[] a(byte[], byte[]);
+    Code:
+         0: aload_0
+         1: arraylength
+         2: aload_1
+         3: arraylength
+         4: iadd
+         5: newarray       byte
+         7: astore_2
+         8: aload_0
+         9: getstatic     #254                // Field c:[J
+        12: ldc           #1                  // int 0
+        14: laload
+        15: l2i
+        16: ldc           #101                // int 1627198067
+        18: ixor
+        19: aload_2
+        20: getstatic     #254                // Field c:[J
+        23: ldc           #1                  // int 0
+        25: laload
+        26: l2i
+        27: ldc           #101                // int 1627198067
+        29: ixor
+        30: aload_0
+        31: arraylength
+        32: invokestatic  #273                // Method java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+        35: aload_1
+        36: getstatic     #254                // Field c:[J
+        39: ldc           #1                  // int 0
+        41: laload
+        42: l2i
+        43: ldc           #101                // int 1627198067
+        45: ixor
+        46: aload_2
+        47: aload_0
+        48: arraylength
+        49: aload_1
+        50: arraylength
+        51: invokestatic  #273                // Method java/lang/System.arraycopy:(Ljava/lang/Object;ILjava/lang/Object;II)V
+        54: aload_2
+        55: areturn
+
+  public static byte[] b(byte[], byte[]);

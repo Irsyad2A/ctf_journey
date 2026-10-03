@@ -1,0 +1,9 @@
+  public static byte[] b(byte[], byte[]);
+    Code:
+         0: aload_0
+         1: aload_1
+         2: invokestatic  #279                // Method a:([B[B)[B
+         5: invokestatic  #278                // Method a:([B)[B
+         8: areturn
+
+  public static byte[] a(int, byte[]);

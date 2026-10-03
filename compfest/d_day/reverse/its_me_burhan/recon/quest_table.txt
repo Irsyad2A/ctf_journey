@@ -1,0 +1,25 @@
+=== l METHODS ===
+public n[] l.k()
+
+=== QUEST TABLE ===
+class = class [Ln;
+value = [Ln;@5b480cf9
+size = 18
+[00] id=Pembersihan Hutan difficulty=mudah description=2 monsterIndex=0 class=n
+[01] id=Reruntuhan Batu difficulty=menengah description=2 monsterIndex=1 class=n
+[02] id=Teror Rawa difficulty=menengah description=2 monsterIndex=2 class=n
+[03] id=Badai Beku difficulty=mudah description=2 monsterIndex=3 class=n
+[04] id=Segel Kuno difficulty=menengah description=2 monsterIndex=4 class=n
+[05] id=Perburuan Kelabu difficulty=menengah description=2 monsterIndex=5 class=n
+[06] id=Ekspedisi Gua difficulty=mudah description=2 monsterIndex=6 class=n
+[07] id=Sarang Racun difficulty=menengah description=2 monsterIndex=7 class=n
+[08] id=Besi Berkarat difficulty=menengah description=2 monsterIndex=8 class=n
+[09] id=Kobaran Abadi difficulty=mudah description=2 monsterIndex=9 class=n
+[10] id=Bisikan Puing difficulty=menengah description=2 monsterIndex=10 class=n
+[11] id=Jalur Berbisa difficulty=menengah description=2 monsterIndex=11 class=n
+[12] id=Puncak Gunung difficulty=mudah description=2 monsterIndex=12 class=n
+[13] id=Tebing Berangin difficulty=menengah description=2 monsterIndex=13 class=n
+[14] id=Jembatan Tua difficulty=menengah description=2 monsterIndex=14 class=n
+[15] id=Ritual Beku difficulty=mudah description=2 monsterIndex=15 class=n
+[16] id=Padang Terlarang difficulty=menengah description=2 monsterIndex=16 class=n
+[17] id=Kedalaman Danau difficulty=menengah description=2 monsterIndex=17 class=n

@@ -1,0 +1,757 @@
+[+] connecting 35.213.152.145:30096
+[x] Opening connection to 35.213.152.145 on port 30096
+[x] Opening connection to 35.213.152.145 on port 30096: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30096: Done
+[+] waiting token prompt
+[+] waiting menu
+[+] BurhanQuest ready
+
+[1] burhan / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[2] burhan / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[3] burhan / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[4] burhan / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[5] burhan / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[6] burhan / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[7] burhan / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[8] burhan / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[9] burhan / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[10] burhan / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[11] burhan / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[12] Burhan / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[13] Burhan / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[14] Burhan / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[15] Burhan / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[16] Burhan / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[17] Burhan / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[18] Burhan / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[19] Burhan / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[20] Burhan / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[21] Burhan / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[22] Burhan / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[23] BURHAN / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[24] BURHAN / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[25] BURHAN / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[26] BURHAN / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[27] BURHAN / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[28] BURHAN / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[29] BURHAN / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[30] BURHAN / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[31] BURHAN / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[32] BURHAN / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[33] BURHAN / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[34] admin / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[35] admin / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[36] admin / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[37] admin / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[38] admin / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[39] admin / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[40] admin / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[41] admin / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[42] admin / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[43] admin / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[44] admin / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[45] ADMIN / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[46] ADMIN / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[47] ADMIN / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[48] ADMIN / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[49] ADMIN / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[50] ADMIN / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[51] ADMIN / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[52] ADMIN / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[53] ADMIN / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[54] ADMIN / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[55] ADMIN / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[56] Admin / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[57] Admin / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[58] Admin / 4EED3JDBHBTLYV3B
+----- response -----
+ 4EED3JDBHBTLYV3B
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[59] Admin / admin
+----- response -----
+ admin
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[60] Admin / password
+----- response -----
+ password
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[61] Admin / burhan
+----- response -----
+ burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[62] Admin / Burhan
+----- response -----
+ Burhan
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[63] Admin / BURHAN
+----- response -----
+ BURHAN
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[64] Admin / burhani
+----- response -----
+ burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[65] Admin / Burhani
+----- response -----
+ Burhani
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[66] Admin / BURHANI
+----- response -----
+ BURHANI
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[67] burhani / burunghantu123
+----- response -----
+ burunghantu123
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[68] burhani / K76LD64XY3URX4RM
+----- response -----
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan:
+--------------------
+
+[69] burhani / 4EED3JDBHBTLYV3B

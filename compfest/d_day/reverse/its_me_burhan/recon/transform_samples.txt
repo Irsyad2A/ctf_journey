@@ -1,0 +1,18 @@
+===== AAAAAAAAAAAAAAAA =====
+seed = DEV-SEED
+flag = AAAAAAAAAAAAAAAA
+u    = [4, 2, 6, 3, 5, 0, 1]
+l.a() length = 16
+l.a() hex    = 70593610e7b57a3ffbae5e0baf4ae277
+===== BBBBBBBBBBBBBBBB =====
+seed = DEV-SEED
+flag = BBBBBBBBBBBBBBBB
+u    = [4, 2, 6, 3, 5, 0, 1]
+l.a() length = 16
+l.a() hex    = 10ffe5c29f733e09cb843aed9738d671
+===== TESTFLAG =====
+seed = DEV-SEED
+flag = TESTFLAG
+u    = [4, 2, 6, 3, 5, 0, 1]
+l.a() length = 8
+l.a() hex    = 0fe9968247545805

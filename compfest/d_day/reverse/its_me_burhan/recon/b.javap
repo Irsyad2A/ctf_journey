@@ -1,0 +1,61 @@
+public abstract class b {
+  private java.lang.String a;
+
+  private java.lang.String b;
+
+  private java.lang.String c;
+
+  public b(java.lang.String, java.lang.String, java.lang.String);
+    Code:
+         0: aload_0
+         1: invokespecial #9                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #4                  // Field a:Ljava/lang/String;
+         9: aload_0
+        10: aload_2
+        11: putfield      #5                  // Field b:Ljava/lang/String;
+        14: aload_0
+        15: aload_3
+        16: putfield      #6                  // Field c:Ljava/lang/String;
+        19: return
+
+  public abstract java.lang.String getWelcomeMessage();
+
+  public abstract java.lang.String getActorName();
+
+  public boolean a(java.lang.String, java.lang.String);
+    Code:
+         0: aload_0
+         1: invokevirtual #8                  // Method getUsername:()Ljava/lang/String;
+         4: aload_1
+         5: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+         8: ifeq          26
+        11: aload_0
+        12: invokevirtual #7                  // Method a:()Ljava/lang/String;
+        15: aload_2
+        16: invokevirtual #10                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        19: ifeq          26
+        22: iconst_1
+        23: goto          27
+        26: iconst_0
+        27: ireturn
+
+  public java.lang.String getName();
+    Code:
+         0: aload_0
+         1: getfield      #4                  // Field a:Ljava/lang/String;
+         4: areturn
+
+  public java.lang.String getUsername();
+    Code:
+         0: aload_0
+         1: getfield      #5                  // Field b:Ljava/lang/String;
+         4: areturn
+
+  protected java.lang.String a();
+    Code:
+         0: aload_0
+         1: getfield      #6                  // Field c:Ljava/lang/String;
+         4: areturn
+}

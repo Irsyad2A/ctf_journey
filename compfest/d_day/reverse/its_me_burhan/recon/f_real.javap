@@ -1,0 +1,116 @@
+public abstract class f {
+  private final java.lang.String a;
+
+  private final java.lang.String b;
+
+  private final java.lang.String c;
+
+  private final h d;
+
+  private final c e;
+
+  private i f;
+
+  protected f(int, java.lang.String, java.lang.String, h, c);
+    Code:
+         0: aload_0
+         1: invokespecial #17                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iload_1
+         6: invokedynamic #19,  0             // InvokeDynamic #0:makeConcatWithConstants:(I)Ljava/lang/String;
+        11: putfield      #7                  // Field a:Ljava/lang/String;
+        14: aload_0
+        15: aload_2
+        16: putfield      #8                  // Field b:Ljava/lang/String;
+        19: aload_0
+        20: aload_3
+        21: putfield      #9                  // Field c:Ljava/lang/String;
+        24: aload_0
+        25: aload         4
+        27: putfield      #10                 // Field d:Lh;
+        30: aload_0
+        31: aload         5
+        33: putfield      #11                 // Field e:Lc;
+        36: aload_0
+        37: getstatic     #14                 // Field i.TERSEDIA:Li;
+        40: putfield      #12                 // Field f:Li;
+        43: return
+
+  public abstract java.lang.String getQuestType();
+
+  public java.lang.String getDescription();
+    Code:
+         0: aload_0
+         1: getfield      #9                  // Field c:Ljava/lang/String;
+         4: areturn
+
+  public int getExpReward();
+    Code:
+         0: aload_0
+         1: getfield      #11                 // Field e:Lc;
+         4: invokevirtual #15                 // Method c.b:()I
+         7: ireturn
+
+  public int getCoinReward();
+    Code:
+         0: aload_0
+         1: getfield      #11                 // Field e:Lc;
+         4: invokevirtual #16                 // Method c.c:()I
+         7: ireturn
+
+  public int getBonusExp();
+    Code:
+         0: iconst_0
+         1: ireturn
+
+  public int getBonusCoin();
+    Code:
+         0: iconst_0
+         1: ireturn
+
+  public void a();
+    Code:
+         0: aload_0
+         1: getstatic     #13                 // Field i.SELESAI:Li;
+         4: putfield      #12                 // Field f:Li;
+         7: return
+
+  public void c();
+    Code:
+         0: aload_0
+         1: getstatic     #14                 // Field i.TERSEDIA:Li;
+         4: putfield      #12                 // Field f:Li;
+         7: return
+
+  public java.lang.String getId();
+    Code:
+         0: aload_0
+         1: getfield      #7                  // Field a:Ljava/lang/String;
+         4: areturn
+
+  public java.lang.String getName();
+    Code:
+         0: aload_0
+         1: getfield      #8                  // Field b:Ljava/lang/String;
+         4: areturn
+
+  public h getDifficulty();
+    Code:
+         0: aload_0
+         1: getfield      #10                 // Field d:Lh;
+         4: areturn
+
+  public c getMonster();
+    Code:
+         0: aload_0
+         1: getfield      #11                 // Field e:Lc;
+         4: areturn
+
+  public i getStatus();
+    Code:
+         0: aload_0
+         1: getfield      #12                 // Field f:Li;
+         4: areturn
+
+  public abstract java.lang.String toString();
+}

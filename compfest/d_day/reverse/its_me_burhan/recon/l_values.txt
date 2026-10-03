@@ -1,0 +1,218 @@
+=== L BASIC ===
+d() = DEV-SEED
+e() = 3042
+f() = 8
+g() = 9345.0
+h() = 947.0
+i() = 447.0
+
+=== l.a() BYTE ARRAY ===
+length = 51
+hex    = 4562ef6a00c986f5be5a9320cbec7dde81f7fa97da47e493c7a0f739608ddebd6c99607b122712f47922a762f902faa1666471
+ascii  = Eb.j.....Z. ..}......G.....9`...l.`{.'..y".b....fdq
+
+=== QUEST CHECKS ===
+
+[Pembersihan Hutan]
+a(q) = false
+b(q) = 61314
+c(q) = 540f61d86f92
+d(q) = c55a2b9fa06e
+e(q) = sigil-pertempuran [Pembersihan Hutan]: 61314
+f(q) = sigil-arsip: 540f61d86f92
+g(q) = sigil-ekspor: c55a2b9fa06e
+
+[Reruntuhan Batu]
+a(q) = false
+b(q) = 89185
+c(q) = bd0f4b90425c
+d(q) = aaf871998723
+e(q) = sigil-pertempuran [Reruntuhan Batu]: 89185
+f(q) = sigil-arsip: bd0f4b90425c
+g(q) = sigil-ekspor: aaf871998723
+
+[Teror Rawa]
+a(q) = false
+b(q) = 66007
+c(q) = 536ca544aca4
+d(q) = 4f28eddad27b
+e(q) = sigil-pertempuran [Teror Rawa]: 66007
+f(q) = sigil-arsip: 536ca544aca4
+g(q) = sigil-ekspor: 4f28eddad27b
+
+[Badai Beku]
+a(q) = false
+b(q) = 44371
+c(q) = f3489cb7da78
+d(q) = 6c0358ef5137
+e(q) = sigil-pertempuran [Badai Beku]: 44371
+f(q) = sigil-arsip: f3489cb7da78
+g(q) = sigil-ekspor: 6c0358ef5137
+
+[Segel Kuno]
+a(q) = false
+b(q) = 30634
+c(q) = 65499beb5d1d
+d(q) = 128c03492012
+e(q) = sigil-pertempuran [Segel Kuno]: 30634
+f(q) = sigil-arsip: 65499beb5d1d
+g(q) = sigil-ekspor: 128c03492012
+
+[Perburuan Kelabu]
+a(q) = false
+b(q) = 20718
+c(q) = 596094dc5d3f
+d(q) = c8b4ea3212d7
+e(q) = sigil-pertempuran [Perburuan Kelabu]: 20718
+f(q) = sigil-arsip: 596094dc5d3f
+g(q) = sigil-ekspor: c8b4ea3212d7
+
+[Ekspedisi Gua]
+a(q) = false
+b(q) = 86272
+c(q) = 21c0571ccf0b
+d(q) = 05d4b84fb039
+e(q) = sigil-pertempuran [Ekspedisi Gua]: 86272
+f(q) = sigil-arsip: 21c0571ccf0b
+g(q) = sigil-ekspor: 05d4b84fb039
+
+[Sarang Racun]
+a(q) = false
+b(q) = 88963
+c(q) = b69792d24f25
+d(q) = fcf8cbc5fb12
+e(q) = sigil-pertempuran [Sarang Racun]: 88963
+f(q) = sigil-arsip: b69792d24f25
+g(q) = sigil-ekspor: fcf8cbc5fb12
+
+[Besi Berkarat]
+a(q) = false
+b(q) = 83906
+c(q) = a64532fdb7ad
+d(q) = 00e52cf1ccb7
+e(q) = sigil-pertempuran [Besi Berkarat]: 83906
+f(q) = sigil-arsip: a64532fdb7ad
+g(q) = sigil-ekspor: 00e52cf1ccb7
+
+[Kobaran Abadi]
+a(q) = false
+b(q) = 35386
+c(q) = 8b398b1fd055
+d(q) = 97ffde21c19c
+e(q) = sigil-pertempuran [Kobaran Abadi]: 35386
+f(q) = sigil-arsip: 8b398b1fd055
+g(q) = sigil-ekspor: 97ffde21c19c
+
+[Bisikan Puing]
+a(q) = false
+b(q) = 79231
+c(q) = efe7fd7113e3
+d(q) = ae4568b48275
+e(q) = sigil-pertempuran [Bisikan Puing]: 79231
+f(q) = sigil-arsip: efe7fd7113e3
+g(q) = sigil-ekspor: ae4568b48275
+
+[Jalur Berbisa]
+a(q) = false
+b(q) = 41141
+c(q) = 34242af0a17d
+d(q) = 4c36cc92871c
+e(q) = sigil-pertempuran [Jalur Berbisa]: 41141
+f(q) = sigil-arsip: 34242af0a17d
+g(q) = sigil-ekspor: 4c36cc92871c
+
+[Puncak Gunung]
+a(q) = false
+b(q) = 71301
+c(q) = 61d52ecc05cd
+d(q) = ffaf5b612c3f
+e(q) = sigil-pertempuran [Puncak Gunung]: 71301
+f(q) = sigil-arsip: 61d52ecc05cd
+g(q) = sigil-ekspor: ffaf5b612c3f
+
+[Tebing Berangin]
+a(q) = false
+b(q) = 33227
+c(q) = 00c6f4397295
+d(q) = 1f47589d678a
+e(q) = sigil-pertempuran [Tebing Berangin]: 33227
+f(q) = sigil-arsip: 00c6f4397295
+g(q) = sigil-ekspor: 1f47589d678a
+
+[Jembatan Tua]
+a(q) = false
+b(q) = 98776
+c(q) = cee09731cd4f
+d(q) = c6547c8a1ec9
+e(q) = sigil-pertempuran [Jembatan Tua]: 98776
+f(q) = sigil-arsip: cee09731cd4f
+g(q) = sigil-ekspor: c6547c8a1ec9
+
+[Ritual Beku]
+a(q) = false
+b(q) = 65759
+c(q) = 172e617993c8
+d(q) = e262500a5a64
+e(q) = sigil-pertempuran [Ritual Beku]: 65759
+f(q) = sigil-arsip: 172e617993c8
+g(q) = sigil-ekspor: e262500a5a64
+
+[Padang Terlarang]
+a(q) = false
+b(q) = 82640
+c(q) = d70955d1f8a2
+d(q) = 9c6ff6527e21
+e(q) = sigil-pertempuran [Padang Terlarang]: 82640
+f(q) = sigil-arsip: d70955d1f8a2
+g(q) = sigil-ekspor: 9c6ff6527e21
+
+[Kedalaman Danau]
+a(q) = false
+b(q) = 59150
+c(q) = 0919d689ad63
+d(q) = 3d152065ab00
+e(q) = sigil-pertempuran [Kedalaman Danau]: 59150
+f(q) = sigil-arsip: 0919d689ad63
+g(q) = sigil-ekspor: 3d152065ab00
+
+=== m[] ===
+size = 18
+m[0] = m[name=Goblin Hutan, hp=551.0, atk=27.0, def=20.0, exp=8948, coin=914]
+m[1] = m[name=Golem Batu, hp=465.0, atk=67.0, def=19.0, exp=1269, coin=495]
+m[2] = m[name=Naga Rawa, hp=291.0, atk=64.0, def=26.0, exp=8871, coin=780]
+m[3] = m[name=Iblis Salju, hp=597.0, atk=39.0, def=19.0, exp=4153, coin=347]
+m[4] = m[name=Penjaga Tersegel, hp=467.0, atk=31.0, def=5.0, exp=5695, coin=519]
+m[5] = m[name=Serigala Kelabu, hp=308.0, atk=49.0, def=27.0, exp=8334, coin=916]
+m[6] = m[name=Kelelawar Gua, hp=592.0, atk=28.0, def=14.0, exp=2597, coin=762]
+m[7] = m[name=Laba-laba Racun, hp=567.0, atk=47.0, def=16.0, exp=7837, coin=563]
+m[8] = m[name=Ksatria Berkarat, hp=417.0, atk=46.0, def=27.0, exp=6402, coin=843]
+m[9] = m[name=Elemental Api, hp=376.0, atk=28.0, def=14.0, exp=7077, coin=846]
+m[10] = m[name=Hantu Reruntuhan, hp=352.0, atk=36.0, def=20.0, exp=3776, coin=348]
+m[11] = m[name=Ular Berbisa, hp=273.0, atk=61.0, def=21.0, exp=4109, coin=151]
+m[12] = m[name=Beruang Gunung, hp=554.0, atk=64.0, def=13.0, exp=1604, coin=188]
+m[13] = m[name=Harpy Angin, hp=390.0, atk=26.0, def=19.0, exp=8888, coin=520]
+m[14] = m[name=Troll Jembatan, hp=490.0, atk=50.0, def=17.0, exp=1248, coin=463]
+m[15] = m[name=Lich Beku, hp=296.0, atk=42.0, def=11.0, exp=4190, coin=820]
+m[16] = m[name=Chimera Padang, hp=581.0, atk=62.0, def=6.0, exp=6541, coin=345]
+m[17] = m[name=Kraken Danau, hp=335.0, atk=38.0, def=15.0, exp=3104, coin=551]
+
+=== n[] ===
+size = 18
+n[0] = n[name=Pembersihan Hutan, difficulty=mudah, type=2, monsterIndex=0]
+n[1] = n[name=Reruntuhan Batu, difficulty=menengah, type=2, monsterIndex=1]
+n[2] = n[name=Teror Rawa, difficulty=menengah, type=2, monsterIndex=2]
+n[3] = n[name=Badai Beku, difficulty=mudah, type=2, monsterIndex=3]
+n[4] = n[name=Segel Kuno, difficulty=menengah, type=2, monsterIndex=4]
+n[5] = n[name=Perburuan Kelabu, difficulty=menengah, type=2, monsterIndex=5]
+n[6] = n[name=Ekspedisi Gua, difficulty=mudah, type=2, monsterIndex=6]
+n[7] = n[name=Sarang Racun, difficulty=menengah, type=2, monsterIndex=7]
+n[8] = n[name=Besi Berkarat, difficulty=menengah, type=2, monsterIndex=8]
+n[9] = n[name=Kobaran Abadi, difficulty=mudah, type=2, monsterIndex=9]
+n[10] = n[name=Bisikan Puing, difficulty=menengah, type=2, monsterIndex=10]
+n[11] = n[name=Jalur Berbisa, difficulty=menengah, type=2, monsterIndex=11]
+n[12] = n[name=Puncak Gunung, difficulty=mudah, type=2, monsterIndex=12]
+n[13] = n[name=Tebing Berangin, difficulty=menengah, type=2, monsterIndex=13]
+n[14] = n[name=Jembatan Tua, difficulty=menengah, type=2, monsterIndex=14]
+n[15] = n[name=Ritual Beku, difficulty=mudah, type=2, monsterIndex=15]
+n[16] = n[name=Padang Terlarang, difficulty=menengah, type=2, monsterIndex=16]
+n[17] = n[name=Kedalaman Danau, difficulty=menengah, type=2, monsterIndex=17]

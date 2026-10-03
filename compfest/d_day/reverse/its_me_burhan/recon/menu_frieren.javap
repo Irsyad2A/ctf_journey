@@ -1,0 +1,581 @@
+         6: ireturn
+
+  public static java.lang.String k(java.lang.String);
+    Code:
+         0: new           #21                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #49                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #47                 // Method java/lang/String.length:()I
+        15: if_icmpge     45
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #42                 // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 40079
+        28: ixor
+        29: iload_2
+        30: ldc           #2                  // int 65535
+        32: irem
+        33: ixor
+        34: i2c
+        35: invokevirtual #50                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        38: pop
+        39: iinc          2, 1
+        42: goto          10
+        45: aload_1
+        46: invokevirtual #51                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        49: areturn
+}
+public class r {
+  private static final java.util.Scanner a;
+
+  private static java.util.Random b;
+
+  public static void a(long);
+    Code:
+         0: new           #44                 // class java/util/Random
+         3: dup
+         4: lload_0
+         5: invokespecial #121                // Method java/util/Random."<init>":(J)V
+         8: putstatic     #60                 // Field b:Ljava/util/Random;
+        11: return
+
+  public static double[] a(h);
+    Code:
+         0: iconst_2
+         1: newarray       double
+         3: dup
+         4: iconst_0
+         5: dconst_0
+         6: dastore
+         7: dup
+         8: iconst_1
+         9: dconst_0
+        10: dastore
+        11: astore_1
+        12: aload_0
+        13: getstatic     #56                 // Field h.MUDAH:Lh;
+        16: if_acmpne     34
+        19: aload_1
+        20: iconst_0
+        21: ldc2_w        #51                 // double 1.25d
+        24: dastore
+        25: aload_1
+        26: iconst_1
+        27: ldc2_w        #49                 // double 0.75d
+        30: dastore
+        31: goto          64
+        34: aload_0
+        35: getstatic     #55                 // Field h.MENENGAH:Lh;
+        38: if_acmpne     52
+        41: aload_1
+        42: iconst_0
+        43: dconst_1
+        44: dastore
+        45: aload_1
+        46: iconst_1
+        47: dconst_1
+        48: dastore
+        49: goto          64
+        52: aload_1
+        53: iconst_0
+        54: ldc2_w        #49                 // double 0.75d
+        57: dastore
+        58: aload_1
+        59: iconst_1
+        60: ldc2_w        #51                 // double 1.25d
+        63: dastore
+        64: aload_1
+        65: areturn
+
+  public static void a(entities.Wanderer, f);
+    Code:
+         0: aload_0
+         1: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+         4: dstore_2
+         5: aload_1
+         6: invokevirtual #103                // Method f.getMonster:()Lc;
+         9: astore        4
+        11: invokestatic  #129                // Method x.a:()Lx;
+        14: astore        5
+        16: aload         5
+        18: getstatic     #53                 // Field am.BATTLE:Lam;
+        21: aload_0
+        22: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+        25: aload         4
+        27: invokevirtual #69                 // Method c.k:()Ljava/lang/String;
+        30: aload_1
+        31: invokevirtual #102                // Method f.getId:()Ljava/lang/String;
+        34: invokedynamic #131,  0            // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+        39: invokevirtual #130                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+        42: aload         4
+        44: invokevirtual #64                 // Method c.f:()V
+        47: aload_0
+        48: invokevirtual #85                 // Method entities/Wanderer.f:()V
+        51: aload         4
+        53: invokevirtual #68                 // Method c.j:()V
+        56: aload         4
+        58: invokevirtual #62                 // Method c.d:()D
+        61: dstore        6
+        63: dconst_0
+        64: dstore        8
+        66: dconst_0
+        67: dstore        10
+        69: aload_1
+        70: invokevirtual #100                // Method f.getDifficulty:()Lh;
+        73: astore        12
+        75: aload         12
+        77: invokestatic  #127                // Method a:(Lh;)[D
+        80: astore        13
+        82: aload         13
+        84: iconst_0
+        85: daload
+        86: dstore        14
+        88: aload         13
+        90: iconst_1
+        91: daload
+        92: dstore        16
+        94: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        97: ldc           #28                 // String 뵪뵪뵪뵷봕봶봣봣봻봲뵷봓봾봺봢봻봶봾뵷뵪뵪뵪
+        99: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       102: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       105: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       108: aload_0
+       109: invokevirtual #89                 // Method entities/Wanderer.getCombatInfo:()Ljava/lang/String;
+       112: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       115: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       118: ldc           #22                 // String 봡봤
+       120: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       123: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       126: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       129: aload         4
+       131: invokevirtual #73                 // Method c.o:()Ljava/lang/String;
+       134: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       137: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       140: aload_1
+       141: invokevirtual #104                // Method f.getName:()Ljava/lang/String;
+       144: aload         12
+       146: invokevirtual #106                // Method h.name:()Ljava/lang/String;
+       149: invokedynamic #132,  0            // InvokeDynamic #1:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       154: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       157: iconst_0
+       158: istore        18
+       160: aload_0
+       161: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+       164: ifne          595
+       167: aload         4
+       169: invokevirtual #72                 // Method c.n:()Z
+       172: ifne          595
+       175: iinc          18, 1
+       178: iload         18
+       180: iconst_1
+       181: if_icmpeq     202
+       184: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       187: ldc           #25                 // String 뵝봃봲봼봶봹뵷봒봹봣봲봥뵷봢봹봣봢봼뵷봺봲봻봶봹봽봢봣봼봶봹뵹뵹뵹
+       189: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       192: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       195: getstatic     #59                 // Field a:Ljava/util/Scanner;
+       198: invokevirtual #123                // Method java/util/Scanner.nextLine:()Ljava/lang/String;
+       201: pop
+       202: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       205: iload         18
+       207: invokedynamic #133,  0            // InvokeDynamic #2:makeConcatWithConstants:(I)Ljava/lang/String;
+       212: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       215: iload         18
+       217: iconst_2
+       218: irem
+       219: iconst_1
+       220: if_icmpne     423
+       223: aload_0
+       224: invokevirtual #83                 // Method entities/Wanderer.e:()V
+       227: aload_0
+       228: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+       231: astore        19
+       233: aload         19
+       235: ifnull        246
+       238: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       241: aload         19
+       243: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       246: aload_0
+       247: aload         4
+       249: dload         14
+       251: invokevirtual #75                 // Method entities/Wanderer.a:(Lc;D)V
+       254: dconst_1
+       255: aload_0
+       256: invokevirtual #88                 // Method entities/Wanderer.getAttackPower:()D
+       259: aload         4
+       261: invokevirtual #71                 // Method c.m:()D
+       264: dsub
+       265: invokestatic  #111                // Method java/lang/Math.max:(DD)D
+       268: dload         14
+       270: dmul
+       271: dstore        20
+       273: aload_0
+       274: dload         20
+       276: invokevirtual #80                 // Method entities/Wanderer.c:(D)D
+       279: dstore        22
+       281: aload_0
+       282: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+       285: astore        24
+       287: aload         24
+       289: ifnull        300
+       292: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       295: aload         24
+       297: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       300: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       303: aload_0
+       304: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       307: aload         4
+       309: invokevirtual #69                 // Method c.k:()Ljava/lang/String;
+       312: invokedynamic #134,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       317: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       320: aload         4
+       322: dload         22
+       324: invokevirtual #61                 // Method c.a:(D)V
+       327: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       330: aload         4
+       332: invokevirtual #69                 // Method c.k:()Ljava/lang/String;
+       335: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       338: dload         22
+       340: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       343: dload         14
+       345: invokedynamic #135,  0            // InvokeDynamic #4:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;D)Ljava/lang/String;
+       350: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       353: aload_0
+       354: dload         22
+       356: invokevirtual #84                 // Method entities/Wanderer.e:(D)V
+       359: aload_0
+       360: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+       363: astore        25
+       365: aload         25
+       367: ifnull        378
+       370: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       373: aload         25
+       375: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       378: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       381: aload         4
+       383: invokevirtual #69                 // Method c.k:()Ljava/lang/String;
+       386: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       389: dconst_0
+       390: aload         4
+       392: invokevirtual #62                 // Method c.d:()D
+       395: invokestatic  #111                // Method java/lang/Math.max:(DD)D
+       398: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       401: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       404: aload         4
+       406: invokevirtual #63                 // Method c.e:()D
+       409: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       412: invokedynamic #136,  0            // InvokeDynamic #5:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       417: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       420: goto          160
+       423: aload         4
+       425: invokevirtual #65                 // Method c.g:()V
+       428: aload         4
+       430: invokevirtual #66                 // Method c.h:()Ljava/lang/String;
+       433: astore        19
+       435: aload         19
+       437: ifnull        448
+       440: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       443: aload         19
+       445: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       448: aload         4
+       450: invokevirtual #72                 // Method c.n:()Z
+       453: ifne          592
+       456: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       459: aload         4
+       461: invokevirtual #69                 // Method c.k:()Ljava/lang/String;
+       464: aload_0
+       465: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       468: invokedynamic #134,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       473: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       476: dconst_1
+       477: aload         4
+       479: invokevirtual #70                 // Method c.l:()D
+       482: aload_0
+       483: invokevirtual #91                 // Method entities/Wanderer.getDefense:()D
+       486: dsub
+       487: invokestatic  #111                // Method java/lang/Math.max:(DD)D
+       490: dload         16
+       492: dmul
+       493: dstore        20
+       495: aload_0
+       496: dload         20
+       498: invokevirtual #82                 // Method entities/Wanderer.d:(D)D
+       501: dstore        22
+       503: aload_0
+       504: dload         22
+       506: invokevirtual #78                 // Method entities/Wanderer.b:(D)V
+       509: aload_0
+       510: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+       513: astore        24
+       515: aload         24
+       517: ifnull        528
+       520: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       523: aload         24
+       525: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       528: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       531: aload_0
+       532: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       535: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       538: dload         22
+       540: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       543: dload         16
+       545: invokedynamic #137,  0            // InvokeDynamic #6:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;D)Ljava/lang/String;
+       550: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       553: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       556: aload_0
+       557: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       560: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       563: dconst_0
+       564: aload_0
+       565: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+       568: invokestatic  #111                // Method java/lang/Math.max:(DD)D
+       571: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       574: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       577: aload_0
+       578: invokevirtual #92                 // Method entities/Wanderer.getMaxHp:()D
+       581: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       584: invokedynamic #136,  0            // InvokeDynamic #5:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       589: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       592: goto          160
+       595: aload_0
+       596: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+       599: ifne          606
+       602: iconst_1
+       603: goto          607
+       606: iconst_0
+       607: istore        19
+       609: aload_0
+       610: iload         19
+       612: invokevirtual #77                 // Method entities/Wanderer.a:(Z)V
+       615: aload         5
+       617: getstatic     #53                 // Field am.BATTLE:Lam;
+       620: aload_0
+       621: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+       624: iload         19
+       626: ifeq          637
+       629: ldc           #19                 // String 봚봲봹봶봹봰
+       631: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       634: goto          642
+       637: ldc           #20                 // String 봜봶봻봶봿
+       639: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       642: invokedynamic #138,  0            // InvokeDynamic #7:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       647: invokevirtual #130                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+       650: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       653: ldc           #27                 // String 뵝뵪뵪뵪뵷봕봶봣봣봻봲뵷봄봲봻봲봤봶봾뵷뵪뵪뵪
+       655: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       658: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       661: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       664: aload_0
+       665: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       668: invokedynamic #139,  0            // InvokeDynamic #8:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       673: invokevirtual #108                // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+       676: dload         6
+       678: aload         4
+       680: invokevirtual #62                 // Method c.d:()D
+       683: dsub
+       684: dstore        8
+       686: dload_2
+       687: aload_0
+       688: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+       691: dsub
+       692: dstore        10
+       694: iload         19
+       696: ifeq          771
+       699: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       702: ldc           #23                 // String 봺봲봹봶봹봰뵶
+       704: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       707: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       710: aload_1
+       711: invokevirtual #101                // Method f.getExpReward:()I
+       714: aload_1
+       715: invokevirtual #98                 // Method f.getBonusExp:()I
+       718: iadd
+       719: istore        20
+       721: aload_1
+       722: invokevirtual #99                 // Method f.getCoinReward:()I
+       725: aload_1
+       726: invokevirtual #97                 // Method f.getBonusCoin:()I
+       729: iadd
+       730: istore        21
+       732: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       735: aload_0
+       736: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       739: iload         20
+       741: iload         21
+       743: invokedynamic #140,  0            // InvokeDynamic #9:makeConcatWithConstants:(Ljava/lang/String;II)Ljava/lang/String;
+       748: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       751: aload_0
+       752: iload         20
+       754: iload         21
+       756: invokevirtual #79                 // Method entities/Wanderer.b:(II)V
+       759: aload_1
+       760: invokevirtual #95                 // Method f.a:()V
+       763: aload_0
+       764: aload_1
+       765: invokevirtual #76                 // Method entities/Wanderer.a:(Lf;)V
+       768: goto          820
+       771: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       774: ldc           #24                 // String 봼봶봻봶봿뵶
+       776: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       779: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       782: aload_0
+       783: dload_2
+       784: invokevirtual #74                 // Method entities/Wanderer.a:(D)V
+       787: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       790: ldc           #21                 // String 봟봇뵷봳봾봧봢봻봾봿봼봶봹뵷봼봲뵷봼봸봹봳봾봤봾뵷봤봲봵봲봻봢봺뵷봵봶봣봣봻봲뵹
+       792: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       795: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       798: aload_1
+       799: invokevirtual #96                 // Method f.c:()V
+       802: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       805: aload_1
+       806: invokevirtual #105                // Method f.getStatus:()Li;
+       809: invokevirtual #107                // Method i.getDisplayName:()Ljava/lang/String;
+       812: invokedynamic #141,  0            // InvokeDynamic #10:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       817: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       820: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       823: ldc           #26                 // String 뵝뵪뵪뵪뵷봕봶봣봣봻봲뵷봄봢봺봺봶봥봮뵷뵪뵪뵪
+       825: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       828: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       831: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       834: iload         18
+       836: invokedynamic #142,  0            // InvokeDynamic #11:makeConcatWithConstants:(I)Ljava/lang/String;
+       841: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       844: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       847: aload_0
+       848: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       851: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       854: dload         8
+       856: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       859: invokedynamic #143,  0            // InvokeDynamic #12:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       864: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       867: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       870: aload_0
+       871: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+       874: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+       877: dload         10
+       879: invokevirtual #119                // Method java/text/DecimalFormat.format:(D)Ljava/lang/String;
+       882: invokedynamic #144,  0            // InvokeDynamic #13:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       887: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       890: aload_0
+       891: invokevirtual #94                 // Method entities/Wanderer.getPassiveSummary:()Ljava/lang/String;
+       894: astore        20
+       896: aload         20
+       898: invokevirtual #113                // Method java/lang/String.isEmpty:()Z
+       901: ifeq          912
+       904: aload         4
+       906: invokevirtual #67                 // Method c.i:()I
+       909: ifle          955
+       912: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       915: ldc           #18                 // String 봇봶봤봤봾봡봲뵷봃봥봾봰봰봲봥뵷봄봢봺봺봶봥봮뵭
+       917: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       920: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       923: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       926: aload         20
+       928: invokevirtual #108                // Method java/io/PrintStream.print:(Ljava/lang/String;)V
+       931: aload         4
+       933: invokevirtual #67                 // Method c.i:()I
+       936: ifle          955
+       939: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       942: aload         4
+       944: invokevirtual #67                 // Method c.i:()I
+       947: invokedynamic #145,  0            // InvokeDynamic #14:makeConcatWithConstants:(I)Ljava/lang/String;
+       952: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       955: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       958: iload         19
+       960: ifeq          971
+       963: ldc           #19                 // String 봚봲봹봶봹봰
+       965: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       968: goto          976
+       971: ldc           #20                 // String 봜봶봻봶봿
+       973: invokestatic  #128                // Method a:(Ljava/lang/String;)Ljava/lang/String;
+       976: invokedynamic #146,  0            // InvokeDynamic #15:makeConcatWithConstants:(Ljava/lang/String;)Ljava/lang/String;
+       981: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       984: iload         19
+       986: ifeq          1011
+       989: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       992: invokestatic  #125                // Method l.c:()Ll;
+       995: aload_0
+       996: invokestatic  #124                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+       999: invokevirtual #126                // Method l.e:(Ljava/lang/String;)Ljava/lang/String;
+      1002: invokevirtual #110                // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      1005: getstatic     #58                 // Field java/lang/System.out:Ljava/io/PrintStream;
+      1008: invokevirtual #109                // Method java/io/PrintStream.println:()V
+      1011: return
+
+  static {};
+    Code:
+         0: new           #45                 // class java/util/Scanner
+         3: dup
+         4: getstatic     #57                 // Field java/lang/System.in:Ljava/io/InputStream;
+         7: invokespecial #122                // Method java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+        10: putstatic     #59                 // Field a:Ljava/util/Scanner;
+        13: new           #44                 // class java/util/Random
+        16: dup
+        17: invokespecial #120                // Method java/util/Random."<init>":()V
+        20: putstatic     #60                 // Field b:Ljava/util/Random;
+        23: return
+
+  public static java.lang.String a(java.lang.String);
+    Code:
+         0: new           #40                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #115                // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #114                // Method java/lang/String.length:()I
+        15: if_icmpge     40
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #112                // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 48471
+        28: ixor
+        29: i2c
+        30: invokevirtual #116                // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        33: pop
+        34: iinc          2, 1
+        37: goto          10
+        40: aload_1
+        41: invokevirtual #117                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        44: areturn
+}
+public class s {
+  private int a;
+
+  private final w b;
+
+  private final v c;
+
+  public s(w, v);
+    Code:
+         0: aload_0
+         1: invokespecial #15                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: iconst_1
+         6: putfield      #10                 // Field a:I
+         9: aload_0
+        10: aload_1
+        11: putfield      #11                 // Field b:Lw;
+        14: aload_0
+        15: aload_2
+        16: putfield      #12                 // Field c:Lv;
+        19: return
+
+  public void a();
+    Code:
+         0: aload_0
+         1: dup

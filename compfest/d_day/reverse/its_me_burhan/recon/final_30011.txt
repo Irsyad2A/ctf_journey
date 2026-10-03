@@ -1,0 +1,13 @@
+[x] Opening connection to 35.213.152.145 on port 30011
+[x] Opening connection to 35.213.152.145 on port 30011: Trying 35.213.152.145
+[+] Opening connection to 35.213.152.145 on port 30011: Done
+
+========== REMOTE RESULT ==========
+ K76LD64XY3URX4RM
+Username atau password salah.
+
+=== Hari ke-1 ===
+1. Login
+2. Keluar dari program
+Masukkan pilihan: 
+[*] Closed connection to 35.213.152.145 port 30011

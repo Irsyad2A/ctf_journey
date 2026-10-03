@@ -1,0 +1,1701 @@
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda6780000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda6759000
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 1003544, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda6663000
+mmap(0x7efda6674000, 536576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7efda6674000
+mmap(0x7efda66f7000, 393216, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x94000) = 0x7efda66f7000
+mmap(0x7efda6757000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf3000) = 0x7efda6757000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 123328, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda6644000
+mmap(0x7efda6647000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7efda6647000
+mmap(0x7efda665b000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7efda665b000
+mmap(0x7efda6661000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7efda6661000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 184504, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda6616000
+mmap(0x7efda661a000, 122880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7efda661a000
+mmap(0x7efda6638000, 36864, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7efda6638000
+mmap(0x7efda6641000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7efda6641000
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda6420000
+mmap(0x7efda6448000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7efda6448000
+mmap(0x7efda65b0000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7efda65b0000
+mmap(0x7efda6603000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7efda6603000
+mmap(0x7efda6609000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efda6609000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda641e000
+munmap(0x7efda6759000, 155939)          = 0
+read(3, "0\n", 32)                      = 2
+mmap(NULL, 3063024, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda6000000
+mmap(NULL, 27028, PROT_READ, MAP_SHARED, 3, 0) = 0x7efda6779000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_DROPPABLE|MAP_ANONYMOUS, -1, 0) = 0x7efda6778000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda6777000
+read(3, "00400000-00422000 r--p 00000000 "..., 1024) = 1024
+read(3, "      /usr/lib/x86_64-linux-gnu/"..., 1024) = 1024
+read(3, "-7efda665b000 r-xp 00003000 103:"..., 1024) = 1024
+read(3, " 00:00 0 \n7efda6778000-7efda6779"..., 1024) = 1024
+read(3, "         /usr/lib/x86_64-linux-g"..., 1024) = 186
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda631e000
+mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5fbf000
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda62fd000
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda6773000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5ebf000
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 383
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 211
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5e9e000
+read(3, "+\16\r\n\0\0\0\0\347\262)j9\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 6739) = 6738
+read(3, "", 1)                          = 0
+munmap(0x7efda5e9e000, 135168)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\177?\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 12968) = 12967
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\355\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 2331) = 2330
+read(3, "", 1)                          = 0
+read(3, "import sys, types, os;p = os.pat"..., 463) = 462
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j%\20\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 7201) = 7200
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\310,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 15842) = 15841
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\237\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 4616) = 4615
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jJ\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 1668) = 1667
+read(3, "", 1)                          = 0
+read(3, "import os; var = 'SETUPTOOLS_USE"..., 152) = 151
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\16\352\3hc\32\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 11662) = 11661
+read(3, "", 1)                          = 0
+read(3, "import sys, types, os;has_mfs = "..., 540) = 539
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\233\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 306) = 305
+read(3, "", 1)                          = 0
+read(3, "#!/usr/bin/env python3\n\nfrom pwn"..., 131072) = 2954
+read(3, "", 128118)                     = 0
+read(3, "#!/usr/bin/env python3\n\nfrom pwn"..., 4096) = 2954
+read(3, "#!/usr/bin/env python3\n\nfrom pwn"..., 4096) = 2954
+read(3, "", 4096)                       = 0
+read(3, "# Promote useful stuff to toplev"..., 577) = 576
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5dbf000
+read(3, "+\16\r\n\0\0\0\0\347\262)jb\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 4779) = 4778
+read(3, "", 1)                          = 0
+read(3, "# Get all the modules from pwnli"..., 3127) = 3126
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\247\316\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 74760) = 74759
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j1\4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 1532) = 1531
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\226+\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 18997) = 18996
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\200\37\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 11681) = 11680
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jyG\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0"..., 96732) = 96731
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\324E\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 19966) = 19965
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\312M\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\t\0\0"..., 88027) = 88026
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\347h\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 29664) = 29663
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\241\235\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0"..., 45254) = 45253
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\224\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0"..., 5624) = 5623
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jD\25\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1809) = 1808
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j,\252\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 47993) = 47992
+read(3, "", 1)                          = 0
+mmap(NULL, 208896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5d8c000
+read(3, "+\16\r\n\0\0\0\0\347\262)j$\36\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 7917) = 7916
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5c8c000
+read(3, "+\16\r\n\0\0\0\0\347\262)j\270\21\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 78593) = 78592
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jl\37\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 9499) = 9498
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\266K\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 18435) = 18434
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\256\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 2497) = 2496
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\247w\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 36981) = 36980
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jYU\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 26945) = 26944
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\30\n\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\35\0\0"..., 3875) = 3874
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\27+\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 18518) = 18517
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jp\27\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0"..., 54893) = 54892
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\206!\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0"..., 10113) = 10112
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jkE\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 27631) = 27630
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jz\17\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9402) = 9401
+read(3, "", 1)                          = 0
+mmap(NULL, 143360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5c69000
+read(3, "+\16\r\n\0\0\0\0\347\262)jo\361\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 139597) = 139596
+read(3, "", 1)                          = 0
+munmap(0x7efda5c69000, 143360)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\204\255\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 49657) = 49656
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\207c\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 31595) = 31594
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\335\261\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\30\0\0"..., 54225) = 54224
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jP\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 4489) = 4488
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\203'\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 10403) = 10402
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5b8c000
+read(3, "+\16\r\n\0\0\0\0\347\262)j\231l\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 31137) = 31136
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jC0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 12873) = 12872
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j[\336\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 66489) = 66488
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\350\277\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\24\0\0"..., 48079) = 48078
+read(3, "", 1)                          = 0
+read(3, "from base64 import b64encode\ntry"..., 31087) = 31086
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5a8c000
+read(3, "+\16\r\n\0\0\0\0\347\262)j\35W\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 26862) = 26861
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\35\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 328) = 327
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\240\222\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\25\0\0"..., 43050) = 43049
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\277\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 4584) = 4583
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jlb\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 84954) = 84953
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\217U\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\37\0\0"..., 65844) = 65843
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\1L\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 27060) = 27059
+read(3, "", 1)                          = 0
+mmap(NULL, 417792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5a26000
+munmap(0x7efda5d8c000, 208896)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\361\200\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 42073) = 42072
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jK\353\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 71591) = 71590
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\207\32\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 7863) = 7862
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\312.\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 15282) = 15281
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0"..., 143) = 142
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\0\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0"..., 151) = 150
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j&\26\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 7804) = 7803
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 34032, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda676a000
+mmap(0x7efda676c000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efda676c000
+mmap(0x7efda676f000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7efda676f000
+mmap(0x7efda6771000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7efda6771000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda5d98000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 80936, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda5a12000
+mmap(0x7efda5a14000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efda5a14000
+mmap(0x7efda5a22000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7efda5a22000
+mmap(0x7efda5a24000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7efda5a24000
+munmap(0x7efda5d98000, 155939)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jr4\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\17\0\0"..., 16462) = 16461
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 42960, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda675f000
+mmap(0x7efda6761000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efda6761000
+mmap(0x7efda6765000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7efda6765000
+mmap(0x7efda6768000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7efda6768000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda5d98000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 196824, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda59e1000
+mmap(0x7efda59e5000, 126976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7efda59e5000
+mmap(0x7efda5a04000, 49152, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7efda5a04000
+mmap(0x7efda5a10000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7efda5a10000
+munmap(0x7efda5d98000, 155939)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jA\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 11724) = 11723
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 60880, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda62ee000
+mmap(0x7efda62f1000, 20480, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7efda62f1000
+mmap(0x7efda62f6000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7efda62f6000
+mmap(0x7efda62fb000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7efda62fb000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda5d98000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 823352, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda5917000
+mmap(0x7efda591c000, 716800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7efda591c000
+mmap(0x7efda59cb000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb4000) = 0x7efda59cb000
+mmap(0x7efda59df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc7000) = 0x7efda59df000
+munmap(0x7efda5d98000, 155939)          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\0070\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 15736) = 15735
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j#\222\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 37864) = 37863
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j_\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3593) = 3592
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\\_\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\v\0\0"..., 30815) = 30814
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 585) = 584
+read(3, "", 1)                          = 0
+read(3, "__version__ = '4.15.0'\n", 24) = 23
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nPwntools exposes several mag"..., 5761) = 5760
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 2237) = 2236
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 4631) = 4630
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom __f"..., 14199) = 14198
+read(3, "", 1)                          = 0
+read(3, "# Copyright (c) 2010-2024 Benjam"..., 34704) = 34703
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5817000
+read(3, "TYPE_UNICODE     = 1\nTYPE_KEYSYM"..., 9213) = 9212
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 3085) = 3084
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 13604) = 13603
+read(3, "", 1)                          = 0
+read(3, "__all__ = ['get']\nimport sys\nif "..., 158) = 157
+read(3, "", 1)                          = 0
+read(3, "from __future__ import division\n"..., 1939) = 1938
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j7\r\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 2816) = 2815
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 130384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda5d9f000
+mmap(0x7efda5da6000, 45056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7efda5da6000
+mmap(0x7efda5db1000, 45056, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7efda5db1000
+mmap(0x7efda5dbc000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7efda5dbc000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda57f0000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 238000, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda57b5000
+mmap(0x7efda57be000, 163840, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7efda57be000
+mmap(0x7efda57e6000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7efda57e6000
+mmap(0x7efda57ee000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x39000) = 0x7efda57ee000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 219456, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda577f000
+mmap(0x7efda578e000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7efda578e000
+mmap(0x7efda57a2000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7efda57a2000
+mmap(0x7efda57b0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7efda57b0000
+munmap(0x7efda57f0000, 155939)          = 0
+read(3, "from __future__ import absolute_"..., 11409) = 11408
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 37584, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda5d95000
+mmap(0x7efda5d98000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7efda5d98000
+mmap(0x7efda5d9a000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7efda5d9a000
+mmap(0x7efda5d9c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7efda5d9c000
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nImpl"..., 54106) = 54105
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"Allow"..., 2128) = 2127
+read(3, "", 1)                          = 0
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda675b000
+read(3, "+\16\r\n\0\0\0\0\347\262)j\20\331\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 73415) = 73414
+read(3, "", 1)                          = 0
+read(3, "\nclass Device(object):\n    arch "..., 319) = 318
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nTime"..., 5840) = 5839
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nCompatibility layer with pyt"..., 2826) = 2825
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 3965) = 3964
+read(3, "", 1)                          = 0
+read(3, "\36\2%\0&\0\17\0\235\1R\6xterm-256color|xterm"..., 32768) = 4242
+read(3, "", 24576)                      = 0
+read(3, "__all__ = [\n    'asm',\n    'chec"..., 300) = 299
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 200) = 199
+read(3, "", 1)                          = 0
+read(3, "\"\"\"Provides utilities for intera"..., 44201) = 44200
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j#Q\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 26110) = 26109
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nimport s"..., 621) = 620
+read(3, "", 1)                          = 0
+read(3, "# file generated by setuptools-s"..., 705) = 704
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom ._p"..., 1767) = 1766
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nThis"..., 58704) = 58703
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda567f000
+read(3, "+\16\r\n\0\0\0\0\347\262)jK\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 499) = 498
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\247t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 47382) = 47381
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\n\v\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 3006) = 3005
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 353400, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda5628000
+mmap(0x7efda562f000, 241664, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7efda562f000
+mmap(0x7efda566a000, 69632, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x42000) = 0x7efda566a000
+mmap(0x7efda567b000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52000) = 0x7efda567b000
+read(3, "+\16\r\n\0\0\0\0\347\262)j\371-\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 14190) = 14189
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nimport d"..., 24864) = 24863
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nCommon code used in multiple"..., 933) = 932
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom .tz"..., 445) = 444
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nThis"..., 62568) = 62567
+read(3, "", 1)                          = 0
+read(3, "from functools import wraps\n\nfro"..., 12665) = 12664
+read(3, "", 1)                          = 0
+read(3, "from datetime import timedelta\ni"..., 2555) = 2554
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nThis"..., 12911) = 12910
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n\"\"\"\nThis"..., 13207) = 13206
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nReplacement for the Python s"..., 3011) = 3010
+read(3, "", 1)                          = 0
+read(3, "\"\"\"The pwnlib is not a big truck"..., 897) = 896
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 5939) = 5938
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nLogging module for printing "..., 24732) = 24731
+read(3, "", 1)                          = 0
+read(3, "__all__ = ['PwnlibException']\nim"..., 867) = 866
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\n__all__ "..., 910) = 909
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 6733) = 6732
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom __f"..., 57712) = 57711
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 4515) = 4514
+read(3, "", 1)                          = 0
+read(3, "from __future__ import absolute_"..., 176) = 175
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom __f"..., 37755) = 37754
+read(3, "", 1)                          = 0
+read(3, "\"\"\"\nThis module includes and ext"..., 28032) = 28031
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\224\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 982) = 981
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\203/\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 17750) = 17749
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\311/\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 18409) = 18408
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\236%\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 14320) = 14319
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j:\20\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 85059) = 85058
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)j\37\"\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0"..., 7375) = 7374
+read(3, "", 1)                          = 0
+read(3, "from __future__ import division\n"..., 5811) = 5810
+read(3, "", 1)                          = 0
+read(3, " # -*- coding: utf-8 -*-\nr\"\"\"\nMo"..., 41027) = 41026
+read(3, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5528000
+read(3, "from __future__ import absolute_"..., 16597) = 16596
+read(3, "", 1)                          = 0
+read(3, "from __future__ import division\n"..., 31780) = 31779
+read(3, "", 1)                          = 0
+read(3, "# -*- coding: utf-8 -*-\nfrom __f"..., 52155) = 52154
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jsV\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 29677) = 29676
+read(3, "", 1)                          = 0
+read(3, "+\16\r\n\0\0\0\0\347\262)jnx\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\35\0\0"..., 29834) = 29833
+read(3, "", 1)                          = 0
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 153824, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda57f1000
+mmap(0x7efda57f8000, 77824, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7efda57f8000
+mmap(0x7efda580b000, 32768, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7efda580b000
+mmap(0x7efda5813000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7efda5813000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7efda5501000
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 71424, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7efda54ef000
+mmap(0x7efda54f1000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7efda54f1000
+mmap(0x7efda54fd000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7efda54fd000
+mmap(0x7efda54ff000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7efda54ff000
+munmap(0x7efda5501000, 155939)          = 0
+read(3, "00400000-00422000 r--p 00000000 "..., 1024) = 1024
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda6759000
+mmap(0x7efda6759000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0xc000) = 0x7efda6759000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda62ed000
+read(4, "+\16\r\n\0\0\0\0\347\262)j\375\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 3683) = 3682
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)j\\\24\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 6317) = 6316
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)j\363\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 2928) = 2927
+read(4, "", 1)                          = 0
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 21488, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efda5d8f000
+mmap(0x7efda5d91000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7efda5d91000
+mmap(0x7efda5d92000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7efda5d92000
+mmap(0x7efda5d93000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7efda5d93000
+read(4, "\"\"\"Run foreign-architecture bina"..., 5174) = 5173
+read(4, "", 1)                          = 0
+read(4, "\"\"\"\nFunctions for computing vari"..., 1193) = 1192
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)j\363$\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 8348) = 8347
+read(4, "", 1)                          = 0
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 66288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efda5517000
+mmap(0x7efda551b000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x4000) = 0x7efda551b000
+mmap(0x7efda5521000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0x7efda5521000
+mmap(0x7efda5525000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xd000) = 0x7efda5525000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7efda54c8000
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 6494312, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efda4e00000
+mmap(0x7efda4ee6000, 3751936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xe6000) = 0x7efda4ee6000
+mmap(0x7efda527a000, 1261568, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x47a000) = 0x7efda527a000
+mmap(0x7efda53ae000, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x5ae000) = 0x7efda53ae000
+mmap(0x7efda542f000, 10344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efda542f000
+munmap(0x7efda54c8000, 155939)          = 0
+read(4, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+read(5, "# The configurations proposed he"..., 4096) = 689
+read(5, "", 4096)                       = 0
+read(4, "\t# keep passed DN ordering\n\n# A "..., 4096) = 4096
+read(4, "name: another PKIX recommendatio"..., 4096) = 4096
+read(4, "nsta.priv.pem\ncert = $insta::cer"..., 4096) = 381
+read(4, "", 4096)                       = 0
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 143472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efda54cb000
+mmap(0x7efda54d2000, 73728, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x7000) = 0x7efda54d2000
+mmap(0x7efda54e4000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x19000) = 0x7efda54e4000
+mmap(0x7efda54ea000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x1f000) = 0x7efda54ea000
+read(4, "from __future__ import absolute_"..., 5861) = 5860
+read(4, "", 1)                          = 0
+read(4, "from __future__ import absolute_"..., 3093) = 3092
+read(4, "", 1)                          = 0
+read(4, "#!/usr/bin/env python\n#\n# This i"..., 3213) = 3212
+read(4, "", 1)                          = 0
+read(4, "#! python\n#\n# Base class and sup"..., 21798) = 21797
+read(4, "", 1)                          = 0
+read(4, "#!/usr/bin/env python\n#\n# backen"..., 35128) = 35127
+read(4, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4d00000
+read(4, "from __future__ import absolute_"..., 5330) = 5329
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)j\2174\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 17508) = 17507
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)j\220[\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 18598) = 18597
+read(4, "", 1)                          = 0
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 25840, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7efda5510000
+mmap(0x7efda5512000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x2000) = 0x7efda5512000
+mmap(0x7efda5514000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x4000) = 0x7efda5514000
+mmap(0x7efda5515000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x4000) = 0x7efda5515000
+read(4, "from __future__ import absolute_"..., 74715) = 74714
+read(4, "", 1)                          = 0
+read(4, "+\16\r\n\0\0\0\0\347\262)jN\317\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\f\0\0"..., 133242) = 133241
+read(4, "", 1)                          = 0
+read(4, "from __future__ import division\n"..., 4347) = 4346
+read(4, "", 1)                          = 0
+read(4, "# -*- coding: utf-8 -*-\nr\"\"\"\nRou"..., 18215) = 18214
+read(4, "", 1)                          = 0
+read(5, "", 8192)                       = 0
+read(5, "\"\"\"\nImplementation of the Androi"..., 19621) = 19620
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 11034) = 11033
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2009, Giampaolo "..., 87817) = 87816
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4c00000
+read(5, "# Copyright (c) 2009, Giampaolo "..., 28585) = 28584
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2009, Giampaolo "..., 86532) = 86531
+read(5, "", 1)                          = 0
+mmap(NULL, 221184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5495000
+munmap(0x7efda5495000, 221184)          = 0
+read(5, "# Copyright (c) 2009, Giampaolo "..., 7142) = 7141
+read(5, "", 1)                          = 0
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 30064, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5508000
+mmap(0x7efda550a000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7efda550a000
+mmap(0x7efda550d000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x5000) = 0x7efda550d000
+mmap(0x7efda550e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x5000) = 0x7efda550e000
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 25360, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5501000
+mmap(0x7efda5503000, 8192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7efda5503000
+mmap(0x7efda5505000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7efda5505000
+mmap(0x7efda5506000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7efda5506000
+read(5, "cpu  711623 651 367336 11348474 "..., 32768) = 3241
+read(5, "cpu  711623 651 367336 11348475 "..., 32768) = 3241
+read(5, "cpu  711623 651 367336 11348476 "..., 32768) = 3241
+read(5, "", 32768)                      = 0
+read(5, "from __future__ import absolute_"..., 9398) = 9397
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\357N\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 24757) = 24756
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\262,\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 8611) = 8610
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nThis file exists only for ba"..., 120) = 119
+read(5, "", 1)                          = 0
+read(5, "from __future__ import division\n"..., 1345) = 1344
+read(5, "", 1)                          = 0
+read(5, "from __future__ import unicode_l"..., 3853) = 3852
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\nr\"\"\"\nUti"..., 32296) = 32295
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 6138) = 6137
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Module containing constants e"..., 5118) = 5117
+read(5, "", 1)                          = 0
+read(5, "try:\n    base = long  # workarou"..., 341) = 340
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 4719) = 4718
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 7027) = 7026
+read(5, "", 1)                          = 0
+read(5, "The shellcode module.\n\nThis modu"..., 150) = 149
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nAnalogous to atexit, this mo"..., 2960) = 2959
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 260) = 259
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 241) = 240
+read(5, "", 1)                          = 0
+read(5, "import os\npath = os.path.dirname"..., 90) = 89
+read(5, "", 1)                          = 0
+read(5, "import os\npath = os.path.dirname"..., 90) = 89
+read(5, "", 1)                          = 0
+read(5, "import os\npath = os.path.dirname"..., 90) = 89
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nResolve symbols in loaded, d"..., 36484) = 36483
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 268) = 267
+read(5, "", 1)                          = 0
+read(5, "", 8192)                       = 0
+read(5, "#-------------------------------"..., 50545) = 50544
+read(5, "", 1)                          = 0
+mmap(NULL, 282624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5486000
+munmap(0x7efda5486000, 282624)          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\276\22\2\0\343\0\0\0\0\0\0\0\0\0\0\0\0\r\0\0"..., 169906) = 169905
+read(5, "", 1)                          = 0
+read(5, "", 8192)                       = 0
+read(5, "#-------------------------------"..., 4661) = 4660
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 513) = 512
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    ####                    "..., 5032) = 5031
+read(5, "", 1)                          = 0
+mmap(NULL, 962560, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4b15000
+munmap(0x7efda5a26000, 417792)          = 0
+read(5, "from .binary import (\n    int_to"..., 265) = 264
+read(5, "", 1)                          = 0
+read(5, "from __future__ import annotatio"..., 2781) = 2780
+read(5, "", 1)                          = 0
+read(5, "from __future__ import annotatio"..., 2642) = 2641
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nVarious containers.\n\"\"\"\nfrom"..., 5364) = 5363
+read(5, "", 1)                          = 0
+read(5, "from __future__ import annotatio"..., 1369) = 1368
+read(5, "", 1)                          = 0
+read(5, "from __future__ import annotatio"..., 49249) = 49248
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4a15000
+read(5, "from __future__ import annotatio"..., 19496) = 19495
+read(5, "", 1)                          = 0
+read(5, "from __future__ import annotatio"..., 24997) = 24996
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nDebugging utilities for cons"..., 4305) = 4304
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\32\16\2\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 160731) = 160730
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j3<\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 19401) = 19400
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\35\257\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 55590) = 55589
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\2034\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 16326) = 16325
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\16\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 6959) = 6958
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j47\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0"..., 14216) = 14215
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jI2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0"..., 14454) = 14453
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\202\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 3543) = 3542
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j^B\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\16\0\0"..., 17028) = 17027
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jm\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 3128) = 3127
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jF=\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 92667) = 92666
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j&\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0"..., 142) = 141
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jG\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1599) = 1598
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\205^\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\n\0\0"..., 34603) = 34602
+read(5, "", 1)                          = 0
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 39120, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5a82000
+mmap(0x7efda5a85000, 12288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x3000) = 0x7efda5a85000
+mmap(0x7efda5a88000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6000) = 0x7efda5a88000
+mmap(0x7efda5a8a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x8000) = 0x7efda5a8a000
+read(5, "+\16\r\n\0\0\0\0\347\262)j\353\315\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\21\0\0"..., 65899) = 65898
+read(5, "", 1)                          = 0
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 230384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5a49000
+mmap(0x7efda5a5d000, 45056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x14000) = 0x7efda5a5d000
+mmap(0x7efda5a68000, 61440, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x1f000) = 0x7efda5a68000
+mmap(0x7efda5a77000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2d000) = 0x7efda5a77000
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 5, 0) = 0x7efda54a4000
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 1103848, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda4907000
+mmap(0x7efda4929000, 708608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x22000) = 0x7efda4929000
+mmap(0x7efda49d6000, 200704, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xcf000) = 0x7efda49d6000
+mmap(0x7efda4a07000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x100000) = 0x7efda4a07000
+munmap(0x7efda54a4000, 155939)          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4807000
+read(5, "+\16\r\n\0\0\0\0\347\262)j\205\5\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 992) = 991
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jI\16\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 4518) = 4517
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jss\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 37771) = 37770
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\306\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 388) = 387
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\247\n\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 4333) = 4332
+read(5, "", 1)                          = 0
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 84016, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5a34000
+mmap(0x7efda5a38000, 36864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x4000) = 0x7efda5a38000
+mmap(0x7efda5a41000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0xd000) = 0x7efda5a41000
+mmap(0x7efda5a46000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x11000) = 0x7efda5a46000
+read(5, "+\16\r\n\0\0\0\0\347\262)j\266\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 3237) = 3236
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\330\6\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 3266) = 3265
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jp\n\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 4207) = 4206
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\330A\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 19209) = 19208
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j-\33\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 8558) = 8557
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j}|\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 42582) = 42581
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j8*\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 13993) = 13992
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j|\0\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0"..., 277) = 276
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\270\34\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 7187) = 7186
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jbP\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 28775) = 28774
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\341\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1166) = 1165
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\353\235\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 45726) = 45725
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\253'\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 14746) = 14745
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)ja\27\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 10365) = 10364
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\253\t\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 5412) = 5411
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\346!\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 11318) = 11317
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jC\35\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 10664) = 10663
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jFo\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 34735) = 34734
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j9\36\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 12568) = 12567
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jV'\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 9707) = 9706
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\32\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 1232) = 1231
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\240\212\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 48000) = 47999
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jY(\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 18116) = 18115
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\16\276\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 66571) = 66570
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\235\3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0"..., 139) = 138
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jB3\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 21977) = 21976
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jb\1\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1790) = 1789
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\377\2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 1719) = 1718
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4707000
+read(5, "\"\"\"\nMost exploitable CTF challen"..., 601) = 600
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"Read "..., 55496) = 55495
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\237b\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 33670) = 33669
+read(5, "", 1)                          = 0
+read(5, "#!/usr/bin/env python\n# -*- codi"..., 22003) = 22002
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Exposes functionality for man"..., 91243) = 91242
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4607000
+read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 38760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7efda5a2a000
+mmap(0x7efda5a2c000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x2000) = 0x7efda5a2c000
+mmap(0x7efda5a30000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x6000) = 0x7efda5a30000
+mmap(0x7efda5a32000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x7000) = 0x7efda5a32000
+read(5, "#-------------------------------"..., 4889) = 4888
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 33426) = 33425
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 15776) = 15775
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 9079) = 9078
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 22017) = 22016
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 3484) = 3483
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 24377) = 24376
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 5537) = 5536
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 44967) = 44966
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 25391) = 25390
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 5071) = 5070
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 9363) = 9362
+read(5, "", 1)                          = 0
+read(5, "", 8192)                       = 0
+read(5, "#-------------------------------"..., 32694) = 32693
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 27068) = 27067
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 22909) = 22908
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 11323) = 11322
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 16486) = 16485
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 3495) = 3494
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 10777) = 10776
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 3037) = 3036
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 12529) = 12528
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 6577) = 6576
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4507000
+read(5, "#-------------------------------"..., 32238) = 32237
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 21018) = 21017
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 10779) = 10778
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 5560) = 5559
+read(5, "", 1)                          = 0
+read(5, "#-------------------------------"..., 7420) = 7419
+read(5, "", 1)                          = 0
+read(5, "", 8192)                       = 0
+read(5, "# ------------------------------"..., 8860) = 8859
+read(5, "", 1)                          = 0
+read(5, "# ------------------------------"..., 12288) = 12287
+read(5, "", 1)                          = 0
+read(5, "EHABI_INDEX_ENTRY_SIZE: int = 8\n", 33) = 32
+read(5, "", 1)                          = 0
+read(5, "# ------------------------------"..., 1418) = 1417
+read(5, "", 1)                          = 0
+read(5, "#!/usr/bin/env python\n# -*- codi"..., 847) = 846
+read(5, "", 1)                          = 0
+read(5, "#!/usr/bin/env python\n# -*- codi"..., 9293) = 9292
+read(5, "", 1)                          = 0
+read(5, "#!/usr/bin/env python\n# -*- codi"..., 38290) = 38289
+read(5, "", 1)                          = 0
+read(5, "#!/usr/bin/env python\n# -*- codi"..., 20655) = 20654
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Sorted Containers -- Sorted L"..., 2132) = 2131
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Sorted List\n==============\n\n:"..., 76332) = 76331
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4407000
+read(5, "\"\"\"Sorted Set\n=============\n\n:do"..., 19826) = 19825
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Sorted Dict\n==============\n\n:"..., 22713) = 22712
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nKernel-specific ELF function"..., 8299) = 8298
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 1785) = 1784
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Emulates instructions in the "..., 6739) = 6738
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nFetch a LIBC binary based on"..., 37483) = 37482
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"\nHand"..., 202) = 201
+read(5, "", 1)                          = 0
+read(5, "import six\nimport tempfile\n\nif s"..., 277) = 276
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\361\266\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 61652) = 61651
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\361F\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 22440) = 22439
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"\nHand"..., 21435) = 21434
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\nfrom __f"..., 2413) = 2412
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 19055) = 19054
+read(5, "", 1)                          = 0
+read(5, "# -*- coding:utf-8 -*-\n\"\"\"\nEncod"..., 581) = 580
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 81) = 80
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 1159) = 1158
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 166) = 165
+read(5, "", 1)                          = 0
+read(5, "\"\"\" Encoder to convert shellcode"..., 14632) = 14631
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\nfrom __f"..., 4449) = 4448
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 2031) = 2030
+read(5, "", 1)                          = 0
+read(5, "# Source:\n# http://www.iodigital"..., 2489) = 2488
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 122) = 121
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2013 Pratik Kuma"..., 1544) = 1543
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2013 Pratik Kuma"..., 16481) = 16480
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2013 Pratik Kuma"..., 1923) = 1922
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2013 Pratik Kuma"..., 1232) = 1231
+read(5, "", 1)                          = 0
+read(5, "# Copyright (c) 2013 Pratik Kuma"..., 3264) = 3263
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 1630) = 1629
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 78) = 77
+read(5, "", 1)                          = 0
+read(5, "# Source:\n# https://github.com/z"..., 5373) = 5372
+read(5, "", 1)                          = 0
+read(5, "r\"\"\"\nProvide some tools to explo"..., 44503) = 44502
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"\nDuri"..., 53464) = 53463
+read(5, "", 1)                          = 0
+read(5, "#\n# Override the behavior of the"..., 414) = 413
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"\nTopo"..., 14293) = 14292
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Improved replacements for sta"..., 412) = 411
+read(5, "", 1)                          = 0
+read(5, "from pwnlib.rop.rop import ROP\n", 32) = 31
+read(5, "", 1)                          = 0
+read(5, "r\"\"\"\nReturn Oriented Programming"..., 58886) = 58885
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4307000
+read(5, "# -*- coding: utf-8 -*-\nfrom __f"..., 9227) = 9226
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\nr\"\"\"\nSig"..., 19093) = 19092
+read(5, "", 1)                          = 0
+read(5, "r\"\"\"\nProvides automatic payload "..., 13628) = 13627
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\"\"\"Abstr"..., 8695) = 8694
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\nimport s"..., 1817) = 1816
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 3082) = 3081
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 10546) = 10545
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\nDatabase of >22,000 user age"..., 1289) = 1288
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n# Pwntools Update\n\nIn order "..., 5724) = 5723
+read(5, "", 1)                          = 0
+read(5, "# This file is dual licensed und"..., 495) = 494
+read(5, "", 1)                          = 0
+read(5, "# This file is dual licensed und"..., 38370) = 38369
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\r\nDuring exploit development,"..., 7294) = 7293
+read(5, "", 1)                          = 0
+read(5, "# -*- coding: utf-8 -*-\n\nr\"\"\"\nFi"..., 14787) = 14786
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 116) = 115
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Describes a way to submit a k"..., 2185) = 2184
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Module for calculating CRC-su"..., 11505) = 11504
+read(5, "", 1)                          = 0
+read(5, "from __future__ import division\n"..., 47977) = 47976
+read(5, "", 1)                          = 0
+read(5, "from __future__ import absolute_"..., 1433) = 1432
+read(5, "", 1)                          = 0
+read(5, "\"\"\"Silly module mostly meant as "..., 2714) = 2713
+read(5, "", 1)                          = 0
+read(5, "from .colored_traceback import a"..., 41) = 40
+read(5, "", 1)                          = 0
+read(5, "import os\nimport sys\nimport trac"..., 2821) = 2820
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    Pygments\n    ~~~~~~~~\n\n "..., 2963) = 2962
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.lexers\n    ~~~~"..., 12071) = 12070
+read(5, "", 1)                          = 0
+read(5, "# Automatically generated by scr"..., 70759) = 70758
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4207000
+mmap(NULL, 565248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5441000
+munmap(0x7efda5441000, 565248)          = 0
+read(5, "\"\"\"\n    pygments.modeline\n    ~~"..., 1009) = 1008
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.plugin\n    ~~~~"..., 1929) = 1928
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j+\205\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 60060) = 60059
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\337\6\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 1870) = 1869
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\fk\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 111536) = 111535
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\261.\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0"..., 20622) = 20621
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\362\f\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 5847) = 5846
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\t\7\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0"..., 5570) = 5569
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\347\2\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0"..., 1982) = 1981
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)jO\v\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 3253) = 3252
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\24\10\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\2\0\0"..., 2293) = 2292
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\237\35\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0"..., 10243) = 10242
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.util\n    ~~~~~~"..., 10618) = 10617
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\247\22\0\0\343\0\0\0\0\0\0\0\0\0\0\0\0\4\0\0"..., 5786) = 5785
+read(5, "", 1)                          = 0
+read(5, "+\16\r\n\0\0\0\0\347\262)j\370&\1\0\343\0\0\0\0\0\0\0\0\0\0\0\0\35\0\0"..., 97015) = 97014
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.formatters\n    "..., 5353) = 5352
+read(5, "", 1)                          = 0
+read(5, "# Automatically generated by scr"..., 4177) = 4176
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 267) = 266
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 3326) = 3325
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 11129) = 11128
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 2523) = 2522
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 7135) = 7134
+read(5, "", 1)                          = 0
+read(5, "# Copyright Jonathan Hartley 201"..., 6182) = 6181
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.lexers.python\n "..., 54203) = 54202
+read(5, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4107000
+read(5, "\"\"\"\n    pygments.lexer\n    ~~~~~"..., 35155) = 35154
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.filter\n    ~~~~"..., 1914) = 1913
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.filters\n    ~~~"..., 40350) = 40349
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.token\n    ~~~~~"..., 6230) = 6229
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.regexopt\n    ~~"..., 3309) = 3308
+read(5, "", 1)                          = 0
+read(5, "\"\"\"\n    pygments.unistring\n    ~"..., 63212) = 63211
+read(5, "", 1)                          = 0
+strace: Process 129350 attached
+[pid 129343] read(8, "", 50000)         = 0
+[pid 129350] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f6a8000
+[pid 129343] read(5 <unfinished ...>
+[pid 129350] mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f6e9f681000
+[pid 129350] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+[pid 129350] mmap(NULL, 189568, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e9f652000
+[pid 129350] mmap(0x7f6e9f656000, 126976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f6e9f656000
+[pid 129350] mmap(0x7f6e9f675000, 36864, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7f6e9f675000
+[pid 129350] mmap(0x7f6e9f67e000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b000) = 0x7f6e9f67e000
+[pid 129350] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\241\2\0\0\0\0\0"..., 832) = 832
+[pid 129350] mmap(NULL, 2055760, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e9f45c000
+[pid 129350] mmap(0x7f6e9f484000, 1474560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f6e9f484000
+[pid 129350] mmap(0x7f6e9f5ec000, 339968, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x190000) = 0x7f6e9f5ec000
+[pid 129350] mmap(0x7f6e9f63f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e3000) = 0x7f6e9f63f000
+[pid 129350] mmap(0x7f6e9f645000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f645000
+[pid 129350] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+[pid 129350] mmap(NULL, 196824, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e9f42b000
+[pid 129350] mmap(0x7f6e9f42f000, 126976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f6e9f42f000
+[pid 129350] mmap(0x7f6e9f44e000, 49152, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x23000) = 0x7f6e9f44e000
+[pid 129350] mmap(0x7f6e9f45a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f6e9f45a000
+[pid 129350] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+[pid 129350] mmap(NULL, 80936, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e9f417000
+[pid 129350] mmap(0x7f6e9f419000, 57344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f6e9f419000
+[pid 129350] mmap(0x7f6e9f427000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f6e9f427000
+[pid 129350] mmap(0x7f6e9f429000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x11000) = 0x7f6e9f429000
+[pid 129350] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+[pid 129350] mmap(NULL, 123328, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f6e9f3f8000
+[pid 129350] mmap(0x7f6e9f3fb000, 81920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f6e9f3fb000
+[pid 129350] mmap(0x7f6e9f40f000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f6e9f40f000
+[pid 129350] mmap(0x7f6e9f415000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f6e9f415000
+[pid 129350] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f3f6000
+[pid 129350] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f3f4000
+[pid 129350] munmap(0x7f6e9f681000, 155939) = 0
+[pid 129350] read(3, "# Magic local data for file(1) c"..., 4096) = 111
+[pid 129350] read(3, "", 4096)          = 0
+[pid 129350] mmap(NULL, 10655712, PROT_READ|PROT_WRITE, MAP_PRIVATE, 3, 0) = 0x7f6e9e800000
+[pid 129350] mmap(NULL, 139264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f686000
+[pid 129350] mmap(NULL, 7344128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9e0ff000
+[pid 129350] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\2\0>\0\1\0\0\0\360\36f\0\0\0\0\0"..., 7340032) = 7340032
+[pid 129350] mmap(NULL, 528384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9f373000
+[pid 129350] munmap(0x7f6e9f373000, 528384) = 0
+[pid 129350] mmap(NULL, 7344128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f6e9d9fe000
+[pid 129350] munmap(0x7f6e9d9fe000, 7344128) = 0
+[pid 129350] munmap(0x7f6e9e0ff000, 7344128) = 0
+[pid 129350] write(1, "ELF 64-bit LSB executable, x86-6"..., 200 <unfinished ...>
+[pid 129343] <... read resumed>, "ELF 64-bit LSB executable, x86-6"..., 8192) = 200
+[pid 129350] <... write resumed>)       = 200
+[pid 129343] read(5 <unfinished ...>
+[pid 129350] munmap(0x7f6e9e800000, 10655712) = 0
+[pid 129350] munmap(0x7f6e9f686000, 139264) = 0
+[pid 129343] <... read resumed>, "", 7992) = 0
+[pid 129350] +++ exited with 0 +++
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=129350, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+mmap(NULL, 16712, PROT_READ|PROT_WRITE, MAP_PRIVATE, 5, 0) = 0x7efda54c6000
+read(7, "# Forwarding defs for compatibil"..., 302) = 301
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 4092) = 4091
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 7541) = 7540
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 4924) = 4923
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 3247) = 3246
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 1093) = 1092
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 39978) = 39977
+read(7, "", 1)                          = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda4007000
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 6985) = 6984
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 3923) = 3922
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 3076) = 3075
+read(7, "", 1)                          = 0
+read(7, "# For Unicorn Engine. AUTO-GENER"..., 3110) = 3109
+read(7, "", 1)                          = 0
+read(7, "import sys as _sys\n\nfrom .unicor"..., 308) = 307
+read(7, "", 1)                          = 0
+read(7, "from .unicorn import *\n", 24) = 23
+read(7, "", 1)                          = 0
+read(7, "\"\"\"New and improved Unicorn Pyth"..., 50006) = 50005
+read(7, "", 1)                          = 0
+read(7, "", 8192)                       = 0
+read(7, "\"\"\"Common types and structures.\n"..., 2666) = 2665
+read(7, "", 1)                          = 0
+mmap(NULL, 155939, PROT_READ, MAP_PRIVATE, 7, 0) = 0x7efda549f000
+read(7, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 20769912, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 7, 0) = 0x7efda2c00000
+mmap(0x7efda2fa3000, 12378112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x3a3000) = 0x7efda2fa3000
+mmap(0x7efda3b71000, 2969600, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0xf71000) = 0x7efda3b71000
+mmap(0x7efda3e46000, 1605632, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 7, 0x1246000) = 0x7efda3e46000
+mmap(0x7efda3fce000, 3192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efda3fce000
+munmap(0x7efda549f000, 155939)          = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd62c00000
+munmap(0x7efd62c00000, 1073741824)      = 0
+read(7, "\"\"\"Intel architecture classes an"..., 5284) = 5283
+read(7, "", 1)                          = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd62c00000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd629ff000
+mmap(0x7efd62a00000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efd62a00000
+munmap(0x7efd629ff000, 4096)            = 0
+munmap(0x7efd62a02000, 2088960)         = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd22a00000
+munmap(0x7efd22a00000, 1073741824)      = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd22a00000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd227ff000
+mmap(0x7efd22800000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efd22800000
+munmap(0x7efd227ff000, 4096)            = 0
+munmap(0x7efd22802000, 2088960)         = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efce2800000
+munmap(0x7efce2800000, 1073741824)      = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efce2800000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efce25ff000
+mmap(0x7efce2600000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efce2600000
+munmap(0x7efce25ff000, 4096)            = 0
+munmap(0x7efce2602000, 2088960)         = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda62ec000
+mmap(NULL, 6512976, PROT_READ|PROT_WRITE, MAP_PRIVATE, 7, 0) = 0x7efce1e00000
+mmap(NULL, 1675264, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd62a67000
+munmap(0x7efd62a67000, 1675264)         = 0
+munmap(0x7efd22800000, 8192)            = 0
+munmap(0x7efd22a00000, 1073741824)      = 0
+munmap(0x7efce2600000, 8192)            = 0
+munmap(0x7efce2800000, 1073741824)      = 0
+munmap(0x7efd62a00000, 8192)            = 0
+munmap(0x7efd62c00000, 1073741824)      = 0
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2b00000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2a00000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2900000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2800000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2700000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2600000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2500000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2400000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2300000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2200000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2100000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda2000000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda1f00000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda1e00000
+mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda1d00000
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd61c00000
+munmap(0x7efd61c00000, 1073741824)      = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd61c00000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd619ff000
+mmap(0x7efd61a00000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efd61a00000
+munmap(0x7efd619ff000, 4096)            = 0
+munmap(0x7efd61a02000, 2088960)         = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5d8d000
+mmap(0x7efda5d8d000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0xc000) = 0x7efda5d8d000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5d8c000
+munmap(0x7efda5d8d000, 4096)            = 0
+munmap(0x7efda5d8e000, 4096)            = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda5d8d000
+mmap(0x7efda5d8d000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0xc000) = 0x7efda5d8d000
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd21a00000
+munmap(0x7efd21a00000, 1073741824)      = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd21a00000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd217ff000
+mmap(0x7efd21800000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efd21800000
+munmap(0x7efd217ff000, 4096)            = 0
+munmap(0x7efd21802000, 2088960)         = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efca1e00000
+munmap(0x7efca1e00000, 1073741824)      = 0
+mmap(NULL, 1073741824, PROT_READ|PROT_WRITE|PROT_EXEC, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efca1e00000
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efd215ff000
+mmap(0x7efd21600000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7efd21600000
+munmap(0x7efd215ff000, 4096)            = 0
+munmap(0x7efd21602000, 2088960)         = 0
+munmap(0x7efd21800000, 8192)            = 0
+munmap(0x7efd21a00000, 1073741824)      = 0
+munmap(0x7efd61a00000, 8192)            = 0
+munmap(0x7efd61c00000, 1073741824)      = 0
+munmap(0x7efd21600000, 8192)            = 0
+munmap(0x7efca1e00000, 1073741824)      = 0
+munmap(0x7efda5d8d000, 4096)            = 0
+munmap(0x7efda5d8e000, 4096)            = 0
+write(2, "<sys>:0: BytesWarning: Text is n"..., 110<sys>:0: BytesWarning: Text is not bytes; assuming UTF-8, no guarantees. See https://docs.pwntools.com/#bytes
+) = 110
+write(1, "[x] Starting local process '/hom"..., 467[x] Starting local process '/home/lucymayreel/ctf/compfest/d_day/pwn/未来日記/public/ld-linux-x86-64.so.2' argv=[b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public/ld-linux-x86-64.so.2', b'--library-path', b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public', b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public/chall'] 
+) = 467
+write(1, "[!] ASLR is disabled!\n", 22[!] ASLR is disabled!
+) = 22
+strace: Process 129351 attached
+[pid 129343] read(13 <unfinished ...>
+[pid 129351] write(12, "0xff", 4)       = 4
+[pid 129343] <... read resumed>, "", 50000) = 0
+[pid 129351] read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\21\0\0\0\0\0\0"..., 832) = 832
+[pid 129351] mmap(NULL, 16576, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x155555508000
+[pid 129351] mmap(0x155555509000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x155555509000
+[pid 129351] mmap(0x15555550a000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x15555550a000
+[pid 129351] mmap(0x15555550b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x15555550b000
+[pid 129351] mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x155555506000
+[pid 129351] read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\247\2\0\0\0\0\0"..., 832) = 832
+[pid 129351] mmap(NULL, 2371152, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x155555200000
+[pid 129351] mmap(0x155555228000, 1675264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x155555228000
+[pid 129351] mmap(0x1555553c1000, 454656, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c1000) = 0x1555553c1000
+[pid 129351] mmap(0x155555430000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22f000) = 0x155555430000
+[pid 129343] write(1, "[+] Starting local process '/hom"..., 479 <unfinished ...>
+[pid 129351] mmap(0x155555436000, 52816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0[+] Starting local process '/home/lucymayreel/ctf/compfest/d_day/pwn/未来日記/public/ld-linux-x86-64.so.2' argv=[b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public/ld-linux-x86-64.so.2', b'--library-path', b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public', b'/home/lucymayreel/ctf/compfest/d_day/pwn/\xe6\x9c\xaa\xe6\x9d\xa5\xe6\x97\xa5\xe8\xa8\x98/public/chall'] : pid 129351
+ <unfinished ...>
+[pid 129343] <... write resumed>)       = 479
+[pid 129351] <... mmap resumed>)        = 0x155555436000
+[pid 129351] mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x155555503000
+[pid 129351] write(1, "yo", 2)          = 2
+[pid 129351] write(1, "\n", 1)          = 1
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31) = 31
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(9, "155555200000-155555228000 r--p 0"..., 8192) = 3346
+[pid 129343] read(9, "155555434000-155555436000 rw-p 0"..., 4846) = 3998
+[pid 129343] read(9, "15555550a000-15555550b000 r--p 0"..., 848) = 848
+[pid 129343] read(9, "5550c000 r--p 00002000 103:06 41"..., 8448) = 4838
+[pid 129343] read(9, "155555516000-155555544000 r-xp 0"..., 3610) = 3396
+[pid 129343] read(9, "155555555000-155555556000 rw-p 0"..., 214) = 214
+[pid 129343] read(9, "kB\nShared_Clean:          0 kB\nS"..., 16896) = 1310
+[pid 129343] read(9, "", 15586)         = 0
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(9, "155555200000-155555228000 r--p 0"..., 8192) = 3346
+[pid 129343] read(9, "155555434000-155555436000 rw-p 0"..., 4846) = 3998
+[pid 129343] read(9, "15555550a000-15555550b000 r--p 0"..., 848) = 848
+[pid 129343] read(9, "5550c000 r--p 00002000 103:06 41"..., 8448) = 4838
+[pid 129343] read(9, "155555516000-155555544000 r-xp 0"..., 3610) = 3396
+[pid 129343] read(9, "155555555000-155555556000 rw-p 0"..., 214) = 214
+[pid 129343] read(9, "kB\nShared_Clean:          0 kB\nS"..., 16896) = 1310
+[pid 129343] read(9, "", 15586)         = 0
+[pid 129343] mmap(NULL, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7efda1c00000
+[pid 129343] write(1, "[+] PIE    = 0x155555508000\n", 28[+] PIE    = 0x155555508000
+) = 28
+[pid 129343] write(1, "[+] libc   = 0x155555200000\n", 28[+] libc   = 0x155555200000
+) = 28
+[pid 129343] write(1, "[*] nikkis = 0x15555550c060\n", 28[*] nikkis = 0x15555550c060
+) = 28
+[pid 129343] write(1, "[*] sizes  = 0x15555550c0a0\n", 28[*] sizes  = 0x15555550c0a0
+) = 28
+[pid 129343] write(1, "[*] system = 0x15555525c4c0\n", 28[*] system = 0x15555525c4c0
+) = 28
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "yo\n[1] add\n[2] delete\n[3] edit\n>"..., 4096) = 34
+[pid 129343] write(1, "[DEBUG] Received 0x22 bytes:\n", 29[DEBUG] Received 0x22 bytes:
+) = 29
+[pid 129343] write(1, "    b'yo\\n'\n", 12    b'yo\n'
+) = 12
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'1\\n'\n", 11    b'1\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1\n", 2)        = 2
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'0\\n'\n", 11    b'0\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "0\n", 2)        = 2
+[pid 129351] <... read resumed>, "0", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "size: ", 6)      = 6
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "size: ", 4096)   = 6
+[pid 129343] write(1, "[DEBUG] Received 0x6 bytes:\n", 28[DEBUG] Received 0x6 bytes:
+) = 28
+[pid 129343] write(1, "    b'size: '\n", 14    b'size: '
+) = 14
+[pid 129343] write(1, "[DEBUG] Sent 0x5 bytes:\n", 24[DEBUG] Sent 0x5 bytes:
+) = 24
+[pid 129343] write(1, "    b'1008\\n'\n", 14    b'1008\n'
+) = 14
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1008\n", 5)     = 5
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "8", 1)            = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129343] read(9, "129351 (ld-linux-x86-64) t 12934"..., 8192) = 323
+[pid 129343] read(9, "", 7869)          = 0
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31) = 31
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(11, "[1] add\n[2] delete\n[3] edit\n>> ", 4096) = 31
+[pid 129343] write(1, "[DEBUG] Received 0x1f bytes:\n", 29[DEBUG] Received 0x1f bytes:
+) = 29
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'2\\n'\n", 11    b'2\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "2\n", 2)        = 2
+[pid 129351] <... read resumed>, "2", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'0\\n'\n", 11    b'0\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "0\n", 2)        = 2
+[pid 129351] <... read resumed>, "0", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31) = 31
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "[1] add\n[2] delete\n[3] edit\n>> ", 4096) = 31
+[pid 129343] write(1, "[DEBUG] Received 0x1f bytes:\n", 29[DEBUG] Received 0x1f bytes:
+) = 29
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'3\\n'\n", 11    b'3\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "3\n", 2)        = 2
+[pid 129351] <... read resumed>, "3", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'0\\n'\n", 11    b'0\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "0\n", 2)        = 2
+[pid 129351] <... read resumed>, "0", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "content: ", 9)   = 9
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "content: ", 4096) = 9
+[pid 129343] write(1, "[DEBUG] Received 0x9 bytes:\n", 28[DEBUG] Received 0x9 bytes:
+) = 28
+[pid 129343] write(1, "    b'content: '\n", 17    b'content: '
+) = 17
+[pid 129343] write(1, "[DEBUG] Sent 0x8 bytes:\n", 24[DEBUG] Sent 0x8 bytes:
+) = 24
+[pid 129343] write(1, "    00000000  35 95 05 00  50 15"..., 103    00000000  35 95 05 00  50 15 00 00                            │5···│P···│
+    00000008
+) = 103
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "5\225\5\0P\25\0\0", 8) = 8
+[pid 129351] <... read resumed>, "5\225\5\0P\25\0\0", 1008) = 8
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31) = 31
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "[1] add\n[2] delete\n[3] edit\n>> ", 4096) = 31
+[pid 129343] write(1, "[DEBUG] Received 0x1f bytes:\n", 29[DEBUG] Received 0x1f bytes:
+) = 29
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'1\\n'\n", 11    b'1\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1\n", 2)        = 2
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'0\\n'\n", 11    b'0\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "0\n", 2)        = 2
+[pid 129351] <... read resumed>, "0", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "size: ", 6)      = 6
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "size: ", 4096)   = 6
+[pid 129343] write(1, "[DEBUG] Received 0x6 bytes:\n", 28[DEBUG] Received 0x6 bytes:
+) = 28
+[pid 129343] write(1, "    b'size: '\n", 14    b'size: '
+) = 14
+[pid 129343] write(1, "[DEBUG] Sent 0x5 bytes:\n", 24[DEBUG] Sent 0x5 bytes:
+) = 24
+[pid 129343] write(1, "    b'1008\\n'\n", 14    b'1008\n'
+) = 14
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1008\n", 5)     = 5
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "8", 1)            = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31 <unfinished ...>
+[pid 129343] read(9 <unfinished ...>
+[pid 129351] <... write resumed>)       = 31
+[pid 129343] <... read resumed>, "129351 (ld-linux-x86-64) R 12934"..., 8192) = 321
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "[1] add\n[2] delete\n[3] edit\n>> ", 4096) = 31
+[pid 129343] write(1, "[DEBUG] Received 0x1f bytes:\n", 29[DEBUG] Received 0x1f bytes:
+) = 29
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'1\\n'\n", 11    b'1\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1\n", 2)        = 2
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'1\\n'\n", 11    b'1\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1\n", 2)        = 2
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "size: ", 6)      = 6
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "size: ", 4096)   = 6
+[pid 129343] write(1, "[DEBUG] Received 0x6 bytes:\n", 28[DEBUG] Received 0x6 bytes:
+) = 28
+[pid 129343] write(1, "    b'size: '\n", 14    b'size: '
+) = 14
+[pid 129343] write(1, "[DEBUG] Sent 0x5 bytes:\n", 24[DEBUG] Sent 0x5 bytes:
+) = 24
+[pid 129343] write(1, "    b'1008\\n'\n", 14    b'1008\n'
+) = 14
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1008\n", 5)     = 5
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129343] write(1, "[+] tcache poisoning successful\n", 32 <unfinished ...>
+[+] tcache poisoning successful
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] <... write resumed>)       = 32
+[pid 129351] <... read resumed>, "8", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "[1] add\n[2] delete\n[3] edit\n>> ", 31) = 31
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "[1] add\n[2] delete\n[3] edit\n>> ", 4096) = 31
+[pid 129343] write(1, "[DEBUG] Received 0x1f bytes:\n", 29[DEBUG] Received 0x1f bytes:
+) = 29
+[pid 129343] write(1, "    b'[1] add\\n'\n", 17    b'[1] add\n'
+) = 17
+[pid 129343] write(1, "    b'[2] delete\\n'\n", 20    b'[2] delete\n'
+) = 20
+[pid 129343] write(1, "    b'[3] edit\\n'\n", 18    b'[3] edit\n'
+) = 18
+[pid 129343] write(1, "    b'>> '\n", 11    b'>> '
+) = 11
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'1\\n'\n", 11    b'1\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1\n", 2)        = 2
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "idx: ", 5)       = 5
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "idx: ", 4096)    = 5
+[pid 129343] write(1, "[DEBUG] Received 0x5 bytes:\n", 28[DEBUG] Received 0x5 bytes:
+) = 28
+[pid 129343] write(1, "    b'idx: '\n", 13    b'idx: '
+) = 13
+[pid 129343] write(1, "[DEBUG] Sent 0x2 bytes:\n", 24[DEBUG] Sent 0x2 bytes:
+) = 24
+[pid 129343] write(1, "    b'0\\n'\n", 11    b'0\n'
+) = 11
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "0\n", 2)        = 2
+[pid 129351] <... read resumed>, "0", 1) = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129351] write(1, "size: ", 6)      = 6
+[pid 129351] read(0 <unfinished ...>
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] read(11, "size: ", 4096)   = 6
+[pid 129343] write(1, "[DEBUG] Received 0x6 bytes:\n", 28[DEBUG] Received 0x6 bytes:
+) = 28
+[pid 129343] write(1, "    b'size: '\n", 14    b'size: '
+) = 14
+[pid 129343] write(1, "[DEBUG] Sent 0x5 bytes:\n", 24[DEBUG] Sent 0x5 bytes:
+) = 24
+[pid 129343] write(1, "    b'1008\\n'\n", 14    b'1008\n'
+) = 14
+[pid 129343] read(9, "129351 (ld-linux-x86-64) S 12934"..., 8192) = 321
+[pid 129343] read(9, "", 7871)          = 0
+[pid 129343] write(12, "1008\n", 5)     = 5
+[pid 129351] <... read resumed>, "1", 1) = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "0", 1)            = 1
+[pid 129351] read(0, "8", 1)            = 1
+[pid 129351] read(0, "\n", 1)           = 1
+[pid 129343] read(9 <unfinished ...>
+[pid 129351] mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0 <unfinished ...>
+[pid 129343] <... read resumed>, "129351 (ld-linux-x86-64) R 12934"..., 8192) = 321
+[pid 129343] read(9 <unfinished ...>
+[pid 129351] <... mmap resumed>)        = 0x155555502000
+[pid 129343] <... read resumed>, "", 7871) = 0
+[pid 129351] --- SIGABRT {si_signo=SIGABRT, si_code=SI_TKILL, si_pid=129351, si_uid=1000} ---
+[pid 129343] read(11, "malloc(): unaligned tcache chunk"..., 4096) = 42
+[pid 129343] write(1, "[DEBUG] Received 0x2a bytes:\n", 29[DEBUG] Received 0x2a bytes:
+) = 29
+[pid 129343] write(1, "    b'malloc(): unaligned tcache"..., 51    b'malloc(): unaligned tcache chunk detected\n'
+) = 51
+[pid 129343] read(9, "129351 (ld-linux-x86-64) R 12934"..., 8192) = 353
+[pid 129343] read(9, "", 7839)          = 0
+[pid 129351] +++ killed by SIGABRT (core dumped) +++
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_DUMPED, si_pid=129351, si_uid=1000, si_status=SIGABRT, si_utime=0, si_stime=2 /* 0.02 s */} ---
+read(11, 0x3e88caa0, 4096)              = -1 EIO (Input/output error)
+read(9, "#!/usr/bin/env python3\n\nfrom pwn"..., 131072) = 2954
+read(9, "", 8192)                       = 0
+read(9, "# -*- coding: utf-8 -*-\nfrom __f"..., 131072) = 57711
+read(9, "", 8192)                       = 0
+read(9, "# -*- coding: utf-8 -*-\nfrom __f"..., 131072) = 52154
+read(9, "", 8192)                       = 0
+write(2, "Traceback (most recent call last"..., 35Traceback (most recent call last):
+) = 35
+write(2, "  File \"/home/lucymayreel/ctf/co"..., 171  File "/home/lucymayreel/ctf/compfest/d_day/pwn/未来日記/public/solve.py", line 88, in <module>
+    io.sendlineafter(b">> ", b"3")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+) = 171
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 138  File "/usr/lib/python3/dist-packages/pwnlib/tubes/tube.py", line 932, in sendlineafter
+    res = self.recvuntil(delim, timeout=timeout)
+) = 138
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 127  File "/usr/lib/python3/dist-packages/pwnlib/tubes/tube.py", line 381, in recvuntil
+    res = self.recv(timeout=self.timeout)
+) = 127
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 161  File "/usr/lib/python3/dist-packages/pwnlib/tubes/tube.py", line 146, in recv
+    return self._recv(numb, timeout) or b''
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+) = 161
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 196  File "/usr/lib/python3/dist-packages/pwnlib/tubes/tube.py", line 216, in _recv
+    if not self.buffer and not self._fillbuffer(timeout):
+                               ~~~~~~~~~~~~~~~~^^^^^^^^^
+) = 196
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 141  File "/usr/lib/python3/dist-packages/pwnlib/tubes/tube.py", line 195, in _fillbuffer
+    data = self.recv_raw(self.buffer.get_fill_size())
+) = 141
+write(2, "  File \"/usr/lib/python3/dist-pa"..., 106  File "/usr/lib/python3/dist-packages/pwnlib/tubes/process.py", line 743, in recv_raw
+    raise EOFError
+) = 106
+write(2, "EOFError\n", 9EOFError
+)               = 9
+read(9, "129351 (ld-linux-x86-64) Z 12934"..., 8192) = 176
+read(9, "", 8016)                       = 0
+read(9, "129351 (ld-linux-x86-64) Z 12934"..., 8192) = 176
+read(9, "", 8016)                       = 0
+write(1, "[*] Process '/home/lucymayreel/c"..., 145[*] Process '/home/lucymayreel/ctf/compfest/d_day/pwn/未来日記/public/ld-linux-x86-64.so.2' stopped with exit code -6 (SIGABRT) (pid 129351)
+) = 145
+munmap(0x7efda54c6000, 16712)           = 0
+munmap(0x7efda2000000, 1048576)         = 0
+munmap(0x7efda2100000, 1048576)         = 0
+munmap(0x7efda2200000, 1048576)         = 0
+munmap(0x7efda2300000, 1048576)         = 0
+munmap(0x7efda2400000, 1048576)         = 0
+munmap(0x7efda2500000, 1048576)         = 0
+munmap(0x7efda2600000, 1048576)         = 0
+munmap(0x7efda2700000, 1048576)         = 0
+munmap(0x7efda2800000, 1048576)         = 0
+munmap(0x7efda2900000, 1048576)         = 0
+munmap(0x7efda2a00000, 1048576)         = 0
+munmap(0x7efda2b00000, 1048576)         = 0
+munmap(0x7efce1e00000, 6512976)         = 0
+munmap(0x7efda1d00000, 1048576)         = 0
+munmap(0x7efda1c00000, 1048576)         = 0
+munmap(0x7efda1e00000, 1048576)         = 0
+munmap(0x7efda5ebf000, 1048576)         = 0
+munmap(0x7efda5b8c000, 1048576)         = 0
+munmap(0x7efda5dbf000, 1048576)         = 0
+munmap(0x7efda5c8c000, 1048576)         = 0
+munmap(0x7efda4c00000, 1048576)         = 0
+munmap(0x7efda4a15000, 1048576)         = 0
+munmap(0x7efda5817000, 1048576)         = 0
+munmap(0x7efda5a8c000, 1048576)         = 0
+munmap(0x7efda4607000, 1048576)         = 0
+munmap(0x7efda4407000, 1048576)         = 0
+munmap(0x7efda4007000, 1048576)         = 0
+munmap(0x7efda4307000, 1048576)         = 0
+munmap(0x7efda4207000, 1048576)         = 0
+munmap(0x7efda4107000, 1048576)         = 0
+munmap(0x7efda4707000, 1048576)         = 0
+munmap(0x7efda4b15000, 962560)          = 0
+munmap(0x7efda4807000, 1048576)         = 0
+munmap(0x7efda4507000, 1048576)         = 0
+munmap(0x7efda567f000, 1048576)         = 0
+munmap(0x7efda5528000, 1048576)         = 0
+munmap(0x7efda4d00000, 1048576)         = 0
+munmap(0x7efda631e000, 1048576)         = 0
+munmap(0x7efda6773000, 16384)           = 0
+munmap(0x7efda675b000, 16384)           = 0
++++ exited with 1 +++

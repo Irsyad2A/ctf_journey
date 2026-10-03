@@ -1,0 +1,413 @@
+recon/ALL.javap:284:       180: checkcast     #230                // class entities/Wanderer
+recon/ALL.javap:285:       183: invokestatic  #284                // Method a:(Lentities/Wanderer;)Z
+recon/ALL.javap:311:       232: getstatic     #273                // Field am.AUTH:Lam;
+recon/ALL.javap:849:      1240: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:907:      1383: getstatic     #273                // Field am.AUTH:Lam;
+recon/ALL.javap:1071:       280: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:1192:       207: checkcast     #230                // class entities/Wanderer
+recon/ALL.javap:1193:       210: invokevirtual #317                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:1196:       218: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:1230:             0   256   257   Class exception/DuplicateWandererException
+recon/ALL.javap:1291:       133: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:1878:       332: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:2016:       274: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:2025:       295: getstatic     #271                // Field ak.WANDERER:Lak;
+recon/ALL.javap:2057:       369: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:2166:       230: getstatic     #271                // Field ak.WANDERER:Lak;
+recon/ALL.javap:2216:       335: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:2257:       428: getstatic     #272                // Field am.ADMIN:Lam;
+recon/ALL.javap:2280:         1: instanceof    #233                // class exception/DuplicateWandererException
+recon/ALL.javap:2287:        19: checkcast     #233                // class exception/DuplicateWandererException
+recon/ALL.javap:2288:        22: invokestatic  #285                // Method a:(Lexception/DuplicateWandererException;)Ljava/lang/String;
+recon/ALL.javap:2389:  private static java.lang.String a(exception.DuplicateWandererException);
+recon/ALL.javap:2420:        54: invokevirtual #322                // Method exception/DuplicateWandererException.getMessage:()Ljava/lang/String;
+recon/ALL.javap:2481:  private static void b(entities.Wanderer);
+recon/ALL.javap:2497:        32: invokevirtual #319                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:2499:        36: invokevirtual #317                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:2508:        57: invokevirtual #312                // Method aj.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:2515:        72: invokevirtual #313                // Method aj.a:(Ljava/lang/String;Lentities/Wanderer;)V
+recon/ALL.javap:2522:        87: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:2549:       143: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:2556:       162: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:2574:       204: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:2618:  static boolean a(entities.Wanderer);
+recon/ALL.javap:2622:         4: invokevirtual #318                // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:2843:       531: invokevirtual #320                // Method entities/Wanderer.toString:()Ljava/lang/String;
+recon/ALL.javap:2909:       675: invokestatic  #296                // Method c:(Lentities/Wanderer;)Z
+recon/ALL.javap:2923:       701: invokestatic  #291                // Method b:(Lentities/Wanderer;)V
+recon/ALL.javap:2938:       735: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:2951:       766: getstatic     #273                // Field am.AUTH:Lam;
+recon/ALL.javap:2953:       770: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:2988:       843: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:3003:  private static boolean c(entities.Wanderer);
+recon/ALL.javap:3038:        74: invokevirtual #380                // Method t.a:(Lentities/Wanderer;Lf;)V
+recon/ALL.javap:3042:        84: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:3051:       107: invokestatic  #374                // Method r.a:(Lentities/Wanderer;Lf;)V
+recon/ALL.javap:3054:       114: invokevirtual #379                // Method t.a:(Lentities/Wanderer;)Z
+recon/ALL.javap:3065:       145: getstatic     #273                // Field am.AUTH:Lam;
+recon/ALL.javap:3067:       149: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:3107:       232: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:3337:public class entities.Wanderer extends b {
+recon/ALL.javap:3374:  public entities.Wanderer(int, java.lang.String, java.lang.String, java.lang.String, double, double, double);
+recon/ALL.javap:3465:         5: invokevirtual #79                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:3617:         4: ldc           #19                 // class entities/Wanderer
+recon/ALL.javap:4402:public class entities.roles.Assassin extends entities.Wanderer {
+recon/ALL.javap:4433:        12: invokespecial #23                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:4457:         1: invokespecial #24                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:4551:public class entities.roles.Fighter extends entities.Wanderer {
+recon/ALL.javap:4572:        12: invokespecial #22                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:4695:         1: invokespecial #23                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:4793:public class entities.roles.Mage extends entities.Wanderer {
+recon/ALL.javap:4812:        12: invokespecial #17                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:4881:         1: invokespecial #18                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:4940:public class entities.roles.Support extends entities.Wanderer {
+recon/ALL.javap:4955:        12: invokespecial #17                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:5002:        72: getstatic     #14                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:5015:         1: invokespecial #18                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:5101:public class entities.roles.Tank extends entities.Wanderer {
+recon/ALL.javap:5114:        12: invokespecial #15                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:5155:         1: invokespecial #16                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:5267:public class exception.DuplicateWandererException extends exception.BurhanQuestException {
+recon/ALL.javap:5268:  public exception.DuplicateWandererException(java.lang.String);
+recon/ALL.javap:5422:        34: invokevirtual #30                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:5534:        34: invokevirtual #27                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:5728:        34: invokevirtual #25                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:5777:  private final int minWandererLevel;
+recon/ALL.javap:5807:        14: putfield      #22                 // Field minWandererLevel:I
+recon/ALL.javap:5816:  public int getMinWandererLevel();
+recon/ALL.javap:5819:         1: getfield      #22                 // Field minWandererLevel:I
+recon/ALL.javap:7072:       123: checkcast     #40                 // class entities/Wanderer
+recon/ALL.javap:7079:       136: invokevirtual #98                 // Method entities/Wanderer.a:(II)V
+recon/ALL.javap:7083:             0    36    97   Class exception/DuplicateWandererException
+recon/ALL.javap:7150:       122: invokespecial #144                // Method o."<init>":()V
+recon/ALL.javap:12916:  public static java.lang.String a(entities.Wanderer);
+recon/ALL.javap:12924:        11: invokevirtual #292                // Method entities/Wanderer.getCompletedQuestHistory:()Ljava/util/ArrayList;
+recon/ALL.javap:25922:        43: getstatic     #30                 // Field am.AUTH:Lam;
+recon/ALL.javap:25931:        63: getstatic     #30                 // Field am.AUTH:Lam;
+recon/ALL.javap:26347:  public static void a(entities.Wanderer, f);
+recon/ALL.javap:26350:         1: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:26360:        22: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:26370:        48: invokevirtual #85                 // Method entities/Wanderer.f:()V
+recon/ALL.javap:26400:       109: invokevirtual #89                 // Method entities/Wanderer.getCombatInfo:()Ljava/lang/String;
+recon/ALL.javap:26420:       161: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+recon/ALL.javap:26446:       224: invokevirtual #83                 // Method entities/Wanderer.e:()V
+recon/ALL.javap:26448:       228: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/ALL.javap:26458:       251: invokevirtual #75                 // Method entities/Wanderer.a:(Lc;D)V
+recon/ALL.javap:26461:       256: invokevirtual #88                 // Method entities/Wanderer.getAttackPower:()D
+recon/ALL.javap:26471:       276: invokevirtual #80                 // Method entities/Wanderer.c:(D)D
+recon/ALL.javap:26474:       282: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/ALL.javap:26483:       304: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26494:       335: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26502:       356: invokevirtual #84                 // Method entities/Wanderer.e:(D)V
+recon/ALL.javap:26504:       360: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/ALL.javap:26514:       386: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26520:       401: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26544:       465: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26551:       483: invokevirtual #91                 // Method entities/Wanderer.getDefense:()D
+recon/ALL.javap:26559:       498: invokevirtual #82                 // Method entities/Wanderer.d:(D)D
+recon/ALL.javap:26563:       506: invokevirtual #78                 // Method entities/Wanderer.b:(D)V
+recon/ALL.javap:26565:       510: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/ALL.javap:26574:       532: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26575:       535: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26583:       557: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26584:       560: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26587:       565: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:26590:       574: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26592:       578: invokevirtual #92                 // Method entities/Wanderer.getMaxHp:()D
+recon/ALL.javap:26598:       596: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+recon/ALL.javap:26606:       612: invokevirtual #77                 // Method entities/Wanderer.a:(Z)V
+recon/ALL.javap:26610:       621: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/ALL.javap:26626:       665: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26636:       688: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:26659:       736: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26667:       756: invokevirtual #79                 // Method entities/Wanderer.b:(II)V
+recon/ALL.javap:26672:       765: invokevirtual #76                 // Method entities/Wanderer.a:(Lf;)V
+recon/ALL.javap:26680:       784: invokevirtual #74                 // Method entities/Wanderer.a:(D)V
+recon/ALL.javap:26703:       848: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26704:       851: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26711:       871: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:26712:       874: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/ALL.javap:26718:       891: invokevirtual #94                 // Method entities/Wanderer.getPassiveSummary:()Ljava/lang/String;
+recon/ALL.javap:26756:       996: invokestatic  #124                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:26873:  private static entities.Wanderer a(b);
+recon/ALL.javap:26876:         1: checkcast     #2                  // class entities/Wanderer
+recon/ALL.javap:26952:  public boolean a(entities.Wanderer);
+recon/ALL.javap:26957:         5: invokevirtual #63                 // Method w.b:(Lentities/Wanderer;)Z
+recon/ALL.javap:27083:  public void a(entities.Wanderer, f);
+recon/ALL.javap:27089:         6: invokevirtual #35                 // Method v.a:(Lentities/Wanderer;Lf;)V
+recon/ALL.javap:28007:  public void a(entities.Wanderer, f);
+recon/ALL.javap:28012:         5: invokevirtual #53                 // Method entities/Wanderer.a:(Lh;)Z
+recon/ALL.javap:28017:        16: invokevirtual #54                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:28020:        23: invokevirtual #66                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:28412:         4: invokevirtual #66                 // Method h.getMinWandererLevel:()I
+recon/ALL.javap:28507:        11: new           #40                 // class exception/DuplicateWandererException
+recon/ALL.javap:28510:        16: invokespecial #77                 // Method exception/DuplicateWandererException."<init>":(Ljava/lang/String;)V
+recon/ALL.javap:28597:       252: new           #34                 // class entities/Wanderer
+recon/ALL.javap:28606:       267: invokespecial #62                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/ALL.javap:28791:  public boolean a(entities.Wanderer);
+recon/ALL.javap:28816:  public boolean b(entities.Wanderer);
+recon/ALL.javap:28831:        29: invokevirtual #69                 // Method entities/Wanderer.i:()V
+recon/ALL.javap:28833:        33: invokevirtual #68                 // Method entities/Wanderer.h:()V
+recon/ALL.javap:28839:        48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:28841:        52: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:28851:        76: invokevirtual #70                 // Method entities/Wanderer.j:()V
+recon/ALL.javap:28854:        81: invokevirtual #112                // Method a:(Lentities/Wanderer;)Z
+recon/ALL.javap:28861:        97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:28863:       101: invokevirtual #64                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:29170:         1: checkcast     #34                 // class entities/Wanderer
+recon/ALL.javap:29171:         4: invokevirtual #71                 // Method entities/Wanderer.toString:()Ljava/lang/String;
+recon/ALL.javap:29177:         1: checkcast     #34                 // class entities/Wanderer
+recon/ALL.javap:29178:         4: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:29184:         1: checkcast     #34                 // class entities/Wanderer
+recon/ALL.javap:29185:         4: invokevirtual #66                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:29188:  private static boolean a(int, int, entities.Wanderer);
+recon/ALL.javap:29192:         2: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:29195:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:29203:  private static boolean c(entities.Wanderer);
+recon/ALL.javap:29206:         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+recon/ALL.javap:29210:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:29218:  private static boolean d(entities.Wanderer);
+recon/ALL.javap:29221:         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+recon/ALL.javap:29225:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:30001:  public static java.lang.String a(entities.Wanderer);
+recon/ALL.javap:30906:        31: getstatic     #88                 // Field ak.WANDERER:Lak;
+recon/ALL.javap:30941:        21: getstatic     #88                 // Field ak.WANDERER:Lak;
+recon/ALL.javap:30981:        21: getstatic     #88                 // Field ak.WANDERER:Lak;
+recon/ALL.javap:31166:       114: invokevirtual #138                // Method h.getMinWandererLevel:()I
+recon/ALL.javap:31257:  private java.util.List a(entities.Wanderer);
+recon/ALL.javap:31264:         8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:31269:        15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:31274:        22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:31279:        29: invokestatic  #160                // Method z.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:31284:        36: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:31290:        46: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+recon/ALL.javap:31296:        57: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+recon/ALL.javap:31302:        68: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:31308:        79: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+recon/ALL.javap:31314:        90: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+recon/ALL.javap:31320:       101: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+recon/ALL.javap:31628:  private static java.util.List b(entities.Wanderer);
+recon/ALL.javap:31635:         8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:31640:        15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:31645:        22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:31650:        29: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:31656:        39: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+recon/ALL.javap:31662:        49: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+recon/ALL.javap:31668:        60: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:31674:        71: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+recon/ALL.javap:31680:        82: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+recon/ALL.javap:31686:        93: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+recon/ALL.javap:31692:  private static entities.Wanderer a(b);
+recon/ALL.javap:31695:         1: checkcast     #66                 // class entities/Wanderer
+recon/ALL.javap:31751:        88: invokevirtual #138                // Method h.getMinWandererLevel:()I
+recon/ALL.javap:31763:  private static java.util.List c(entities.Wanderer);
+recon/ALL.javap:31770:         8: invokevirtual #120                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:31775:        15: invokevirtual #123                // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:31780:        22: invokevirtual #124                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:31785:        29: invokestatic  #160                // Method z.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:31790:        36: invokevirtual #121                // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:31796:        46: invokevirtual #119                // Method entities/Wanderer.getExp:()I
+recon/ALL.javap:31802:        57: invokevirtual #116                // Method entities/Wanderer.getCoins:()I
+recon/ALL.javap:31808:        68: invokevirtual #117                // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:31811:        75: invokevirtual #122                // Method entities/Wanderer.getMaxHp:()D
+recon/ALL.javap:31818:        91: invokevirtual #115                // Method entities/Wanderer.getAttackPower:()D
+recon/ALL.javap:31824:       102: invokevirtual #118                // Method entities/Wanderer.getDefense:()D
+recon/ALL.javap:31830:  private static entities.Wanderer b(b);
+recon/ALL.javap:31833:         1: checkcast     #66                 // class entities/Wanderer
+recon/ALL.javap:31871:        52: invokevirtual #138                // Method h.getMinWandererLevel:()I
+recon/ALL.javap:31901:  private static entities.Wanderer c(b);
+recon/ALL.javap:31904:         1: checkcast     #66                 // class entities/Wanderer
+recon/ALL.javap:32116:        37: getstatic     #141                // Field ak.WANDERER:Lak;
+recon/ALL.javap:32171:             0    35    38   Class exception/DuplicateWandererException
+recon/ALL.javap:32679:       121: new           #95                 // class exception/DuplicateWandererException
+recon/ALL.javap:32682:       127: invokespecial #182                // Method exception/DuplicateWandererException."<init>":(Ljava/lang/String;)V
+recon/ALL.javap:33461:  public void a(java.lang.String, entities.Wanderer);
+recon/ALL.javap:33469:         8: invokevirtual #73                 // Method a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:33485:  public java.lang.String a(entities.Wanderer);
+recon/ALL.javap:33529:        88: invokevirtual #92                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/ALL.javap:33536:       102: invokevirtual #95                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/ALL.javap:33543:       116: invokevirtual #96                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/ALL.javap:33551:       131: invokevirtual #82                 // Method b:(Lentities/Wanderer;)Ljava/lang/String;
+recon/ALL.javap:33558:       145: invokevirtual #93                 // Method entities/Wanderer.getLevel:()I
+recon/ALL.javap:33566:       162: invokevirtual #91                 // Method entities/Wanderer.getExp:()I
+recon/ALL.javap:33574:       181: invokevirtual #88                 // Method entities/Wanderer.getCoins:()I
+recon/ALL.javap:33583:       201: invokevirtual #89                 // Method entities/Wanderer.getCurrentHp:()D
+recon/ALL.javap:33587:       209: invokevirtual #94                 // Method entities/Wanderer.getMaxHp:()D
+recon/ALL.javap:33597:       232: invokevirtual #87                 // Method entities/Wanderer.getAttackPower:()D
+recon/ALL.javap:33606:       250: invokevirtual #90                 // Method entities/Wanderer.getDefense:()D
+recon/ALL.javap:33642:       323: invokevirtual #78                 // Method a:(Ljava/lang/StringBuilder;Lentities/Wanderer;Ljava/lang/String;Ljava/lang/String;)Z
+recon/ALL.javap:33657:       352: invokevirtual #78                 // Method a:(Ljava/lang/StringBuilder;Lentities/Wanderer;Ljava/lang/String;Ljava/lang/String;)Z
+recon/ALL.javap:33672:       381: invokevirtual #78                 // Method a:(Ljava/lang/StringBuilder;Lentities/Wanderer;Ljava/lang/String;Ljava/lang/String;)Z
+recon/ALL.javap:33719:  private boolean a(java.lang.StringBuilder, entities.Wanderer, java.lang.String, java.lang.String);
+recon/ALL.javap:33932:  private java.lang.String b(entities.Wanderer);
+recon/ALL.javap:34083:  public static final ak WANDERER;
+recon/ALL.javap:34120:        12: getstatic     #11                 // Field WANDERER:Lak;
+recon/ALL.javap:34139:        29: putstatic     #11                 // Field WANDERER:Lak;
+recon/ALL.javap:34299:  public static final am AUTH;
+recon/ALL.javap:34301:  public static final am ADMIN;
+recon/ALL.javap:34342:         7: getstatic     #16                 // Field AUTH:Lam;
+recon/ALL.javap:34346:        13: getstatic     #15                 // Field ADMIN:Lam;
+recon/ALL.javap:34374:        13: putstatic     #16                 // Field AUTH:Lam;
+recon/ALL.javap:34381:        29: putstatic     #15                 // Field ADMIN:Lam;
+recon/f_class.javap:159:        34: invokevirtual #25                 // Method h.getMinWandererLevel:()I
+recon/k.javap:884:       123: checkcast     #40                 // class entities/Wanderer
+recon/k.javap:891:       136: invokevirtual #98                 // Method entities/Wanderer.a:(II)V
+recon/k.javap:895:             0    36    97   Class exception/DuplicateWandererException
+recon/k.javap:962:       122: invokespecial #144                // Method o."<init>":()V
+recon/l.javap:5162:  public static java.lang.String a(entities.Wanderer);
+recon/l.javap:5170:        11: invokevirtual #292                // Method entities/Wanderer.getCompletedQuestHistory:()Ljava/util/ArrayList;
+recon/l_real.javap:5162:  public static java.lang.String a(entities.Wanderer);
+recon/l_real.javap:5170:        11: invokevirtual #292                // Method entities/Wanderer.getCompletedQuestHistory:()Ljava/util/ArrayList;
+recon/l_verbose.javap:163:  #152 = Class              #539          // entities/Wanderer
+recon/l_verbose.javap:257:  #292 = Methodref          #152.#404     // entities/Wanderer.getCompletedQuestHistory:()Ljava/util/ArrayList;
+recon/l_verbose.javap:439:  #474 = Utf8               (Lentities/Wanderer;)Ljava/lang/String;
+recon/l_verbose.javap:504:  #539 = Utf8               entities/Wanderer
+recon/l_verbose.javap:5972:  public static java.lang.String a(entities.Wanderer);
+recon/l_verbose.javap:5973:    descriptor: (Lentities/Wanderer;)Ljava/lang/String;
+recon/l_verbose.javap:5983:        11: invokevirtual #292                // Method entities/Wanderer.getCompletedQuestHistory:()Ljava/util/ArrayList;
+recon/Main.javap:284:       180: checkcast     #230                // class entities/Wanderer
+recon/Main.javap:285:       183: invokestatic  #284                // Method a:(Lentities/Wanderer;)Z
+recon/Main.javap:311:       232: getstatic     #273                // Field am.AUTH:Lam;
+recon/Main.javap:849:      1240: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:907:      1383: getstatic     #273                // Field am.AUTH:Lam;
+recon/Main.javap:1071:       280: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:1192:       207: checkcast     #230                // class entities/Wanderer
+recon/Main.javap:1193:       210: invokevirtual #317                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/Main.javap:1196:       218: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:1230:             0   256   257   Class exception/DuplicateWandererException
+recon/Main.javap:1291:       133: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:1878:       332: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:2016:       274: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:2025:       295: getstatic     #271                // Field ak.WANDERER:Lak;
+recon/Main.javap:2057:       369: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:2166:       230: getstatic     #271                // Field ak.WANDERER:Lak;
+recon/Main.javap:2216:       335: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:2257:       428: getstatic     #272                // Field am.ADMIN:Lam;
+recon/Main.javap:2280:         1: instanceof    #233                // class exception/DuplicateWandererException
+recon/Main.javap:2287:        19: checkcast     #233                // class exception/DuplicateWandererException
+recon/Main.javap:2288:        22: invokestatic  #285                // Method a:(Lexception/DuplicateWandererException;)Ljava/lang/String;
+recon/Main.javap:2389:  private static java.lang.String a(exception.DuplicateWandererException);
+recon/Main.javap:2420:        54: invokevirtual #322                // Method exception/DuplicateWandererException.getMessage:()Ljava/lang/String;
+recon/Main.javap:2481:  private static void b(entities.Wanderer);
+recon/Main.javap:2497:        32: invokevirtual #319                // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/Main.javap:2499:        36: invokevirtual #317                // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/Main.javap:2508:        57: invokevirtual #312                // Method aj.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/Main.javap:2515:        72: invokevirtual #313                // Method aj.a:(Ljava/lang/String;Lentities/Wanderer;)V
+recon/Main.javap:2522:        87: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/Main.javap:2549:       143: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:2556:       162: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/Main.javap:2574:       204: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:2618:  static boolean a(entities.Wanderer);
+recon/Main.javap:2622:         4: invokevirtual #318                // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/Main.javap:2843:       531: invokevirtual #320                // Method entities/Wanderer.toString:()Ljava/lang/String;
+recon/Main.javap:2909:       675: invokestatic  #296                // Method c:(Lentities/Wanderer;)Z
+recon/Main.javap:2923:       701: invokestatic  #291                // Method b:(Lentities/Wanderer;)V
+recon/Main.javap:2938:       735: invokestatic  #369                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/Main.javap:2951:       766: getstatic     #273                // Field am.AUTH:Lam;
+recon/Main.javap:2953:       770: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:2988:       843: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:3003:  private static boolean c(entities.Wanderer);
+recon/Main.javap:3038:        74: invokevirtual #380                // Method t.a:(Lentities/Wanderer;Lf;)V
+recon/Main.javap:3042:        84: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:3051:       107: invokestatic  #374                // Method r.a:(Lentities/Wanderer;Lf;)V
+recon/Main.javap:3054:       114: invokevirtual #379                // Method t.a:(Lentities/Wanderer;)Z
+recon/Main.javap:3065:       145: getstatic     #273                // Field am.AUTH:Lam;
+recon/Main.javap:3067:       149: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/Main.javap:3107:       232: invokevirtual #316                // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/menu_frieren.javap:98:  public static void a(entities.Wanderer, f);
+recon/menu_frieren.javap:101:         1: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/menu_frieren.javap:111:        22: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/menu_frieren.javap:121:        48: invokevirtual #85                 // Method entities/Wanderer.f:()V
+recon/menu_frieren.javap:151:       109: invokevirtual #89                 // Method entities/Wanderer.getCombatInfo:()Ljava/lang/String;
+recon/menu_frieren.javap:171:       161: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+recon/menu_frieren.javap:197:       224: invokevirtual #83                 // Method entities/Wanderer.e:()V
+recon/menu_frieren.javap:199:       228: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/menu_frieren.javap:209:       251: invokevirtual #75                 // Method entities/Wanderer.a:(Lc;D)V
+recon/menu_frieren.javap:212:       256: invokevirtual #88                 // Method entities/Wanderer.getAttackPower:()D
+recon/menu_frieren.javap:222:       276: invokevirtual #80                 // Method entities/Wanderer.c:(D)D
+recon/menu_frieren.javap:225:       282: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/menu_frieren.javap:234:       304: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:245:       335: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:253:       356: invokevirtual #84                 // Method entities/Wanderer.e:(D)V
+recon/menu_frieren.javap:255:       360: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/menu_frieren.javap:265:       386: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:271:       401: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:295:       465: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:302:       483: invokevirtual #91                 // Method entities/Wanderer.getDefense:()D
+recon/menu_frieren.javap:310:       498: invokevirtual #82                 // Method entities/Wanderer.d:(D)D
+recon/menu_frieren.javap:314:       506: invokevirtual #78                 // Method entities/Wanderer.b:(D)V
+recon/menu_frieren.javap:316:       510: invokevirtual #81                 // Method entities/Wanderer.d:()Ljava/lang/String;
+recon/menu_frieren.javap:325:       532: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:326:       535: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:334:       557: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:335:       560: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:338:       565: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/menu_frieren.javap:341:       574: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:343:       578: invokevirtual #92                 // Method entities/Wanderer.getMaxHp:()D
+recon/menu_frieren.javap:349:       596: invokevirtual #86                 // Method entities/Wanderer.g:()Z
+recon/menu_frieren.javap:357:       612: invokevirtual #77                 // Method entities/Wanderer.a:(Z)V
+recon/menu_frieren.javap:361:       621: invokevirtual #87                 // Method entities/Wanderer.getActorName:()Ljava/lang/String;
+recon/menu_frieren.javap:377:       665: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:387:       688: invokevirtual #90                 // Method entities/Wanderer.getCurrentHp:()D
+recon/menu_frieren.javap:410:       736: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:418:       756: invokevirtual #79                 // Method entities/Wanderer.b:(II)V
+recon/menu_frieren.javap:423:       765: invokevirtual #76                 // Method entities/Wanderer.a:(Lf;)V
+recon/menu_frieren.javap:431:       784: invokevirtual #74                 // Method entities/Wanderer.a:(D)V
+recon/menu_frieren.javap:454:       848: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:455:       851: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:462:       871: invokevirtual #93                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/menu_frieren.javap:463:       874: getstatic     #54                 // Field entities/Wanderer.a:Ljava/text/DecimalFormat;
+recon/menu_frieren.javap:469:       891: invokevirtual #94                 // Method entities/Wanderer.getPassiveSummary:()Ljava/lang/String;
+recon/menu_frieren.javap:507:       996: invokestatic  #124                // Method l.a:(Lentities/Wanderer;)Ljava/lang/String;
+recon/q.javap:41:        43: getstatic     #30                 // Field am.AUTH:Lam;
+recon/q.javap:50:        63: getstatic     #30                 // Field am.AUTH:Lam;
+recon/quest_classes.javap:63:        34: invokevirtual #30                 // Method h.getMinWandererLevel:()I
+recon/quest_classes.javap:175:        34: invokevirtual #27                 // Method h.getMinWandererLevel:()I
+recon/quest_classes.javap:369:        34: invokevirtual #25                 // Method h.getMinWandererLevel:()I
+recon/quest_classes.javap:418:  private final int minWandererLevel;
+recon/t.javap:74:  public boolean a(entities.Wanderer);
+recon/t.javap:79:         5: invokevirtual #63                 // Method w.b:(Lentities/Wanderer;)Z
+recon/t.javap:205:  public void a(entities.Wanderer, f);
+recon/t.javap:211:         6: invokevirtual #35                 // Method v.a:(Lentities/Wanderer;Lf;)V
+recon/t_real.javap:74:  public boolean a(entities.Wanderer);
+recon/t_real.javap:79:         5: invokevirtual #63                 // Method w.b:(Lentities/Wanderer;)Z
+recon/t_real.javap:205:  public void a(entities.Wanderer, f);
+recon/t_real.javap:211:         6: invokevirtual #35                 // Method v.a:(Lentities/Wanderer;Lf;)V
+recon/v_real.javap:190:  public void a(entities.Wanderer, f);
+recon/v_real.javap:195:         5: invokevirtual #53                 // Method entities/Wanderer.a:(Lh;)Z
+recon/v_real.javap:200:        16: invokevirtual #54                 // Method entities/Wanderer.getLevel:()I
+recon/v_real.javap:203:        23: invokevirtual #66                 // Method h.getMinWandererLevel:()I
+recon/v_real.javap:595:         4: invokevirtual #66                 // Method h.getMinWandererLevel:()I
+recon/Wanderer.javap:1:public class entities.Wanderer extends b {
+recon/Wanderer.javap:38:  public entities.Wanderer(int, java.lang.String, java.lang.String, java.lang.String, double, double, double);
+recon/Wanderer.javap:129:         5: invokevirtual #79                 // Method h.getMinWandererLevel:()I
+recon/Wanderer.javap:281:         4: ldc           #19                 // class entities/Wanderer
+recon/w.javap:32:        11: new           #40                 // class exception/DuplicateWandererException
+recon/w.javap:35:        16: invokespecial #77                 // Method exception/DuplicateWandererException."<init>":(Ljava/lang/String;)V
+recon/w.javap:122:       252: new           #34                 // class entities/Wanderer
+recon/w.javap:131:       267: invokespecial #62                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+recon/w.javap:316:  public boolean a(entities.Wanderer);
+recon/w.javap:341:  public boolean b(entities.Wanderer);
+recon/w.javap:356:        29: invokevirtual #69                 // Method entities/Wanderer.i:()V
+recon/w.javap:358:        33: invokevirtual #68                 // Method entities/Wanderer.h:()V
+recon/w.javap:364:        48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/w.javap:366:        52: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/w.javap:376:        76: invokevirtual #70                 // Method entities/Wanderer.j:()V
+recon/w.javap:379:        81: invokevirtual #112                // Method a:(Lentities/Wanderer;)Z
+recon/w.javap:386:        97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+recon/w.javap:388:       101: invokevirtual #64                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+recon/w.javap:695:         1: checkcast     #34                 // class entities/Wanderer
+recon/w.javap:696:         4: invokevirtual #71                 // Method entities/Wanderer.toString:()Ljava/lang/String;
+recon/w.javap:702:         1: checkcast     #34                 // class entities/Wanderer
+recon/w.javap:703:         4: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/w.javap:709:         1: checkcast     #34                 // class entities/Wanderer
+recon/w.javap:710:         4: invokevirtual #66                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+recon/w.javap:713:  private static boolean a(int, int, entities.Wanderer);
+recon/w.javap:717:         2: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/w.javap:720:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/w.javap:728:  private static boolean c(entities.Wanderer);
+recon/w.javap:731:         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+recon/w.javap:735:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+recon/w.javap:743:  private static boolean d(entities.Wanderer);
+recon/w.javap:746:         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+recon/w.javap:750:         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I

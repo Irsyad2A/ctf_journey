@@ -1,0 +1,790 @@
+public class w {
+  private final j a;
+
+  private final q b;
+
+  private int c;
+
+  public w(q);
+    Code:
+         0: aload_0
+         1: invokespecial #87                 // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: aload_1
+         6: putfield      #60                 // Field b:Lq;
+         9: aload_0
+        10: new           #41                 // class j
+        13: dup
+        14: invokespecial #78                 // Method j."<init>":()V
+        17: putfield      #59                 // Field a:Lj;
+        20: aload_0
+        21: iconst_1
+        22: putfield      #61                 // Field c:I
+        25: return
+
+  public void a(java.lang.String, java.lang.String, java.lang.String, double, double, double, java.lang.String);
+    Code:
+         0: aload_0
+         1: getfield      #60                 // Field b:Lq;
+         4: aload_2
+         5: invokevirtual #104                // Method q.b:(Ljava/lang/String;)Z
+         8: ifne          20
+        11: new           #40                 // class exception/DuplicateWandererException
+        14: dup
+        15: aload_2
+        16: invokespecial #77                 // Method exception/DuplicateWandererException."<init>":(Ljava/lang/String;)V
+        19: athrow
+        20: aload_0
+        21: aload         10
+        23: invokevirtual #116                // Method b:(Ljava/lang/String;)Z
+        26: ifne          42
+        29: new           #42                 // class java/lang/IllegalArgumentException
+        32: dup
+        33: ldc           #23                 // String 髎髪髤骧髣髭髣髰髿骭髦髮髺髼髹骫髧髴髺髶髸骱髡髲髨髨骾髻髹髫髳骻髝髄髈髀骀髕髇髑高髈髜髎骈髙髋髏髕骕髚髞髃髅骜
+        35: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        38: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        41: athrow
+        42: aload_0
+        43: invokevirtual #117                // Method c:()I
+        46: istore        11
+        48: aload         10
+        50: astore        13
+        52: iconst_m1
+        53: istore        14
+        55: aload         13
+        57: invokevirtual #90                 // Method java/lang/String.hashCode:()I
+        60: tableswitch   { // 49 to 54
+                      49: 100
+                      50: 119
+                      51: 138
+                      52: 157
+                      53: 176
+                      54: 195
+                 default: 211
+            }
+       100: aload         13
+       102: ldc           #10                 // String 骵
+       104: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       107: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       110: ifeq          211
+       113: iconst_0
+       114: istore        14
+       116: goto          211
+       119: aload         13
+       121: ldc           #11                 // String 骶
+       123: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       126: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       129: ifeq          211
+       132: iconst_1
+       133: istore        14
+       135: goto          211
+       138: aload         13
+       140: ldc           #12                 // String 骷
+       142: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       145: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       148: ifeq          211
+       151: iconst_2
+       152: istore        14
+       154: goto          211
+       157: aload         13
+       159: ldc           #7                  // String 骰
+       161: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       164: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       167: ifeq          211
+       170: iconst_3
+       171: istore        14
+       173: goto          211
+       176: aload         13
+       178: ldc           #8                  // String 骱
+       180: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       183: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       186: ifeq          211
+       189: iconst_4
+       190: istore        14
+       192: goto          211
+       195: aload         13
+       197: ldc           #9                  // String 骲
+       199: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       202: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       205: ifeq          211
+       208: iconst_5
+       209: istore        14
+       211: iload         14
+       213: tableswitch   { // 0 to 5
+                       0: 252
+                       1: 273
+                       2: 294
+                       3: 315
+                       4: 336
+                       5: 357
+                 default: 378
+            }
+       252: new           #34                 // class entities/Wanderer
+       255: dup
+       256: iload         11
+       258: aload_1
+       259: aload_2
+       260: aload_3
+       261: dload         4
+       263: dload         6
+       265: dload         8
+       267: invokespecial #62                 // Method entities/Wanderer."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       270: goto          391
+       273: new           #39                 // class entities/roles/Tank
+       276: dup
+       277: iload         11
+       279: aload_1
+       280: aload_2
+       281: aload_3
+       282: dload         4
+       284: dload         6
+       286: dload         8
+       288: invokespecial #76                 // Method entities/roles/Tank."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       291: goto          391
+       294: new           #37                 // class entities/roles/Mage
+       297: dup
+       298: iload         11
+       300: aload_1
+       301: aload_2
+       302: aload_3
+       303: dload         4
+       305: dload         6
+       307: dload         8
+       309: invokespecial #74                 // Method entities/roles/Mage."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       312: goto          391
+       315: new           #35                 // class entities/roles/Assassin
+       318: dup
+       319: iload         11
+       321: aload_1
+       322: aload_2
+       323: aload_3
+       324: dload         4
+       326: dload         6
+       328: dload         8
+       330: invokespecial #72                 // Method entities/roles/Assassin."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       333: goto          391
+       336: new           #36                 // class entities/roles/Fighter
+       339: dup
+       340: iload         11
+       342: aload_1
+       343: aload_2
+       344: aload_3
+       345: dload         4
+       347: dload         6
+       349: dload         8
+       351: invokespecial #73                 // Method entities/roles/Fighter."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       354: goto          391
+       357: new           #38                 // class entities/roles/Support
+       360: dup
+       361: iload         11
+       363: aload_1
+       364: aload_2
+       365: aload_3
+       366: dload         4
+       368: dload         6
+       370: dload         8
+       372: invokespecial #75                 // Method entities/roles/Support."<init>":(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;DDD)V
+       375: goto          391
+       378: new           #43                 // class java/lang/IllegalStateException
+       381: dup
+       382: ldc           #24                 // String 髎髪髤骧髣髭髣髰髿骭髺髦髬髨髡骫髢髴髺髾髴骱髡髶髨髸髲髾髰骹髬髺髈髌髂髆髓髈验
+       384: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       387: invokespecial #85                 // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+       390: athrow
+       391: astore        12
+       393: aload_0
+       394: getfield      #59                 // Field a:Lj;
+       397: aload         12
+       399: invokevirtual #80                 // Method j.a:(Ljava/lang/Object;)V
+       402: aload_0
+       403: getfield      #60                 // Field b:Lq;
+       406: aload         12
+       408: invokevirtual #102                // Method q.a:(Lb;)V
+       411: return
+
+  public java.lang.String a(java.lang.String);
+    Code:
+         0: aload_1
+         1: astore_2
+         2: iconst_m1
+         3: istore_3
+         4: aload_2
+         5: invokevirtual #90                 // Method java/lang/String.hashCode:()I
+         8: tableswitch   { // 49 to 54
+                      49: 48
+                      50: 65
+                      51: 82
+                      52: 99
+                      53: 116
+                      54: 133
+                 default: 147
+            }
+        48: aload_2
+        49: ldc           #10                 // String 骵
+        51: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        54: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        57: ifeq          147
+        60: iconst_0
+        61: istore_3
+        62: goto          147
+        65: aload_2
+        66: ldc           #11                 // String 骶
+        68: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        71: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        74: ifeq          147
+        77: iconst_1
+        78: istore_3
+        79: goto          147
+        82: aload_2
+        83: ldc           #12                 // String 骷
+        85: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        88: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        91: ifeq          147
+        94: iconst_2
+        95: istore_3
+        96: goto          147
+        99: aload_2
+       100: ldc           #7                  // String 骰
+       102: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       105: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       108: ifeq          147
+       111: iconst_3
+       112: istore_3
+       113: goto          147
+       116: aload_2
+       117: ldc           #8                  // String 骱
+       119: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       122: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       125: ifeq          147
+       128: iconst_4
+       129: istore_3
+       130: goto          147
+       133: aload_2
+       134: ldc           #9                  // String 骲
+       136: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       139: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+       142: ifeq          147
+       145: iconst_5
+       146: istore_3
+       147: iload_3
+       148: tableswitch   { // 0 to 5
+                       0: 188
+                       1: 196
+                       2: 204
+                       3: 212
+                       4: 220
+                       5: 228
+                 default: 236
+            }
+       188: ldc           #19                 // String 髊髊髐髎髃髄
+       190: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       193: goto          249
+       196: ldc           #25                 // String 髐髄髈髌
+       198: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       201: goto          249
+       204: ldc           #18                 // String 髉髄髁髂
+       206: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       209: goto          249
+       212: ldc           #15                 // String 髅髖髕髆髓髒髋髍
+       214: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       217: goto          249
+       220: ldc           #14                 // String 髂髌髁髏體髄髐
+       222: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       225: goto          249
+       228: ldc           #31                 // String 髗髐髖髗髏髓髖
+       230: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       233: goto          249
+       236: new           #42                 // class java/lang/IllegalArgumentException
+       239: dup
+       240: ldc           #23                 // String 髎髪髤骧髣髭髣髰髿骭髦髮髺髼髹骫髧髴髺髶髸骱髡髲髨髨骾髻髹髫髳骻髝髄髈髀骀髕髇髑高髈髜髎骈髙髋髏髕骕髚髞髃髅骜
+       242: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       245: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+       248: athrow
+       249: areturn
+
+  private int c();
+    Code:
+         0: aload_0
+         1: dup
+         2: getfield      #61                 // Field c:I
+         5: dup_x1
+         6: iconst_1
+         7: iadd
+         8: putfield      #61                 // Field c:I
+        11: ireturn
+
+  public boolean a(entities.Wanderer);
+    Code:
+         0: aload_1
+         1: ifnonnull     6
+         4: iconst_0
+         5: ireturn
+         6: aload_0
+         7: getfield      #59                 // Field a:Lj;
+        10: aload_1
+        11: invokevirtual #82                 // Method j.b:(Ljava/lang/Object;)Z
+        14: istore_2
+        15: aload_0
+        16: getfield      #60                 // Field b:Lq;
+        19: aload_1
+        20: invokevirtual #103                // Method q.b:(Lb;)Z
+        23: istore_3
+        24: iload_2
+        25: ifne          32
+        28: iload_3
+        29: ifeq          36
+        32: iconst_1
+        33: goto          37
+        36: iconst_0
+        37: ireturn
+
+  public boolean b(entities.Wanderer);
+    Code:
+         0: aload_1
+         1: ifnonnull     6
+         4: iconst_0
+         5: ireturn
+         6: invokedynamic #130,  0            // InvokeDynamic #0:test:()Ljava/util/function/Predicate;
+        11: astore_2
+        12: invokedynamic #131,  0            // InvokeDynamic #1:test:()Ljava/util/function/Predicate;
+        17: astore_3
+        18: aload_2
+        19: aload_1
+        20: invokeinterface #127,  2          // InterfaceMethod java/util/function/Predicate.test:(Ljava/lang/Object;)Z
+        25: ifeq          65
+        28: aload_1
+        29: invokevirtual #69                 // Method entities/Wanderer.i:()V
+        32: aload_1
+        33: invokevirtual #68                 // Method entities/Wanderer.h:()V
+        36: invokestatic  #122                // Method x.a:()Lx;
+        39: getstatic     #58                 // Field am.SYSTEM:Lam;
+        42: ldc           #32                 // String 髗髬髵髳髥髬
+        44: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        47: aload_1
+        48: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+        51: aload_1
+        52: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+        55: invokedynamic #132,  0            // InvokeDynamic #2:makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+        60: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+        63: iconst_0
+        64: ireturn
+        65: aload_3
+        66: aload_1
+        67: invokeinterface #127,  2          // InterfaceMethod java/util/function/Predicate.test:(Ljava/lang/Object;)Z
+        72: ifeq          114
+        75: aload_1
+        76: invokevirtual #70                 // Method entities/Wanderer.j:()V
+        79: aload_0
+        80: aload_1
+        81: invokevirtual #112                // Method a:(Lentities/Wanderer;)Z
+        84: pop
+        85: invokestatic  #122                // Method x.a:()Lx;
+        88: getstatic     #58                 // Field am.SYSTEM:Lam;
+        91: ldc           #32                 // String 髗髬髵髳髥髬
+        93: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        96: aload_1
+        97: invokevirtual #67                 // Method entities/Wanderer.getUsername:()Ljava/lang/String;
+       100: aload_1
+       101: invokevirtual #64                 // Method entities/Wanderer.getId:()Ljava/lang/String;
+       104: invokedynamic #133,  0            // InvokeDynamic #3:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+       109: invokevirtual #123                // Method x.a:(Lam;Ljava/lang/String;Ljava/lang/String;)V
+       112: iconst_1
+       113: ireturn
+       114: iconst_0
+       115: ireturn
+
+  public java.util.ArrayList a();
+    Code:
+         0: new           #50                 // class java/util/ArrayList
+         3: dup
+         4: aload_0
+         5: getfield      #59                 // Field a:Lj;
+         8: invokevirtual #79                 // Method j.a:()Ljava/util/ArrayList;
+        11: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+        14: areturn
+
+  public int b();
+    Code:
+         0: aload_0
+         1: getfield      #59                 // Field a:Lj;
+         4: invokevirtual #81                 // Method j.b:()I
+         7: ireturn
+
+  public java.util.ArrayList a(int, int);
+    Code:
+         0: new           #50                 // class java/util/ArrayList
+         3: dup
+         4: aload_0
+         5: getfield      #59                 // Field a:Lj;
+         8: iload_1
+         9: iload_2
+        10: invokedynamic #134,  0            // InvokeDynamic #4:test:(II)Ljava/util/function/Predicate;
+        15: invokevirtual #83                 // Method j.b:(Ljava/util/function/Predicate;)Ljava/util/ArrayList;
+        18: invokespecial #98                 // Method java/util/ArrayList."<init>":(Ljava/util/Collection;)V
+        21: areturn
+
+  public java.util.ArrayList a(boolean);
+    Code:
+         0: aload_0
+         1: invokevirtual #109                // Method a:()Ljava/util/ArrayList;
+         4: astore_2
+         5: invokedynamic #135,  0            // InvokeDynamic #5:apply:()Ljava/util/function/Function;
+        10: invokestatic  #124                // InterfaceMethod java/util/Comparator.comparing:(Ljava/util/function/Function;)Ljava/util/Comparator;
+        13: astore_3
+        14: iload_1
+        15: ifne          25
+        18: aload_3
+        19: invokeinterface #126,  1          // InterfaceMethod java/util/Comparator.reversed:()Ljava/util/Comparator;
+        24: astore_3
+        25: aload_2
+        26: aload_3
+        27: invokevirtual #99                 // Method java/util/ArrayList.sort:(Ljava/util/Comparator;)V
+        30: aload_2
+        31: areturn
+
+  public java.util.ArrayList b(boolean);
+    Code:
+         0: aload_0
+         1: invokevirtual #109                // Method a:()Ljava/util/ArrayList;
+         4: astore_2
+         5: invokedynamic #136,  0            // InvokeDynamic #6:applyAsInt:()Ljava/util/function/ToIntFunction;
+        10: invokestatic  #125                // InterfaceMethod java/util/Comparator.comparingInt:(Ljava/util/function/ToIntFunction;)Ljava/util/Comparator;
+        13: astore_3
+        14: iload_1
+        15: ifne          25
+        18: aload_3
+        19: invokeinterface #126,  1          // InterfaceMethod java/util/Comparator.reversed:()Ljava/util/Comparator;
+        24: astore_3
+        25: aload_2
+        26: aload_3
+        27: invokevirtual #99                 // Method java/util/ArrayList.sort:(Ljava/util/Comparator;)V
+        30: aload_2
+        31: areturn
+
+  public boolean b(java.lang.String);
+    Code:
+         0: aload_1
+         1: ifnull        80
+         4: aload_1
+         5: ldc           #10                 // String 骵
+         7: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        10: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        13: ifne          76
+        16: aload_1
+        17: ldc           #11                 // String 骶
+        19: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        22: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        25: ifne          76
+        28: aload_1
+        29: ldc           #12                 // String 骷
+        31: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        34: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        37: ifne          76
+        40: aload_1
+        41: ldc           #7                  // String 骰
+        43: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        46: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        49: ifne          76
+        52: aload_1
+        53: ldc           #8                  // String 骱
+        55: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        58: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        61: ifne          76
+        64: aload_1
+        65: ldc           #9                  // String 骲
+        67: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        70: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        73: ifeq          80
+        76: iconst_1
+        77: goto          81
+        80: iconst_0
+        81: ireturn
+
+  public boolean b(int, int);
+    Code:
+         0: iload_1
+         1: iload_2
+         2: if_icmpgt     20
+         5: iload_1
+         6: iconst_1
+         7: if_icmplt     20
+        10: iload_2
+        11: bipush        20
+        13: if_icmpgt     20
+        16: iconst_1
+        17: goto          21
+        20: iconst_0
+        21: ireturn
+
+  public void a(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+    Code:
+         0: aload_0
+         1: getfield      #60                 // Field b:Lq;
+         4: aload_1
+         5: invokevirtual #108                // Method q.h:(Ljava/lang/String;)Z
+         8: ifne          24
+        11: new           #42                 // class java/lang/IllegalArgumentException
+        14: dup
+        15: ldc           #20                 // String 髊髤髫髦骠髱髧髭髫髨髣髭髩髻髫骫髼髴髸髮髱骱髰髼髰髸髶骿髺髼髨髲髗髌骆髌髁髓髃髈高髈髜骏髉髅髌髊髚髀髛髒髂高髙骓高髜髐骟髋髉髛髈骭髩髦骯骵骳骷骥髬骽骫骽骼骨骧骪髴骦骳骣骹骰骢髳骷骼骪骾髸骱骻骩骑骖髆验骁骑骋骗骍骁髂髏验骈骄髋骇骐骚骖骙骟髒骚骈骈髞骋骑骝骛骐騤驧驩驫驥驩騢驢驨马騮驧驽驻驿驭騴驾驷驧驹驥驳驿騲
+        17: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        20: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        23: athrow
+        24: aload_0
+        25: getfield      #60                 // Field b:Lq;
+        28: aload_2
+        29: invokevirtual #105                // Method q.c:(Ljava/lang/String;)Z
+        32: ifne          48
+        35: new           #42                 // class java/lang/IllegalArgumentException
+        38: dup
+        39: ldc           #26                 // String 髑髶髣髵髮髠髯髦骬髥髯髡髱髨骪髩髻髹髳髿骰髳髷髡髵髮髷骿髰髬髨髮髂骉骆髆髎髆髉髂骀骍髊髎髆骉髟髅髐髐髄髄髓髞髀髖骜骕髡骖骖
+        41: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        44: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        47: athrow
+        48: aload_0
+        49: getfield      #60                 // Field b:Lq;
+        52: aload_2
+        53: invokevirtual #104                // Method q.b:(Ljava/lang/String;)Z
+        56: ifne          72
+        59: new           #42                 // class java/lang/IllegalArgumentException
+        62: dup
+        63: ldc           #27                 // String 髑髶髣髵髮髠髯髦骬髾髻髫髩髡骪髯髽髥髷髼髱髸骲髼髰髸髶骿髭髪髿髩骄髉髇髎髎骍骂髋髍髟髏髟骈髄髋高髁髞髝髖髞骑髇髀髙髏髐髞髕髜骚髗骥骬骨髩
+        65: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        68: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        71: athrow
+        72: aload_3
+        73: ifnull        83
+        76: aload_3
+        77: invokevirtual #91                 // Method java/lang/String.isEmpty:()Z
+        80: ifeq          96
+        83: new           #42                 // class java/lang/IllegalArgumentException
+        86: dup
+        87: ldc           #29                 // String 體髤髵髴髷髮髰髧骬髹髧髫髩髢骪髩髻髹髳髿骰髺髽髠髳髳髹骱
+        89: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        92: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        95: athrow
+        96: aload_0
+        97: getfield      #60                 // Field b:Lq;
+       100: aload         4
+       102: invokevirtual #107                // Method q.f:(Ljava/lang/String;)Z
+       105: ifne          121
+       108: new           #42                 // class java/lang/IllegalArgumentException
+       111: dup
+       112: ldc           #21                 // String 髌髕骦髪髡髪髱髪髡髬髢骯髠髨髸髾髧骵髴髾髼髰髼髴髽髳骾髯髷髪髳髯髍髃骈
+       114: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       117: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+       120: athrow
+       121: aload_0
+       122: getfield      #60                 // Field b:Lq;
+       125: aload         5
+       127: invokevirtual #107                // Method q.f:(Ljava/lang/String;)Z
+       130: ifne          146
+       133: new           #42                 // class java/lang/IllegalArgumentException
+       136: dup
+       137: ldc           #16                 // String 髅髱髲髦髣髪骢髳髣髺髫髽骨髡髫髹髡髦骶髵髹髽髳髽髻髼髰骿髨髶髩髲髐髌髀骉
+       139: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       142: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+       145: athrow
+       146: aload_0
+       147: getfield      #60                 // Field b:Lq;
+       150: aload         6
+       152: invokevirtual #107                // Method q.f:(Ljava/lang/String;)Z
+       155: ifne          171
+       158: new           #42                 // class java/lang/IllegalArgumentException
+       161: dup
+       162: ldc           #13                 // String 髀髠髠髢髮髲髧骣髤髬髼髺髻骩髨髢髸髴髸髰髱髿骲髣髳髮髷髫髱髿骴
+       164: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       167: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+       170: athrow
+       171: aload_0
+       172: aload         7
+       174: invokevirtual #116                // Method b:(Ljava/lang/String;)Z
+       177: ifne          193
+       180: new           #42                 // class java/lang/IllegalArgumentException
+       183: dup
+       184: ldc           #23                 // String 髎髪髤骧髣髭髣髰髿骭髦髮髺髼髹骫髧髴髺髶髸骱髡髲髨髨骾髻髹髫髳骻髝髄髈髀骀髕髇髑高髈髜髎骈髙髋髏髕骕髚髞髃髅骜
+       186: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+       189: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+       192: athrow
+       193: return
+
+  public void a(java.lang.String, java.lang.String);
+    Code:
+         0: aload_0
+         1: getfield      #60                 // Field b:Lq;
+         4: aload_1
+         5: invokevirtual #106                // Method q.e:(Ljava/lang/String;)Z
+         8: ifeq          22
+        11: aload_0
+        12: getfield      #60                 // Field b:Lq;
+        15: aload_2
+        16: invokevirtual #106                // Method q.e:(Ljava/lang/String;)Z
+        19: ifne          35
+        22: new           #42                 // class java/lang/IllegalArgumentException
+        25: dup
+        26: ldc           #30                 // String 體髬髪髮髨髠髬骣髸髤髪髮髣骩髼髪髸髼髲骹骰髙髳髡髽髭骾髲髹髪髯髰髏髄髈骇髐髈髎髊髄髌髀骏髌髌髄髌髕髛骖髕髕髟髓髁骒
+        28: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        31: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        34: athrow
+        35: aload_1
+        36: invokestatic  #86                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+        39: istore_3
+        40: aload_2
+        41: invokestatic  #86                 // Method java/lang/Integer.parseInt:(Ljava/lang/String;)I
+        44: istore        4
+        46: aload_0
+        47: iload_3
+        48: iload         4
+        50: invokevirtual #114                // Method b:(II)Z
+        53: ifne          69
+        56: new           #42                 // class java/lang/IllegalArgumentException
+        59: dup
+        60: ldc           #22                 // String 髍髫髶髲髴骡髶髪髨髬髥骯髾髨髦髢髰骻骶髟髱髣髳髣骼髰髿髬髭髲髱髺髊骅髄髎髌髀髌髄髍髃骎髍髝髅髋髟骔髑髟骗髑髟髆髒髎髜骞骎骘髝髛髕髤髷髶髧骤骤骬骤骭骣髮骭骩骽骫骸髴骷骷骠骱骹髲骧骵骹骿骴髸骴骿骷骁骇骏骏骉髁骀骂骘验骝髏骉骝骋骘髚
+        62: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        65: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        68: athrow
+        69: return
+
+  public void c(java.lang.String);
+    Code:
+         0: aload_1
+         1: ifnull        28
+         4: aload_1
+         5: ldc           #10                 // String 骵
+         7: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        10: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        13: ifne          41
+        16: aload_1
+        17: ldc           #11                 // String 骶
+        19: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        22: invokevirtual #89                 // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+        25: ifne          41
+        28: new           #42                 // class java/lang/IllegalArgumentException
+        31: dup
+        32: ldc           #28                 // String 髑髷髳髳髡髯骢髷髥髩髯髤骨髿髫髧髽髱骸骷高髰髠髲髬骽髳髾髫髬髱髰髅髋骆髒髒體髖髂髂骍髊髊髆髎髋髅骔髗髓髙髑髃骜
+        34: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        37: invokespecial #84                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        40: athrow
+        41: return
+
+  public java.lang.String a(java.util.ArrayList);
+    Code:
+         0: aload_0
+         1: invokevirtual #113                // Method b:()I
+         4: ifne          13
+         7: ldc           #17                 // String 髆髠髪髲髭骡髣髧髭骭髾髪髦髮髯髦髶髴髤髶骰髥髷髡髸髼髸髫髹髫骐
+         9: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        12: areturn
+        13: aload_1
+        14: invokevirtual #100                // Method java/util/ArrayList.stream:()Ljava/util/stream/Stream;
+        17: invokedynamic #137,  0            // InvokeDynamic #7:apply:()Ljava/util/function/Function;
+        22: invokeinterface #129,  2          // InterfaceMethod java/util/stream/Stream.map:(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+        27: ldc           #6                  // String 骎骏
+        29: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        32: ldc           #3                  // String
+        34: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        37: ldc           #6                  // String 骎骏
+        39: invokestatic  #121                // Method d:(Ljava/lang/String;)Ljava/lang/String;
+        42: invokestatic  #101                // Method java/util/stream/Collectors.joining:(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/util/stream/Collector;
+        45: invokeinterface #128,  2          // InterfaceMethod java/util/stream/Stream.collect:(Ljava/util/stream/Collector;)Ljava/lang/Object;
+        50: checkcast     #46                 // class java/lang/String
+        53: areturn
+
+  private static java.lang.String a(b);
+    Code:
+         0: aload_0
+         1: checkcast     #34                 // class entities/Wanderer
+         4: invokevirtual #71                 // Method entities/Wanderer.toString:()Ljava/lang/String;
+         7: areturn
+
+  private static int b(b);
+    Code:
+         0: aload_0
+         1: checkcast     #34                 // class entities/Wanderer
+         4: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+         7: ireturn
+
+  private static java.lang.String c(b);
+    Code:
+         0: aload_0
+         1: checkcast     #34                 // class entities/Wanderer
+         4: invokevirtual #66                 // Method entities/Wanderer.getName:()Ljava/lang/String;
+         7: areturn
+
+  private static boolean a(int, int, entities.Wanderer);
+    Code:
+         0: iload_0
+         1: aload_2
+         2: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+         5: if_icmpgt     20
+         8: aload_2
+         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+        12: iload_1
+        13: if_icmpgt     20
+        16: iconst_1
+        17: goto          21
+        20: iconst_0
+        21: ireturn
+
+  private static boolean c(entities.Wanderer);
+    Code:
+         0: aload_0
+         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+         4: iconst_3
+         5: if_icmplt     20
+         8: aload_0
+         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+        12: iconst_1
+        13: if_icmpne     20
+        16: iconst_1
+        17: goto          21
+        20: iconst_0
+        21: ireturn
+
+  private static boolean d(entities.Wanderer);
+    Code:
+         0: aload_0
+         1: invokevirtual #63                 // Method entities/Wanderer.getConsecutiveLosses:()I
+         4: iconst_3
+         5: if_icmplt     20
+         8: aload_0
+         9: invokevirtual #65                 // Method entities/Wanderer.getLevel:()I
+        12: iconst_1
+        13: if_icmple     20
+        16: iconst_1
+        17: goto          21
+        20: iconst_0
+        21: ireturn
+
+  public static java.lang.String d(java.lang.String);
+    Code:
+         0: new           #47                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #93                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #92                 // Method java/lang/String.length:()I
+        15: if_icmpge     45
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #88                 // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 39556
+        28: ixor
+        29: iload_2
+        30: ldc           #2                  // int 65535
+        32: irem
+        33: ixor
+        34: i2c
+        35: invokevirtual #94                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        38: pop
+        39: iinc          2, 1
+        42: goto          10
+        45: aload_1
+        46: invokevirtual #95                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        49: areturn
+}

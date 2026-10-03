@@ -1,0 +1,30 @@
+=== WANDERER ===
+class    = entities.Wanderer
+id       = P8
+name     = Frieren
+username = frieren
+
+=== QUEST Q5 ===
+class = n
+super = java.lang.Record
+value = n[name=Segel Kuno, difficulty=menengah, type=2, monsterIndex=4]
+
+candidate method = public void entities.Wanderer.a(boolean)
+parameter        = boolean
+accept Q5        = false
+
+candidate method = public void entities.Wanderer.a(f)
+parameter        = f
+accept Q5        = false
+
+candidate method = public boolean entities.Wanderer.a(h)
+parameter        = h
+accept Q5        = false
+
+candidate method = public void entities.Wanderer.a(double)
+parameter        = double
+accept Q5        = false
+
+candidate method = public int entities.Wanderer.a(int)
+parameter        = int
+accept Q5        = false

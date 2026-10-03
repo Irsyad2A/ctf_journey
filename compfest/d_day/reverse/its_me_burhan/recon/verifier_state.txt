@@ -1,0 +1,99 @@
+=== L STATE ===
+a (l) = null
+b (String[]) = b = [Goblin Hutan, Golem Batu, Naga Rawa, Iblis Salju, Penjaga Tersegel, Serigala Kelabu, Kelelawar Gua, Laba-laba Racun, Ksatria Berkarat, Elemental Api, Hantu Reruntuhan, Ular Berbisa, Beruang Gunung, Harpy Angin, Troll Jembatan, Lich Beku, Chimera Padang, Kraken Danau]
+c (String[]) = c = [Pembersihan Hutan, Reruntuhan Batu, Teror Rawa, Badai Beku, Segel Kuno, Perburuan Kelabu, Ekspedisi Gua, Sarang Racun, Besi Berkarat, Kobaran Abadi, Bisikan Puing, Jalur Berbisa, Puncak Gunung, Tebing Berangin, Jembatan Tua, Ritual Beku, Padang Terlarang, Kedalaman Danau]
+d (p) = p@4f3f5b24
+e (String) = DEV-SEED
+f (String) = BURHAN{flag_not_set_export_BURHAN_FLAG_to_override}
+g (int) = 3042
+h (int) = 8
+i (double) = 9345.0
+j (double) = 947.0
+k (double) = 447.0
+l (m[]) = l = [Lm;@12edcd21
+m (n[]) = m = [Ln;@52cc8049
+n (long) = 4010
+o (int[]) = o = [14, 12, 10]
+p (String) = Q15
+q (String) = Q15>Q13
+r (String) = Q15>Q13>Q11
+s (int) = 4041
+t (long) = 3232
+u (int[]) = u = [4, 2, 6, 3, 5, 0, 1]
+v (long) = 217857
+w (int[]) = w = [5, 3, 1, 6, 4, 2, 7, 8, 0]
+x (int) = 0
+y (int[]) = y = [28, 4, 4, 3, 27, 9, 3, 1, 7, 1, 19, 11, 24, 21, 27, 1]
+z (int) = 4
+A (long[]) = A = [706111391, 1032467068, 553036543, 818295156, 1553610293, 1435246421, 699764044, 960501890, 1890334358, 1525927633, 1325951134, 1790503114, 1090595785, 653751111, 1089028714, 614049297, 1337649664, 675200716, 292844375, 803813960, 107420217, 236489322, 1741563211, 1972380019, 1926632119, 28902700, 343312542, 1466772117, 1769111017, 1041030866, 1255927973, 1906541119, 1331867246, 1339126683, 1294888707, 1541901772, 1573439200, 988418338, 1826166707, 1026649548, 545814944, 1869502532]
+
+=== P.B(0) ===
+alphabet = [ABCDEFGHIJKLMNOPQRSTUVWXYZ234567]
+length   = 32
+index[00] = A (65)
+index[01] = B (66)
+index[02] = C (67)
+index[03] = D (68)
+index[04] = E (69)
+index[05] = F (70)
+index[06] = G (71)
+index[07] = H (72)
+index[08] = I (73)
+index[09] = J (74)
+index[10] = K (75)
+index[11] = L (76)
+index[12] = M (77)
+index[13] = N (78)
+index[14] = O (79)
+index[15] = P (80)
+index[16] = Q (81)
+index[17] = R (82)
+index[18] = S (83)
+index[19] = T (84)
+index[20] = U (85)
+index[21] = V (86)
+index[22] = W (87)
+index[23] = X (88)
+index[24] = Y (89)
+index[25] = Z (90)
+index[26] = 2 (50)
+index[27] = 3 (51)
+index[28] = 4 (52)
+index[29] = 5 (53)
+index[30] = 6 (54)
+index[31] = 7 (55)
+
+=== L METHODS ===
+public int l.e()
+public java.lang.String l.e(java.lang.String)
+public double l.i()
+public java.lang.String l.b()
+public int l.b(java.lang.String)
+public java.lang.String l.c(java.lang.String)
+public static synchronized l l.c()
+public static java.lang.String l.h(java.lang.String)
+public double l.h()
+public java.lang.String l.f(java.lang.String)
+public int l.f()
+private byte[][] l.l()
+public java.lang.String l.d()
+public java.lang.String l.d(java.lang.String)
+private static java.lang.String l.a(int[])
+public boolean l.a(java.lang.String)
+public byte[] l.a()
+public static java.lang.String l.a(entities.Wanderer)
+private int[] l.m()
+public double l.g()
+public java.lang.String l.g(java.lang.String)
+public m[] l.j()
+public n[] l.k()
+
+=== VERIFIER TEST ===
+AAAAAAAA     -> false
+BBBBBBBB     -> false
+00000000     -> false
+11111111     -> false
+abcdefgh     -> false
+password     -> false
+burhan00     -> false
+12345678     -> false

@@ -1,0 +1,291 @@
+========== d ==========
+public class d extends f {
+  private final int a;
+
+  private final int b;
+
+  public d(int, java.lang.String, java.lang.String, h, c, int, int);
+    Code:
+         0: aload_0
+         1: iload_1
+         2: aload_2
+         3: aload_3
+         4: aload         4
+         6: aload         5
+         8: invokespecial #28                 // Method f."<init>":(ILjava/lang/String;Ljava/lang/String;Lh;Lc;)V
+        11: aload_0
+        12: iload         6
+        14: putfield      #13                 // Field a:I
+        17: aload_0
+        18: iload         7
+        20: putfield      #14                 // Field b:I
+        23: return
+
+  public java.lang.String getQuestType();
+    Code:
+         0: ldc           #4                  // String 飖飺飣飹飤飨
+         2: invokestatic  #16                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+         5: areturn
+
+  public int getBonusExp();
+    Code:
+         0: aload_0
+         1: getfield      #13                 // Field a:I
+         4: ireturn
+
+  public int getBonusCoin();
+    Code:
+         0: aload_0
+         1: getfield      #14                 // Field b:I
+         4: ireturn
+
+  public java.lang.String toString();
+    Code:
+         0: aload_0
+         1: invokevirtual #23                 // Method getId:()Ljava/lang/String;
+         4: aload_0
+         5: invokevirtual #25                 // Method getName:()Ljava/lang/String;
+         8: aload_0
+         9: invokevirtual #26                 // Method getQuestType:()Ljava/lang/String;
+        12: aload_0
+        13: invokevirtual #20                 // Method getDescription:()Ljava/lang/String;
+        16: aload_0
+        17: invokevirtual #21                 // Method getDifficulty:()Lh;
+        20: invokevirtual #29                 // Method h.getDisplayName:()Ljava/lang/String;
+        23: aload_0
+        24: invokevirtual #24                 // Method getMonster:()Lc;
+        27: invokevirtual #15                 // Method c.k:()Ljava/lang/String;
+        30: aload_0
+        31: invokevirtual #21                 // Method getDifficulty:()Lh;
+        34: invokevirtual #30                 // Method h.getMinWandererLevel:()I
+        37: aload_0
+        38: invokevirtual #19                 // Method getCoinReward:()I
+        41: aload_0
+        42: invokevirtual #22                 // Method getExpReward:()I
+        45: aload_0
+        46: invokevirtual #17                 // Method getBonusCoin:()I
+        49: aload_0
+        50: invokevirtual #18                 // Method getBonusExp:()I
+        53: aload_0
+        54: invokevirtual #27                 // Method getStatus:()Li;
+        57: invokevirtual #31                 // Method i.getDisplayName:()Ljava/lang/String;
+        60: invokedynamic #38,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIIIILjava/lang/String;)Ljava/lang/String;
+        65: areturn
+
+  public static java.lang.String a(java.lang.String);
+    Code:
+         0: new           #11                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #34                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #33                 // Method java/lang/String.length:()I
+        15: if_icmpge     45
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #32                 // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 39060
+        28: ixor
+        29: iload_2
+        30: ldc           #2                  // int 65535
+        32: irem
+        33: ixor
+        34: i2c
+        35: invokevirtual #35                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        38: pop
+        39: iinc          2, 1
+        42: goto          10
+        45: aload_1
+        46: invokevirtual #36                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        49: areturn
+}
+========== e ==========
+public class e extends f {
+  private int a;
+
+  public e(int, java.lang.String, java.lang.String, h, c);
+    Code:
+         0: aload_0
+         1: iload_1
+         2: aload_2
+         3: aload_3
+         4: aload         4
+         6: aload         5
+         8: invokespecial #25                 // Method f."<init>":(ILjava/lang/String;Ljava/lang/String;Lh;Lc;)V
+        11: aload_0
+        12: iconst_0
+        13: putfield      #12                 // Field a:I
+        16: return
+
+  public java.lang.String getQuestType();
+    Code:
+         0: ldc           #3                  // String 隷隒隚隟隊
+         2: invokestatic  #14                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+         5: areturn
+
+  public void a();
+    Code:
+         0: aload_0
+         1: dup
+         2: getfield      #12                 // Field a:I
+         5: iconst_1
+         6: iadd
+         7: putfield      #12                 // Field a:I
+        10: return
+
+  public void b();
+    Code:
+         0: aload_0
+         1: iconst_0
+         2: putfield      #12                 // Field a:I
+         5: return
+
+  public int getTimesCompleted();
+    Code:
+         0: aload_0
+         1: getfield      #12                 // Field a:I
+         4: ireturn
+
+  public java.lang.String toString();
+    Code:
+         0: aload_0
+         1: invokevirtual #19                 // Method getId:()Ljava/lang/String;
+         4: aload_0
+         5: invokevirtual #21                 // Method getName:()Ljava/lang/String;
+         8: aload_0
+         9: invokevirtual #22                 // Method getQuestType:()Ljava/lang/String;
+        12: aload_0
+        13: invokevirtual #16                 // Method getDescription:()Ljava/lang/String;
+        16: aload_0
+        17: invokevirtual #17                 // Method getDifficulty:()Lh;
+        20: invokevirtual #26                 // Method h.getDisplayName:()Ljava/lang/String;
+        23: aload_0
+        24: invokevirtual #20                 // Method getMonster:()Lc;
+        27: invokevirtual #13                 // Method c.k:()Ljava/lang/String;
+        30: aload_0
+        31: invokevirtual #17                 // Method getDifficulty:()Lh;
+        34: invokevirtual #27                 // Method h.getMinWandererLevel:()I
+        37: aload_0
+        38: invokevirtual #15                 // Method getCoinReward:()I
+        41: aload_0
+        42: invokevirtual #18                 // Method getExpReward:()I
+        45: aload_0
+        46: invokevirtual #23                 // Method getStatus:()Li;
+        49: invokevirtual #28                 // Method i.getDisplayName:()Ljava/lang/String;
+        52: aload_0
+        53: invokevirtual #24                 // Method getTimesCompleted:()I
+        56: invokedynamic #35,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;I)Ljava/lang/String;
+        61: areturn
+
+  public static java.lang.String a(java.lang.String);
+    Code:
+         0: new           #10                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #31                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #30                 // Method java/lang/String.length:()I
+        15: if_icmpge     40
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #29                 // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 38643
+        28: ixor
+        29: i2c
+        30: invokevirtual #32                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        33: pop
+        34: iinc          2, 1
+        37: goto          10
+        40: aload_1
+        41: invokevirtual #33                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        44: areturn
+}
+========== g ==========
+public class g extends f {
+  public g(int, java.lang.String, java.lang.String, h, c);
+    Code:
+         0: aload_0
+         1: iload_1
+         2: aload_2
+         3: aload_3
+         4: aload         4
+         6: aload         5
+         8: invokespecial #13                 // Method f."<init>":(ILjava/lang/String;Ljava/lang/String;Lh;Lc;)V
+        11: return
+
+  public java.lang.String getQuestType();
+    Code:
+         0: ldc           #3                  // String 艴艃艁艓艊艇艔
+         2: invokestatic  #14                 // Method a:(Ljava/lang/String;)Ljava/lang/String;
+         5: areturn
+
+  public java.lang.String toString();
+    Code:
+         0: aload_0
+         1: invokevirtual #19                 // Method getId:()Ljava/lang/String;
+         4: aload_0
+         5: invokevirtual #21                 // Method getName:()Ljava/lang/String;
+         8: aload_0
+         9: invokevirtual #22                 // Method getQuestType:()Ljava/lang/String;
+        12: aload_0
+        13: invokevirtual #16                 // Method getDescription:()Ljava/lang/String;
+        16: aload_0
+        17: invokevirtual #17                 // Method getDifficulty:()Lh;
+        20: invokevirtual #24                 // Method h.getDisplayName:()Ljava/lang/String;
+        23: aload_0
+        24: invokevirtual #20                 // Method getMonster:()Lc;
+        27: invokevirtual #12                 // Method c.k:()Ljava/lang/String;
+        30: aload_0
+        31: invokevirtual #17                 // Method getDifficulty:()Lh;
+        34: invokevirtual #25                 // Method h.getMinWandererLevel:()I
+        37: aload_0
+        38: invokevirtual #15                 // Method getCoinReward:()I
+        41: aload_0
+        42: invokevirtual #18                 // Method getExpReward:()I
+        45: aload_0
+        46: invokevirtual #23                 // Method getStatus:()Li;
+        49: invokevirtual #26                 // Method i.getDisplayName:()Ljava/lang/String;
+        52: invokedynamic #33,  0             // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)Ljava/lang/String;
+        57: areturn
+
+  public static java.lang.String a(java.lang.String);
+    Code:
+         0: new           #10                 // class java/lang/StringBuilder
+         3: dup
+         4: invokespecial #29                 // Method java/lang/StringBuilder."<init>":()V
+         7: astore_1
+         8: iconst_0
+         9: istore_2
+        10: iload_2
+        11: aload_0
+        12: invokevirtual #28                 // Method java/lang/String.length:()I
+        15: if_icmpge     40
+        18: aload_0
+        19: iload_2
+        20: invokevirtual #27                 // Method java/lang/String.charAt:(I)C
+        23: istore_3
+        24: aload_1
+        25: iload_3
+        26: ldc           #1                  // int 33318
+        28: ixor
+        29: i2c
+        30: invokevirtual #30                 // Method java/lang/StringBuilder.append:(C)Ljava/lang/StringBuilder;
+        33: pop
+        34: iinc          2, 1
+        37: goto          10
+        40: aload_1
+        41: invokevirtual #31                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        44: areturn
+}
