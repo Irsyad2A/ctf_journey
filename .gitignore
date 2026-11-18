@@ -1,15 +1,6 @@
-# Ignore large binaries and compressed files from CTF challenges
-*.so
-*.so.*
-*.bin
-*.elf
-*.exe
-*.dll
 *.tar.gz
+*.tar.bz2
 *.zip
 *.rar
-*.apk
-core
-core.*
-remote_frieren.txt
-seed_refs.txt
+.DS_Store
+Thumbs.db
