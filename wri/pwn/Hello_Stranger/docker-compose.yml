@@ -1,0 +1,10 @@
+name: wri-hello-stranger
+
+services:
+  hello-stranger:
+    build: .
+    ports:
+      - "5002:1337"
+    volumes:
+      - ./flag.txt:/flag.txt:ro
+    restart: unless-stopped

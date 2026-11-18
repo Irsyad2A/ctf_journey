@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Sat, 07 Nov 2026 06:17:50 GMT
+Server: Apache
+X-Powered-By: PHP/8.4.27
+Set-Cookie: PHPSESSID=7bc3c6982ceccc503656e8c509eb2ef4; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1724
+Content-Type: text/html; charset=UTF-8
+

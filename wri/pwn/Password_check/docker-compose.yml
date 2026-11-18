@@ -1,0 +1,10 @@
+name: wri-password-check
+
+services:
+  password-check:
+    build: .
+    ports:
+      - "5001:1337"
+    volumes:
+      - ./flag.txt:/flag.txt:ro
+    restart: unless-stopped

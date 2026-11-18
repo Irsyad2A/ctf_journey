@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <img id="doge" src="doge.jpg" alt="wow doge">
+    <div id="dogeTextContainer"></div>
+    <body>
+        <div id="uglyWow">WOW!!!</div>
+        <button type="button" id="uglyButton" onclick="generateJoke()">Generate Joke</button>    
+        <h3>        </h3>
+    </body>
+    <marquee id="uglyMarquee">CLICK THE BUTTON AND TELL A GREAT JOKE TODAY</marquee>
+    <div id="warningBox">!!! EXTREME JOKE ZONE !!!</div>
+    <script src="testindex2.js"></script>
+    <script>
+        function generateJoke(){
+            let number = Math.floor(Math.random() * textData.length);
+
+            const joke = textData[number];
+
+            const newURL = getNewURL(joke);
+
+            window.location.href=newURL;
+
+        }
+
+        function getNewURL(jokeHash){
+            const baseURL = window.location.origin;
+
+            const newURL = new URL(jokeHash, baseURL);
+
+            return newURL.toString();
+        }
+        const dogePhrases = [
+            "so funny",
+            "much joke",
+            "wow",
+            "very humor",
+            "such laugh",
+            "amaze"
+        ];
+
+        setInterval(() => {
+            const phrase = document.createElement("div");
+            phrase.className = "dogePhrase";
+            phrase.innerText = dogePhrases[Math.floor(Math.random() * dogePhrases.length)];
+
+            document.body.appendChild(phrase);
+
+            phrase.style.left = Math.random() * window.innerWidth + "px";
+            phrase.style.top = Math.random() * window.innerHeight + "px";
+
+            setTimeout(() => phrase.remove(), 3000);
+        }, 500);
+    </script>
+</html>

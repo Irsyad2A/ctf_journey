@@ -1,0 +1,14 @@
+# bof
+
+Nana told me that buffer overflow is one of the most common software vulnerability. Is that true?
+
+## Remote
+
+Direct connection: `nc pwnable.kr 10003`
+
+bof binary is running at "nc pwnable.kr 10003" under bof_pwn privilege.
+get shell and read flag
+
+## Local run
+
+Run `./run.sh`, then connect with `nc 127.0.0.1 10003`.

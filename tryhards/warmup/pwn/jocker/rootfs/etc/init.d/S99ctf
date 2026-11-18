@@ -1,0 +1,14 @@
+#!/bin/sh
+mdev -s
+mount -t proc none /proc
+stty -opost
+echo 1 > /proc/sys/kernel/kptr_restrict
+echo 1 > /proc/sys/kernel/dmesg_restrict
+
+insmod /root/jocker.ko
+chmod 666 /dev/jocker
+
+setsid cttyhack setuidgid 1000 sh -c 'cd /home/ctf && exec sh'
+
+umount /proc
+poweroff -d 0 -f

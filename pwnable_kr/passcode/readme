@@ -1,0 +1,11 @@
+# passcode
+
+Mommy told me to make a passcode based login system. My first trial C implementation compiled without any error! Well, there were some compiler warnings, but who cares about that?
+
+## Remote
+
+Direct connection: `nc pwnable.kr 10004`
+
+## Local run
+
+Run `./run.sh`, then connect with `nc 127.0.0.1 10004`.
